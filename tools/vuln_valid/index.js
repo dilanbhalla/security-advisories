@@ -62,11 +62,15 @@ const vulnPaths = require('../../index').paths;
 function validate(dir, model) {
     recursive(dir, (err, pathList) => {
         if (err) throw err;
+
+        var json_data = {}
+
         pathList.forEach((filePath) => {
-            console.log('Validate:', filePath);
+            // console.log('Validate:', filePath);
             try {
                 const vuln = JSON.parse(fs.readFileSync(filePath));
-                console.log(vuln);
+                // console.log(vuln);
+                json_data[filePath] = vuln
                 // const result = joi.validate(vuln, model);
                 // if (result.error) {
                     // throw result.error;
@@ -77,11 +81,12 @@ function validate(dir, model) {
                 process.exitCode = 1;
             }
         });
+        console.log(json_data);
     });
 }
 
-// validate(vulnPaths.core);
-validate(vulnPaths.ecosystem);
+validate(vulnPaths.core);
+// validate(vulnPaths.ecosystem);
 
 // validate(vulnPaths.core, coreModel);
 // validate(vulnPaths.ecosystem, npmModel);
