@@ -6,7 +6,7 @@ core = './core'
 ecosystem = './ecosystem'
 
 def parse_core(path):
-    
+
     data = {}
     json_data = json.dumps(data)
 
@@ -15,7 +15,7 @@ def parse_core(path):
             vuln = json.load(currentFile)
             data[filename] = vuln
             break
-            
+
     json_data = json.dumps(data, indent = 3).replace("\\n"," ")
     print(json_data)
     return json_data
@@ -25,6 +25,8 @@ def parse_npm(path):
     data = {}
     json_data = json.dumps(data)
 
+    first = False
+
     for (dirpath, _, filenames) in os.walk(path):
         for filename in filenames:
             filepath = os.path.join(dirpath, filename)
@@ -33,18 +35,29 @@ def parse_npm(path):
                 dirpath = os.path.join(dirpath, "")
                 data[dirpath] = vuln
 
-    json_data = json.dumps(data, indent = 3).replace("\\n"," ")
+                first = True
+                break
+        if first: break
+
+    json_dump = json.dumps(data, indent=3, sort_keys=True).replace("\\n"," ")
+    json_data = json.loads(json_dump)
+
     print(json_data)
     return json_data
 
 def json_parser():
 
-    parse_core(core)
-    # parse_npm(ecosystem)
+    ecosystem_output = parse_npm(ecosystem)
+    # core_output = parse_core(core)
+
+    with open('./ecosystem_output.json', 'w') as output_file:
+        json.dump(ecosystem_output, output_file, indent=3, sort_keys=True)
+    # with open('./core_output.json', 'w') as output_file:
+    #     json.dump(core_output, output_file, indent=3, sort_keys=True)
+
 
 def main():
     json_parser()
 
 if __name__ == '__main__':
     main()
-        
