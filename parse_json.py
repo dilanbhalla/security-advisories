@@ -28,15 +28,14 @@ def retrieve_data(json_data):
         updated_at = vuln["updated_at"]
         vulnerable_versions = vuln["vulnerable_versions"]
 
-        return author_name, author_username, author_website, coordinating_vendor, created_at,
+        return (author_name, author_username, author_website, coordinating_vendor, created_at,
         cves, cvss_score, cvss_vector, id, module_name, overview, patched_versions,
-        publish_date, recommendation, references, title, updated_at, vulnerable_versions
+        publish_date, recommendation, references, title, updated_at, vulnerable_versions)
 
 def convert_to_markdown(json_data):
-    author_name, author_username, author_website, coordinating_vendor, created_at,
-    cves, cvss_score, cvss_vector, id, module_name, overview, patched_versions,
-    publish_date, recommendation, references, title, updated_at, vulnerable_versions = retrieve_data(json_data)
-    return
+    (author_name, author_username, author_website, coordinating_vendor, created_at, cves,
+    cvss_score, cvss_vector, id, module_name, overview, patched_versions, publish_date,
+    recommendation, references, title, updated_at, vulnerable_versions) = retrieve_data(json_data)
 
 def parse_core(path):
 
