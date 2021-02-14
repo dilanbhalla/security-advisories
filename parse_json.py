@@ -28,14 +28,37 @@ def retrieve_data(json_data):
         updated_at = vuln["updated_at"]
         vulnerable_versions = vuln["vulnerable_versions"]
 
+        if cvss_score: cvss_score = str(cvss_score)
+        if id: id = str(id)
+
         return (author_name, author_username, author_website, coordinating_vendor, created_at,
         cves, cvss_score, cvss_vector, id, module_name, overview, patched_versions,
         publish_date, recommendation, references, title, updated_at, vulnerable_versions)
 
 def convert_to_markdown(json_data):
+
     (author_name, author_username, author_website, coordinating_vendor, created_at, cves,
     cvss_score, cvss_vector, id, module_name, overview, patched_versions, publish_date,
     recommendation, references, title, updated_at, vulnerable_versions) = retrieve_data(json_data)
+
+    print("author_name: " + author_name)
+    print(author_username)
+    print(author_website)
+    print("coordinating_vendor: " + coordinating_vendor)
+    print("created_at: " + created_at)
+    print(cves)
+    print("cvss_score: " + cvss_score)
+    print("cvss_vector: " + cvss_vector)
+    print("id: " + id)
+    print("module_name: " + module_name)
+    print("overview: " + overview)
+    print("patched_versions: " + patched_versions)
+    print("publish_date: " + publish_date)
+    print("recommendation: " + recommendation)
+    print(references)
+    print("title: " + title)
+    print("updated_at: " + updated_at)
+    print("vulnerable_versions: " + vulnerable_versions)
 
 def parse_core(path):
 
