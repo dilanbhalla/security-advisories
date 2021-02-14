@@ -15,6 +15,7 @@ def parse_core(path):
         with open(filename, encoding='utf-8', mode='r') as currentFile:
             vuln = json.load(currentFile)
             data[filename] = vuln
+            break
             
     json_data = json.dumps(data, indent = 3).replace("\\n"," ")
     print(json_data)
@@ -40,7 +41,7 @@ def parse_npm(path):
 def json_parser():
 
     parse_core(core)
-    parse_npm(ecosystem)
+    # parse_npm(ecosystem)
 
     # print(result)
 
