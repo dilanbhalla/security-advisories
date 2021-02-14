@@ -1,7 +1,6 @@
 import os
 import json
 import glob
-from Naked.toolshed.shell import muterun_js
 
 core = './core'
 ecosystem = './ecosystem'
@@ -43,21 +42,8 @@ def json_parser():
     parse_core(core)
     # parse_npm(ecosystem)
 
-    # print(result)
-
-    # with open('counseling3.json', 'w') as output_file:
-    #     json.dump(result, output_file)
-
-
-
 def main():
-    response = muterun_js('tools/vuln_valid/index.js')
     json_parser()
-
-    # if response.exitcode == 0:
-    #     json_parser(response.stdout)
-    # else:
-    #     sys.stderr.write(response.stderr)
 
 if __name__ == '__main__':
     main()
