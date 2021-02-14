@@ -1,8 +1,7 @@
 import os
 import json
 import glob
-from pprint import pprint
-from Naked.toolshed.shell import execute_js, muterun_js
+from Naked.toolshed.shell import muterun_js
 
 core = './core'
 ecosystem = './ecosystem'
