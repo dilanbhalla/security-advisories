@@ -25,7 +25,7 @@ def parse_npm(path):
     data = {}
     json_data = json.dumps(data)
 
-    for (dirpath, dirnames, filenames) in os.walk(path):
+    for (dirpath, _, filenames) in os.walk(path):
         for filename in filenames:
             filepath = os.path.join(dirpath, filename)
             with open(filepath, encoding='utf-8', mode='r') as currentFile:
