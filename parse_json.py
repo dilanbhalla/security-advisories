@@ -24,11 +24,6 @@ def retrieve_data(json_data, vuln_file):
     module_name, overview, patched_versions, publish_date, recommendation, references, title, updated_at, vulnerable_versions)
 
 
-def write_markdown(review_basename):
-    with open("./reviews/" + str(review_basename) + ".md", 'w') as review:
-        review.write("New review created")
-
-
 def convert_to_markdown(json_data):
 
     num_success, num_failed, succeeded, failed = 0, 0, [], []
@@ -47,11 +42,31 @@ def convert_to_markdown(json_data):
             continue
 
         review_basename = vuln_file.split("/")[-2]
-        write_markdown(review_basename)
+        with open("./reviews/" + str(review_basename) + ".md", 'w') as review:
+
+            review.write("### Summary\n")
+            review.write(title)
+            review.write("<br><br>")
+            review.write(recommendation + "\n")
+
+            review.write("### Details\n")
+            review.write(overview + "\n")
+
+            review.write("### Methodology\n")
+            review.write("This review was taken directly from the security advisories section of npm's official website.\n")
+
+            review.write("### External References\n")
+            review.write(str(references) + "\n")
+
+            review.write("### Disclaimer\n")
+            review.write("All security reviews are conducted on a \"best-effort\" basis against a software component at a point in time. We make no guarantee as to the quality or completeness of any review. If you believe any content is inaccurate, we encourage you to open an issue or submit a pull request with a correction or improvement.\n")
+
+            review.write("### License\n")
+            review.write("This text is released under at least the [Creative Commons Attribution 4.0 (CC-BY-4.0) license](https://creativecommons.org/licenses/by/4.0/legalcode.txt). Externally-referenced content may be licensed differently.\n")
 
         count += 1
         if count == 5:
-            return
+            break
 
         # print(str(author_name) + "\n" + str(author_username) + "\n" + str(author_website) + "\n" + str(coordinating_vendor) +
         # "\n" + str(created_at) + "\n" + str(cves) + "\n" + str(cvss_score) + "\n" + str(cvss_vector) + "\n" + str(id) + "\n" + str(module_name) +
