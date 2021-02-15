@@ -1,4 +1,19 @@
----<br>Publication-State: Active<br>Access: Public<br>Reviewers:<br>- Name: JelteF<br>&nbsp;&nbsp;&nbsp;Associated-With-Project: false<br>&nbsp;&nbsp;&nbsp;Compensation-Source: External<br>Domain: Security<br>Methodology:<br>- Code-Review<br>Issues-Identified: Not-Examined<br>Package-URLs:<br>- pkg:npm/Morris.js<br>Date-Reviewed: 2017-04-14<br>Scope: Implementation/Full<br>Schema-Version: 1.0<br>SPDX-License-Identifier: CC-BY-4.0<br>---<br>
+---
+Publication-State: Active
+Access: Public
+Reviewers:
+- Name: JelteF
+Domain: Security
+Methodology:
+- Code-Review
+Issues-Identified: Not-Examined
+Package-URLs:
+- pkg:npm/Morris.js
+Date-Reviewed: 2017-04-14
+Scope: Implementation/Full
+Schema-Version: 1.0
+SPDX-License-Identifier: CC-BY-4.0
+---
 ### Summary
 XSS in Hover Over Label Names<br><br>Escape the label names. They can be escaped using only a few lines of code. A pull request with a fix has been merged on GitHub, but not published to npm. This can be found on [Github.](https://github.com/morrisjs/morris.js/commit/1c66cfc4ac7b23d324f131bec7739265887e30fc)
 ### Details
