@@ -5,6 +5,7 @@ import glob
 core = './core'
 ecosystem = './ecosystem'
 
+
 def retrieve_data(json_data, vuln_file):
 
     vuln = json_data[vuln_file]
@@ -20,6 +21,7 @@ def retrieve_data(json_data, vuln_file):
 
     return (author_name, author_username, author_website, coordinating_vendor, created_at, cves, cvss_score, cvss_vector, id,
     module_name, overview, patched_versions, publish_date, recommendation, references, title, updated_at, vulnerable_versions)
+
 
 def convert_to_markdown(json_data):
 
@@ -88,6 +90,7 @@ def parse_npm(path):
     convert_to_markdown(json_data)
     return json_data
 
+
 def json_parser():
 
     ecosystem_output = parse_npm(ecosystem)
@@ -101,6 +104,7 @@ def json_parser():
 
 def main():
     json_parser()
+
 
 if __name__ == '__main__':
     main()
