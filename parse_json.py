@@ -1,6 +1,7 @@
 import os
 import json
 import glob
+from mdutils.mdutils import MdUtils
 
 core = './core'
 ecosystem = './ecosystem'
@@ -37,6 +38,11 @@ def convert_to_markdown(json_data):
             num_failed += 1
             failed.append(str(vuln_file))
             continue
+
+        review_basename = vuln_file.split("/")[-2]
+        with open("./reviews/" + str(review_basename) + ".md") as review:
+            review.write("New review created")
+            return
 
         # print(str(author_name) + "\n" + str(author_username) + "\n" + str(author_website) + "\n" + str(coordinating_vendor) +
         # "\n" + str(created_at) + "\n" + str(cves) + "\n" + str(cvss_score) + "\n" + str(cvss_vector) + "\n" + str(id) + "\n" + str(module_name) +
