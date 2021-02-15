@@ -71,7 +71,7 @@ def convert_to_markdown(json_data):
             review.write("### Summary\n")
             review.write("*" + title + "*")
             review.write("<br><br>")
-            review.write(recommendation + "\n")
+            if recommendation: review.write(recommendation + "\n")
 
             review.write("### Details\n")
             review.write(overview + "\n")
@@ -93,8 +93,8 @@ def convert_to_markdown(json_data):
             review.write("This text is released under at least the [Creative Commons Attribution 4.0 (CC-BY-4.0) license](https://creativecommons.org/licenses/by/4.0/legalcode.txt). Externally-referenced content may be licensed differently.\n")
 
         count += 1
-        if count == 5:
-            break
+        # if count == 5:
+        #     break
 
         # print(str(author_name) + "\n" + str(author_username) + "\n" + str(author_website) + "\n" + str(coordinating_vendor) +
         # "\n" + str(created_at) + "\n" + str(cves) + "\n" + str(cvss_score) + "\n" + str(cvss_vector) + "\n" + str(id) + "\n" + str(module_name) +

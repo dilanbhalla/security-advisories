@@ -1,0 +1,32 @@
+---
+Publication-State: Active
+Access: Public
+Reviewers:
+- Name: iipokypatop
+  Associated-With-Project: false
+  Compensation-Source: external
+Domain: Security
+Methodology:
+- Code-Review
+Issues-Identified: Not-Examined
+Package-URLs:
+- pkg:npm/nes
+Review-Date: '2017-04-14'
+Scope: Implementation/Full
+Schema-Version: '1.0'
+SPDX-License-Identifier: CC-BY-4.0
+---
+### Summary
+*Denial of Service*<br><br>Upgrade to version 6.4.1 or later.
+### Details
+Nes is a websocket extension library for hapi.   Hapi is a webserver framework.  Versions below and including 6.4.0 have a denial of service vulnerability via an invalid Cookie header.  This is only present when websocket authentication is set to `cookie`.  Submitting an invalid cookie on the websocket upgrade request will cause the node process to error out.
+<br><br>• Affected Versions: <=6.4.0
+<br>• Patched Versions: >=6.4.1
+### Methodology
+This review was taken directly from the Security Advisories section of npm's official website.
+### External References
+['https://github.com/hapijs/nes/issues/171', 'https://github.com/hapijs/nes/commit/249ba1755ed6977fbc208463c87364bf884ad655']
+### Disclaimer
+All security reviews are conducted on a "best-effort" basis against a software component at a point in time. We make no guarantee as to the quality or completeness of any review. If you believe any content is inaccurate, we encourage you to open an issue or submit a pull request with a correction or improvement.
+### License
+This text is released under at least the [Creative Commons Attribution 4.0 (CC-BY-4.0) license](https://creativecommons.org/licenses/by/4.0/legalcode.txt). Externally-referenced content may be licensed differently.

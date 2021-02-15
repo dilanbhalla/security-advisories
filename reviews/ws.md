@@ -1,0 +1,32 @@
+---
+Publication-State: Active
+Access: Public
+Reviewers:
+- Name: Feross Aboukhadijeh / Mathias Buss
+  Associated-With-Project: false
+  Compensation-Source: external
+Domain: Security
+Methodology:
+- Code-Review
+Issues-Identified: Not-Examined
+Package-URLs:
+- pkg:npm/ws
+Review-Date: '2016-01-04'
+Scope: Implementation/Full
+Schema-Version: '1.0'
+SPDX-License-Identifier: CC-BY-4.0
+---
+### Summary
+*Remote Memory Disclosure*<br><br>Update to version 1.0.1 or greater.
+### Details
+UPDATE Jan 6, 2016  Some additional, [important details](https://gist.github.com/c0nrad/e92005446c480707a74a) have been made available by Stuart Larsen. The client (which could in fact be the server in certain instances) is that one that allocates and sends the memory that is then echo'd by the server.  A vulnerability was found in the ping functionality of the ws module which allowed clients to allocate memory by sending a ping frame. The ping functionality by default responds with a pong frame and the previously given payload of the ping frame.   This is exactly what you expect, but internally ws always transforms all data that we need to send to a Buffer instance and that is where the vulnerability existed. ws didn't do any checks for the type of data it was sending. With buffers in node when you allocate it when a number instead of a string it will allocate the amount of bytes.  ``` var x = new Buffer(100); // vs var x = new Buffer('100'); ```  This would allocate 100 bytes of memory in the first example and just 3 bytes with 100 as value in the second example. So the client would allocate 100 bytes of non-zeroed buffer and send that to the server.     ## Example POC ``` var ws = require('ws')  var server = new ws.Server({ port: 9000 }) var client = new ws('ws://localhost:9000')  client.on('open', function () {   console.log('open')   client.ping(50) // this sends a non-zeroed buffer of 50 bytes    client.on('pong', function (data) {     console.log('got pong')     console.log(data) // Data from the client.    }) }) ```
+<br><br>• Affected Versions: <= 1.0.0
+<br>• Patched Versions: >= 1.0.1
+### Methodology
+This review was taken directly from the Security Advisories section of npm's official website.
+### External References
+['https://github.com/websockets/ws/releases/tag/1.0.1']
+### Disclaimer
+All security reviews are conducted on a "best-effort" basis against a software component at a point in time. We make no guarantee as to the quality or completeness of any review. If you believe any content is inaccurate, we encourage you to open an issue or submit a pull request with a correction or improvement.
+### License
+This text is released under at least the [Creative Commons Attribution 4.0 (CC-BY-4.0) license](https://creativecommons.org/licenses/by/4.0/legalcode.txt). Externally-referenced content may be licensed differently.

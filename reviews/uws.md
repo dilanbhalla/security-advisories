@@ -1,0 +1,32 @@
+---
+Publication-State: Active
+Access: Public
+Reviewers:
+- Name: Luigi Pinca
+  Associated-With-Project: false
+  Compensation-Source: external
+Domain: Security
+Methodology:
+- Code-Review
+Issues-Identified: Not-Examined
+Package-URLs:
+- pkg:npm/uws
+Review-Date: '2016-10-17'
+Scope: Implementation/Full
+Schema-Version: '1.0'
+SPDX-License-Identifier: CC-BY-4.0
+---
+### Summary
+*Denial of Service*<br><br>Update to version 0.10.9 or later or disable permessage-deflate.
+### Details
+uws is a WebSocket server library. By sending a 256mb websocket message to a uws server instance with permessage-deflate enabled, there is a possibility used compression will shrink said 256mb down to less than 16mb of websocket payload which passes the length check of 16mb payload. This data will then inflate up to 256mb and crash the node process by exceeding V8's maximum string size
+<br><br>• Affected Versions: >=0.10.0 <=0.10.8
+<br>• Patched Versions: >=0.10.9
+### Methodology
+This review was taken directly from the Security Advisories section of npm's official website.
+### External References
+['https://github.com/uWebSockets/uWebSockets/commit/37deefd01f0875e133ea967122e3a5e421b8fcd9']
+### Disclaimer
+All security reviews are conducted on a "best-effort" basis against a software component at a point in time. We make no guarantee as to the quality or completeness of any review. If you believe any content is inaccurate, we encourage you to open an issue or submit a pull request with a correction or improvement.
+### License
+This text is released under at least the [Creative Commons Attribution 4.0 (CC-BY-4.0) license](https://creativecommons.org/licenses/by/4.0/legalcode.txt). Externally-referenced content may be licensed differently.

@@ -1,0 +1,32 @@
+---
+Publication-State: Active
+Access: Public
+Reviewers:
+- Name: Feross Aboukhadijeh
+  Associated-With-Project: false
+  Compensation-Source: external
+Domain: Security
+Methodology:
+- Code-Review
+Issues-Identified: Not-Examined
+Package-URLs:
+- pkg:npm/bl
+Review-Date: '2016-01-19'
+Scope: Implementation/Full
+Schema-Version: '1.0'
+SPDX-License-Identifier: CC-BY-4.0
+---
+### Summary
+*Memory Exposure*<br><br>update bl to 1.0.1 or higher
+### Details
+bl.append(number) in the affected `bl` versions passes a number to Buffer constructor, appending a chunk of uninitialized memory
+<br><br>• Affected Versions: <=0.9.4 || 1.0.0
+<br>• Patched Versions: >=1.0.1 || >=0.9.5 <1.0.0
+### Methodology
+This review was taken directly from the Security Advisories section of npm's official website.
+### External References
+['https://github.com/rvagg/bl/pull/22']
+### Disclaimer
+All security reviews are conducted on a "best-effort" basis against a software component at a point in time. We make no guarantee as to the quality or completeness of any review. If you believe any content is inaccurate, we encourage you to open an issue or submit a pull request with a correction or improvement.
+### License
+This text is released under at least the [Creative Commons Attribution 4.0 (CC-BY-4.0) license](https://creativecommons.org/licenses/by/4.0/legalcode.txt). Externally-referenced content may be licensed differently.
