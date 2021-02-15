@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*ReDoS via long string of semicolons*<br><br>Upgrade to at least version 2.3.0
+*ReDoS via long string of semicolons*<br><br>Recommendation: Upgrade to at least version 2.3.0
 ### Details
 Tough-cookie is a cookie parsing and management library.  Versions 0.9.7 through 2.2.2 contain a vulnerable regular expression that, under certain conditions involving long strings of semicolons in the "Set-Cookie" header, causes the event loop to block for excessive amounts of time.
 <br><br>• Affected Versions: >=0.9.7 <=2.2.2

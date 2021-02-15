@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Out-of-bounds Read*<br><br>update atob to 2.1.0 or higher
+*Out-of-bounds Read*<br><br>Recommendation: update atob to 2.1.0 or higher
 ### Details
 `atob` allocates uninitialized Buffers when number is passed in input on Node.js 4.x and below
 <br><br>• Affected Versions: <=2.0.3

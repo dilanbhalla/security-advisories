@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Open Redirect*<br><br>update hekto to 0.2.4 or higher
+*Open Redirect*<br><br>Recommendation: update hekto to 0.2.4 or higher
 ### Details
 [hekto] open redirect when target domain name is used as html filename on server
 <br><br>• Affected Versions: <=0.2.3

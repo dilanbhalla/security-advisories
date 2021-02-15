@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection - Generic*<br><br>Update ascii-art module to version >=1.4.4
+*Command Injection - Generic*<br><br>Recommendation: Update ascii-art module to version >=1.4.4
 ### Details
 [ascii-art] Command injection
 <br><br>• Affected Versions: <1.4.4

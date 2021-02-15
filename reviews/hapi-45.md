@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Incorrect handling of CORS preflight request headers*<br><br>Updated to hapi version 11.0.0 or greater
+*Incorrect handling of CORS preflight request headers*<br><br>Recommendation: Updated to hapi version 11.0.0 or greater
 ### Details
 Hapi versions less than 11.0.0 implement CORS incorrectly and allowed for configurations that at best returned inconsistent headers and at worst allowed cross-origin activities that were expected to be forbidden. [1]  'If the connection has CORS enabled but one route has it off, and the route is not GET, the OPTIONS prefetch request will return the default CORS headers and then the actual request will go through and return no CORS headers. This defeats the purpose of turning CORS on the route.' [2]
 <br><br>• Affected Versions: <11.0.0

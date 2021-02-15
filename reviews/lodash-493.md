@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>Update lodash module to version >=4.17.11
+*Denial of Service*<br><br>Recommendation: Update lodash module to version >=4.17.11
 ### Details
 Prototype pollution attack (lodash / constructor.prototype)
 <br><br>• Affected Versions: <4.17.11

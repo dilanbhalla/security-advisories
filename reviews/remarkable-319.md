@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*XSS in Data URI*<br><br>Upgrade to v1.7.0 or higher
+*XSS in Data URI*<br><br>Recommendation: Upgrade to v1.7.0 or higher
 ### Details
 Remarkable is a markdown parser.   In versions 1.6.2 and lower, remarkable allows the use of `data:` URIs.   After the markdown `[link](data:text/html,<script>alert('0')</script>)` is rendered, the script will run when clicked.
 <br><br>• Affected Versions: <=1.6.2

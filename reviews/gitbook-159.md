@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross Site Scripting*<br><br>Update to version 3.2.2 or later
+*Cross Site Scripting*<br><br>Recommendation: Update to version 3.2.2 or later
 ### Details
 GitBook is a command line tool (and Node.js library) for building beautiful books using GitHub/Git and Markdown (or AsciiDoc).   Stored Cross-Site-Scripting (XSS) is possible by including code outside of backticks in any ebook. This code will be executed on the online reader.
 <br><br>• Affected Versions: <3.2.2

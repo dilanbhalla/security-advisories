@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Lack of HTML Escaping*<br><br>Upgrade to version 1.3.0 or later
+*Lack of HTML Escaping*<br><br>Recommendation: Upgrade to version 1.3.0 or later
 ### Details
 Forms is a library for easily creating HTML forms. Versions before 1.3.0 did not have proper html escaping.  This means that if the application did not sanitize html on behalf of forms, use of forms may be vulnerable to cross site scripting
 <br><br>• Affected Versions: <1.3.0

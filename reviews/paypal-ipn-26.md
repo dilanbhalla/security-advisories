@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Validation Bypass*<br><br>- Upgrade to version 3.0.0 or greater.
+*Validation Bypass*<br><br>Recommendation: - Upgrade to version 3.0.0 or greater.
 ### Details
 paypal-ipn uses the `test_ipn` parameter (which is set by the PayPal IPN simulator) to determine if it should use the production PayPal site or the sandbox.  "With a bit of time, an attacker could craft a request using the simulator that would fool any application which does not explicitly check for test_ipn in production." [1]
 <br><br>• Affected Versions: <3.0.0

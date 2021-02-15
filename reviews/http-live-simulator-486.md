@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>Update http-live-simulator module to version >=1.0.7
+*Path Traversal*<br><br>Recommendation: Update http-live-simulator module to version >=1.0.7
 ### Details
 [http-live-simulator] Path traversal vulnerability
 <br><br>• Affected Versions: <=1.0.6

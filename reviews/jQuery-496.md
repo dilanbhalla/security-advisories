@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Modification of Assumed-Immutable Data (MAID)*<br><br>Upgrade to 3.4.0 or higheer
+*Modification of Assumed-Immutable Data (MAID)*<br><br>Recommendation: Upgrade to 3.4.0 or higheer
 ### Details
 Prototype pollution attack through jQuery $.extend
 <br><br>• Affected Versions: <3.4.0

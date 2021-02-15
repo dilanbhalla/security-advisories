@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*XSS in Pillbox*<br><br>Avoid the Pillbox functionality until a patch is available.
+*XSS in Pillbox*<br><br>Recommendation: Avoid the Pillbox functionality until a patch is available.
 ### Details
 FuelUX is a library for extending Twitter Bootstrap with additional lightweight JavaScript controls.  There exists a cross site scripting (XSS) vulnerability in the Pillbox feature of FuelUX.  By supplying a script as a value for a new pillbox, it is possible to cause arbitrary script execution.    This advisory is being released before a public patched version is available because the issue was reported publicly on Github.
 <br><br>• Affected Versions: <=99.999.99999

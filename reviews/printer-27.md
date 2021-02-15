@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Potential Command Injection*<br><br>- Update to version > 0.0.1 which is available on github at https://github.com/tojocky/node-printer
+*Potential Command Injection*<br><br>Recommendation: - Update to version > 0.0.1 which is available on github at https://github.com/tojocky/node-printer
 ### Details
 printer does not sanitize command arguments properly in the ```printDirect()``` function. If untrusted client input is passed in, command injection is possible.  Special thanks to [Wes Cruver](https://github.com/chieffancypants) for providing a pull request!
 <br><br>• Affected Versions: <= 0.0.1

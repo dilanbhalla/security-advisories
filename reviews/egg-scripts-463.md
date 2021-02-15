@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection - Generic*<br><br>Update egg-scripts module to version >=2.8.1
+*Command Injection - Generic*<br><br>Recommendation: Update egg-scripts module to version >=2.8.1
 ### Details
 [egg-scripts] Command injection
 <br><br>• Affected Versions: <2.8.1

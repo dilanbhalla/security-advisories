@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Exceeding Stack Call Limit DoS*<br><br>Upgrade to v3.0.0 or greater.
+*Exceeding Stack Call Limit DoS*<br><br>Recommendation: Upgrade to v3.0.0 or greater.
 ### Details
 jQuery is a DOM manipulation javascript library.  In v2.2.4 and previous, a lowercasing logic was used on the attribute names and was removed in v3.0.0. Because of this, boolean attributes whose names were not all lowercase cause infinite recursion, and will exceed the stack call limit.
 <br><br>• Affected Versions: =3.0.0-rc.1

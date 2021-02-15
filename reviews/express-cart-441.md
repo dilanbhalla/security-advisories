@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>update express-cart to 1.1.7 or higher
+*Path Traversal*<br><br>Recommendation: update express-cart to 1.1.7 or higher
 ### Details
 Unrestricted file upload (RCE)
 <br><br>• Affected Versions: <=1.1.5

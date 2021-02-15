@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Timing attack vulnerability*<br><br>Upgrade to 1.0.6 or latest
+*Timing attack vulnerability*<br><br>Recommendation: Upgrade to 1.0.6 or latest
 ### Details
 Cookie-signature is a library for signing cookies.  Versions before 1.0.4 were vulnerable to timing attacks.
 <br><br>• Affected Versions: <=1.0.5

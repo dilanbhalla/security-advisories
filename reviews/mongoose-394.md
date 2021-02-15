@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Remote Memory Exposure*<br><br>update mongoose to 4.3.6 or higher
+*Remote Memory Exposure*<br><br>Recommendation: update mongoose to 4.3.6 or higher
 ### Details
 Trying to save a number to a field of type Buffer on the affected mongoose versions allocates a chunk of uninitialized memory and stores it in the database.
 <br><br>• Affected Versions: >=3.5.5 <=3.8.38 || >=4.0.0 <=4.3.5

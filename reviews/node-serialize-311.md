@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Code Execution through IIFE*<br><br>There is no patch yet available for this vulnerability, and thus we recommend not using it in network applications in combination with untrusted user input until a patch is available.
+*Code Execution through IIFE*<br><br>Recommendation: There is no patch yet available for this vulnerability, and thus we recommend not using it in network applications in combination with untrusted user input until a patch is available.
 ### Details
 node-serialize is a module for serializing an object or function into JSON.  node-serialize can be abused to execute arbitrary code via a [immediately invoked function expression](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression) (IIFE) if untrusted user input is passed into `unserialize()`
 <br><br>• Affected Versions: <=99.999.99999

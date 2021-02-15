@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Heap Based Buffer Overflow*<br><br>- Update to version 0.2.3 that includes a version of LibYAML that contains a fix for this issue.
+*Heap Based Buffer Overflow*<br><br>Recommendation: - Update to version 0.2.3 that includes a version of LibYAML that contains a fix for this issue.
 ### Details
 LibYAML, the library that libyaml provides bindings for is vulnerable to a heap-based buffer overflow when parsing YAML tags.
 <br><br>• Affected Versions: <0.2.3

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Content Injection via TileJSON attribute*<br><br>Upgrade to Mapbox.js version 2.1.7. If you are still using a 1.x version and unable to upgrade to 2.1.7, upgrade to 1.6.5.
+*Content Injection via TileJSON attribute*<br><br>Recommendation: Upgrade to Mapbox.js version 2.1.7. If you are still using a 1.x version and unable to upgrade to 2.1.7, upgrade to 1.6.5.
 ### Details
 Mapbox.js versions 1.x prior to 1.6.5 and 2.x prior to 2.1.7 are vulnerable to a cross-site-scripting attack in certain uncommon usage scenarios.  If you use L.mapbox.map or L.mapbox.tileLayer to load untrusted TileJSON content from a non-Mapbox URL, it is possible for a malicious user with control over the TileJSON content to inject script content into the "attribution" value of the TileJSON which will be executed in the context of the page using Mapbox.js.  Such usage is uncommon. The following usage scenarios are not vulnerable:  - only trusted TileJSON content is loaded - TileJSON content comes only from mapbox.com URLs - a Mapbox map ID is supplied, rather than a TileJSON URL
 <br><br>• Affected Versions: <1.6.5 || < 2.1.7 > 2.0.0

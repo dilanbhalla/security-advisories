@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Insecure Default Configuration*<br><br>Change to use https or update to at least version 0.4.0
+*Insecure Default Configuration*<br><br>Recommendation: Change to use https or update to at least version 0.4.0
 ### Details
 The airbrake module defaults to sending environment variables over HTTP. Environment variables can often times contain secret keys and other sensitive values. A malicious user could be on the same network as a regular user and intercept all the secret keys the user is sending. This goes against common best practice, which is to use HTTPS.
 <br><br>• Affected Versions: <=0.3.8

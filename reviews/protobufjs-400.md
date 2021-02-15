@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>update protobufjs to 6.8.6 or higher
+*Denial of Service*<br><br>Recommendation: update protobufjs to 6.8.6 or higher
 ### Details
 `protobufjs` is vulnerable to ReDoS when parsing crafted invalid *.proto files
 <br><br>• Affected Versions: <=6.8.5

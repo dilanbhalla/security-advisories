@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Stored XSS*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Stored XSS*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 [sexstatic] HTML injection in directory name(s) leads to Stored XSS when malicious file is embed with <iframe> element used in directory name
 <br><br>• Affected Versions: <=0.6.2

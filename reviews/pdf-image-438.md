@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection - Generic*<br><br>update pdf-image to 2.0.0 or higher
+*Command Injection - Generic*<br><br>Recommendation: update pdf-image to 2.0.0 or higher
 ### Details
 Command injection in 'pdf-image'
 <br><br>• Affected Versions: <=1.0.5

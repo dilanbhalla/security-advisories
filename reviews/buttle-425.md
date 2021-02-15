@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*OS Command Injection*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*OS Command Injection*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 [buttle] Remote Command Execution via unsanitized PHP filename when it's run with --php-bin flag
 <br><br>• Affected Versions: <=0.2.0

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Directory Traversal*<br><br>update public to 0.1.3 or higher
+*Directory Traversal*<br><br>Recommendation: update public to 0.1.3 or higher
 ### Details
 public static hosting module suffers from a lack of file path sanitization which causes that any file on the server might be read by malicious user.
 <br><br>• Affected Versions: <=0.1.2

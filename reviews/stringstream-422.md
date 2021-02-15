@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Out-of-bounds Read*<br><br>Update stringstream module to 0.0.6 or higher.
+*Out-of-bounds Read*<br><br>Recommendation: Update stringstream module to 0.0.6 or higher.
 ### Details
 `stringstream` allocates uninitialized Buffers when number is passed in input stream on Node.js 4.x and below
 <br><br>• Affected Versions: <=0.0.5

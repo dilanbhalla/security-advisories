@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Directory Traversal*<br><br>Upgrade to v2.3.6 or later.
+*Directory Traversal*<br><br>Recommendation: Upgrade to v2.3.6 or later.
 ### Details
 hostr is a simple web server that serves up the contents of the current directory.   There is a directory traversal vulnerability in hostr that allows an attacker to read files outside the current directory by sending `../` in the url path for GET requests.
 <br><br>• Affected Versions: <=2.3.5

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>Update to version 3.4.6 or 4.0.5 or greater to fix the problem.
+*Denial of Service*<br><br>Recommendation: Update to version 3.4.6 or 4.0.5 or greater to fix the problem.
 ### Details
 Specifically crafted MQTT packets can crash the application, making a DoS attack feasible with very little bandwidth.   Timeline - January 15, 2016 - Initial Report (self disclosed from maintainer) - January 15, 2016 - CVE Requested
 <br><br>• Affected Versions: <3.4.6 || > 4.0.0 <4.0.5

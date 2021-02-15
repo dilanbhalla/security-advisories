@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>Update to html-pages@2.1.0 or higher.
+*Path Traversal*<br><br>Recommendation: Update to html-pages@2.1.0 or higher.
 ### Details
 Path Traversal in html-pages module allows to read any file from the server with curl
 <br><br>• Affected Versions: <=2.0.9

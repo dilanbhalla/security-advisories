@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-site Scripting (XSS) - Generic*<br><br>update cloudcmd module to 9.1.6 or higher
+*Cross-site Scripting (XSS) - Generic*<br><br>Recommendation: update cloudcmd module to 9.1.6 or higher
 ### Details
 [cloudcmd] Stored XSS in the filename when directories listing
 <br><br>• Affected Versions: <=9.1.5

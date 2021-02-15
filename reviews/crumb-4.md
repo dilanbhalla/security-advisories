@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*CORS Token Disclosure*<br><br>Update to a version 3.0.0 or greater.
+*CORS Token Disclosure*<br><br>Recommendation: Update to a version 3.0.0 or greater.
 ### Details
 When CORS is enabled on a hapi route handler, it is possible to set a crumb token for a different domain. An attacker would need to have an application consumer visit a site they control, request a route supporting CORS, and then retrieve the token. With this token, they could possibly make requests to non CORS routes as this user.  A configuration and scenario where this would occur is unlikely, as most configurations will set CORS globally (where crumb is not used), or not at all.
 <br><br>• Affected Versions: <3.0.0

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*SQL Injection*<br><br>Upgrade to at least version <=1.7.0-alpha3
+*SQL Injection*<br><br>Recommendation: Upgrade to at least version <=1.7.0-alpha3
 ### Details
 sequelize is an Object-relational mapping, or a middleman to convert things from Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server into usable data for NodeJS  Before version 1.7.0-alpha3, sequelize defaulted SQLite to use MySQL backslash escaping, even though SQLite uses Postgres escaping.
 <br><br>• Affected Versions: <= 1.7.0-alpha2

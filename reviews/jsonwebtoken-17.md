@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Verification Bypass*<br><br>Update to a version 4.2.2 or greater
+*Verification Bypass*<br><br>Recommendation: Update to a version 4.2.2 or greater
 ### Details
 It is possible for an attacker to bypass verification when "a token digitally signed with an asymetric key (RS/ES family) of algorithms but instead the attacker send a token digitally signed with a symmetric algorithm (HS* family)" [1]
 <br><br>• Affected Versions: <4.2.2

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Directory Traversal*<br><br>Upgrade to version 0.1.4 or greater.
+*Directory Traversal*<br><br>Recommendation: Upgrade to version 0.1.4 or greater.
 ### Details
 Versions less than 0.1.4 of the static file server module fancy-server are vulnerable to directory traversal. An attacker can provide input such as `../` to read files outside of the served directory.
 <br><br>• Affected Versions: <0.1.4

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>update resolve-path to 1.4.0 or higher
+*Path Traversal*<br><br>Recommendation: update resolve-path to 1.4.0 or higher
 ### Details
 resolve-path relative path resolving suffers from a lack of file path sanitization for windows based paths
 <br><br>• Affected Versions: <1.4.0

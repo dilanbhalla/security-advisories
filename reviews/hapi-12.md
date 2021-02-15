@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Rosetta-Flash JSONP Vulnerability*<br><br>- Update to the latest version of hapi.js
+*Rosetta-Flash JSONP Vulnerability*<br><br>Recommendation: - Update to the latest version of hapi.js
 ### Details
 This description taken from the pull request provided by Patrick Kettner.  [Background from the vulnerabilty finder](http://miki.it/blog/2014/7/8/abusing-jsonp-with-rosetta-flash/)  tl:dr - someone created a alphanum only swf converter, which means that they can in theory use it as a callback at a JSONP endpoint, and as a result, send data across domains.  Prepending callbacks with an empty inline comment breaks the flash parser, and prevents the issue. This is a fairly common solution currently being implemented by Google, Facebook, and Github.
 <br><br>• Affected Versions: < 6.1.0

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross Site Scripting (XSS)*<br><br>Update to 1.16.0 or later.
+*Cross Site Scripting (XSS)*<br><br>Recommendation: Update to 1.16.0 or later.
 ### Details
 If an attacker can trick an unsuspecting user into viewing a specially crafted plot on a site that uses plotly.js, then the attacker could potentially retrieve authentication tokens and perform actions on behalf of the user.
 <br><br>• Affected Versions: <1.10.4 || >=1.11.0 <1.16.0

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Remote Memory Exposure*<br><br>update openwhisk to 3.3.1 or higher
+*Remote Memory Exposure*<br><br>Recommendation: update openwhisk to 3.3.1 or higher
 ### Details
 When a number is passed to `api_key`, affected versions of openwhisk allocate an uninitialized buffer and send that over network in Authorization header (base64-encoded). PoC: ```js var openwhisk = require('openwhisk'); var options = {apihost: '127.0.0.1:1433', api_key: 50}; var ow = openwhisk(options); ow.actions.invoke({actionName: 'sample'}).then(result => console.log(result)) ```  Reported at 2017-03-01
 <br><br>• Affected Versions: <3.3.1

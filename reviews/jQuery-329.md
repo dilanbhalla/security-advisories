@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*XSS via improper selector detection*<br><br>Upgrade to v1.9.0 or greater.
+*XSS via improper selector detection*<br><br>Recommendation: Upgrade to v1.9.0 or greater.
 ### Details
 jQuery is a javascript library for DOM manipulation.   jQuery's main method in affected versions contains an unreliable way of detecting whether the input to the `jQuery(strInput)` function is intended to be a selector or HTML.  For example, this code would be parsed as a selector, executing the code in the `onerror` attribute: ``` $("#log").html(     $("element[attribute='<img src=\"x\" onerror=\"alert(1)\" />']").html() ); ```  The fix in v1.9.0 updates a regular expression for detecting whether the input is HTML or a selector. HTML input must now explicitly start with `<`, rather than previously assuming that the input was HTML if the string contained `<` anywhere.
 <br><br>• Affected Versions: >=1.7.1 <=1.8.3

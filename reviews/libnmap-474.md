@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection - Generic*<br><br>Update libnmap module to version >=0.4.16
+*Command Injection - Generic*<br><br>Recommendation: Update libnmap module to version >=0.4.16
 ### Details
 Command Injection Vulnerability in libnmap Package
 <br><br>• Affected Versions: <0.4.16

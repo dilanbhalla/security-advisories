@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>update sshpk to 1.14.1 or higher
+*Denial of Service*<br><br>Recommendation: update sshpk to 1.14.1 or higher
 ### Details
 `sshpk` is vulnerable to ReDoS when parsing crafted invalid public keys
 <br><br>• Affected Versions: <=1.13.1

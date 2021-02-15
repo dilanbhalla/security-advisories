@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Out-of-bounds Read*<br><br>update concat-with-sourcemaps to 1.0.6 or higher
+*Out-of-bounds Read*<br><br>Recommendation: update concat-with-sourcemaps to 1.0.6 or higher
 ### Details
 `concat-with-sourcemaps` allocates uninitialized Buffers when number is passed as a separator
 <br><br>• Affected Versions: <=1.0.5

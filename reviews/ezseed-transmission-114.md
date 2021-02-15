@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Insecure Defaults Leads to Potential MITM*<br><br>Upgrade to at least version 0.0.15
+*Insecure Defaults Leads to Potential MITM*<br><br>Recommendation: Upgrade to at least version 0.0.15
 ### Details
 ezseed-transmission is a module that provides shell bindings for Ezseed transmission.  Between versions 0.0.10 and 0.0.14 (inclusive), ezseed-transmission would download a script from `http://stedolan.github.io/jq/download/linux64/jq` without checking the certificate.  An attacker on the same network or on an ISP level could intercept the traffic and push their own version of the file, causing the attackers code to be executed.
 <br><br>• Affected Versions: >= 0.0.10 <= 0.0.14

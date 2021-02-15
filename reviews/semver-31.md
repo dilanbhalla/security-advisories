@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Regular Expression Denial of Service*<br><br>Update to a version 4.3.2 or greater
+*Regular Expression Denial of Service*<br><br>Recommendation: Update to a version 4.3.2 or greater
 ### Details
 semver is vulnerable to regular expression denial of service ([ReDoS](https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS)) when extremely long version strings are parsed.  "The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time." [1]
 <br><br>• Affected Versions: <4.3.2

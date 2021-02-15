@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*deep-extend prototype pollution*<br><br>Update to version 0.5.1 or later.
+*deep-extend prototype pollution*<br><br>Recommendation: Update to version 0.5.1 or later.
 ### Details
 deep-extend node module suffers from a prototype pollution vulnerability
 <br><br>• Affected Versions: <=0.5.0

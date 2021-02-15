@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*XSS in autoescape mode*<br><br>Upgrade to version 2.4.3 or later.
+*XSS in autoescape mode*<br><br>Recommendation: Upgrade to version 2.4.3 or later.
 ### Details
 Nunjucks is a full featured templating engine for JavaScript.  Versions 2.4.2 and lower have a cross site scripting (XSS) vulnerability in autoescape mode.  In autoescape mode, all template vars should automatically be escaped.  By using an array for the keys, such as `name[]=<script>alert(1)</script>`, it is possible to bypass autoescaping and inject content into the DOM.
 <br><br>• Affected Versions: <=2.4.2

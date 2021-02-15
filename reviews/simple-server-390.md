@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-site Scripting (XSS) - Stored*<br><br>update simple-server to 1.1.0 or higher
+*Cross-site Scripting (XSS) - Stored*<br><br>Recommendation: update simple-server to 1.1.0 or higher
 ### Details
 [simple-server] HTML with iframe element can be used as filename, which might lead to load and execute malicious JavaScript 
 <br><br>• Affected Versions: <1.1.0

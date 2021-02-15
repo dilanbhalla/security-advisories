@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection*<br><br>Upgrade to dns-sync version 0.1.1 or greater.
+*Command Injection*<br><br>Recommendation: Upgrade to dns-sync version 0.1.1 or greater.
 ### Details
 The dns-sync library for node.js allows resolving hostnames in a synchronous fashion  All versions of dns-sync prior to the release 0.1.1 were vulnerable to arbitrary command execution via maliciously formed hostnames.  For example:      var dnsSync = require('dns-sync');     console.log(dnsSync.resolve('$(id > /tmp/foo)'));  This is caused by the hostname being passed through a shell as part of a command execution.
 <br><br>• Affected Versions: <0.1.1

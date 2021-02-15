@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service and Content Injection*<br><br>Upgrade to version 1.4.0 or greater.
+*Denial of Service and Content Injection*<br><br>Recommendation: Upgrade to version 1.4.0 or greater.
 ### Details
 - i18n-node-angular is a module used to interact between i18n and angular without using additional resources - A REST API endpoint that is used for development was not disabled in production environments - A malicious user could fill up the server causing a Denial of Service or content injection
 <br><br>• Affected Versions: <1.4.0

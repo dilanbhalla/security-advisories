@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*LDAP Injection*<br><br>Consider updating to use [ldapauth-fork](https://www.npmjs.com/package/ldapauth-fork) 2.3.3 or greater as ldapauth has not yet been patched.
+*LDAP Injection*<br><br>Recommendation: Consider updating to use [ldapauth-fork](https://www.npmjs.com/package/ldapauth-fork) 2.3.3 or greater as ldapauth has not yet been patched.
 ### Details
 ldapauth versions <= 2.2.4 are vulnerable to ldap injection through the username parameter.
 <br><br>• Affected Versions: <=2.2.4

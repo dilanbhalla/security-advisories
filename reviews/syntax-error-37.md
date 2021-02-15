@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Potential for Script Injection*<br><br>Update to version 1.1.1 or greater. If this is being used in conjunction with browserify, update browserify to 4.2.1 or greater.
+*Potential for Script Injection*<br><br>Recommendation: Update to version 1.1.1 or greater. If this is being used in conjunction with browserify, update browserify to 4.2.1 or greater.
 ### Details
 The below overview of the issue is quoted from https://github.com/substack/node-browserify/blob/master/changelog.markdown#421  Make sure your installation of browserify is using syntax-error@1.1.1 or later. there was a security vulnerability where a malicious file could execute code when browserified.  The vulnerability involves breaking out of Function(), which was used to check syntax for more informative errors. In node 0.10, Function() seems to be implemented in terms of eval(), so malicious code can execute even if the function returned by Function() was never called. node 0.11 does not appear to be vulnerable.  Thanks to Cal Leeming [cal@iops.io] for discovering and disclosing this bug!
 <br><br>• Affected Versions: < 1.1.1

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>Upgrade to v1.0.0 or later
+*Denial of Service*<br><br>Recommendation: Upgrade to v1.0.0 or later
 ### Details
 Specifically crafted MQTT packets can crash the application, making a DoS attack feasible with very little bandwidth.
 <br><br>• Affected Versions: <=0.3.13

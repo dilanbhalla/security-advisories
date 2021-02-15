@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Authentication credentails logged in clear text*<br><br>- Upgrade to version 1.0.0 or greater. - Consider any credentials used with these modules compromised and rotate those credentials.
+*Authentication credentails logged in clear text*<br><br>Recommendation: - Upgrade to version 1.0.0 or greater. - Consider any credentials used with these modules compromised and rotate those credentials.
 ### Details
 A common setup to deploy to gh-pages on every commit via a CI system is to expose a github token to ENV and to use it directly in the auth part of the url.   In module versions < 0.9.1 the auth portion of the url is outputted as part of the grunt tasks logging function. If this output is publicly available then the credentials should be considered compromised.
 <br><br>• Affected Versions: <=0.9.1

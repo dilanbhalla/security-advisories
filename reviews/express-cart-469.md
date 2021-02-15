@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Privilege Escalation*<br><br>Update express-cart module to version >1.1.5
+*Privilege Escalation*<br><br>Recommendation: Update express-cart module to version >1.1.5
 ### Details
 Privilege escalation allows any user to add an administrator
 <br><br>• Affected Versions: <=1.1.5

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Spoofing attack due to unvalidated KDC*<br><br>Consider using the "[kerberos](https://www.npmjs.com/package/kerberos)" npm module, which has this protection in place, or short of that, ensure there are no untrusted users on your network.
+*Spoofing attack due to unvalidated KDC*<br><br>Recommendation: Consider using the "[kerberos](https://www.npmjs.com/package/kerberos)" npm module, which has this protection in place, or short of that, ensure there are no untrusted users on your network.
 ### Details
 This module does not validate the KDC, which might allow an attacker with network access and enough time to spoof the KDC and impersonate a valid user without knowing their credentials.
 <br><br>• Affected Versions: <=99.999.99999

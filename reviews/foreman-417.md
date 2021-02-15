@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Denial of Service*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 `foreman` is vulnerable to ReDoS in path
 <br><br>• Affected Versions: <=2.0.0

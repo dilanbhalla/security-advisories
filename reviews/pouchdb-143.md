@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Arbitrary Code Injection*<br><br>Update to version 6.0.5 or later.
+*Arbitrary Code Injection*<br><br>Recommendation: Update to version 6.0.5 or later.
 ### Details
 An arbitrary code injection vector was found in PouchDB 5.4.5 and lesser via the map/reduce functions used in PouchDB temporary views and design documents. The code execution engine for this branch is not properly sandboxed and may be used to run arbitrary JavaScript as well as system commands.
 <br><br>• Affected Versions: <=6.0.4

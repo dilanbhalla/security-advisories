@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*File Descriptor Leak Can Cause DoS Vulnerability*<br><br>- Please upgrade to version 2.2.x or above as soon as possible.
+*File Descriptor Leak Can Cause DoS Vulnerability*<br><br>Recommendation: - Please upgrade to version 2.2.x or above as soon as possible.
 ### Details
 Versions 2.0.x and 2.1.x have a file descriptor leak that when triggered repeatedly will cause the server to run out of file descriptors and the node process to die. The effort required to take down a server depends on the process file descriptor limit. No other side effects or exploits have been identified.  ### Impact  This vulnerability allows an attacker to take down a hapi-based server running versions 2.0.x and 2.1.x.  This does NOT affect hapi 1.x deployments.
 <br><br>• Affected Versions: 2.0.x || 2.1.x

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Unauthenticated Remote Command Injection*<br><br>Update to version 0.0.3 or greater.
+*Unauthenticated Remote Command Injection*<br><br>Recommendation: Update to version 0.0.3 or greater.
 ### Details
 ep_imageconvert is a plugin for [Etherpad Lite](https://github.com/ether/etherpad-lite). ep_imageconvert <= 0.0.2 is vulnerable to remote command injection.  Authentication is not required for remote exploitation.
 <br><br>• Affected Versions: <=0.0.2

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Regular Expression Denial of Service*<br><br>Upgrade to version 1.1.2 or later.
+*Regular Expression Denial of Service*<br><br>Recommendation: Upgrade to version 1.1.2 or later.
 ### Details
 Decamelize is used to convert a dash/dot/underscore/space separated string to camelCase.   Decamelize uses regular expressions to evaluate a string and takes unescaped separator values, which can be used to create a denial of service attack.
 <br><br>• Affected Versions: >=1.1.0 <=1.1.1

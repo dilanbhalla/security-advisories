@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Arbitrary File Write Through Archive Extraction*<br><br>Update unzipper module to version >= 0.8.13
+*Arbitrary File Write Through Archive Extraction*<br><br>Recommendation: Update unzipper module to version >= 0.8.13
 ### Details
 attackers can write arbitrary files when a malicious archive is extracted.
 <br><br>• Affected Versions: <0.8.13

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection - Generic*<br><br>Update pullit module to version >= 1.4.0
+*Command Injection - Generic*<br><br>Recommendation: Update pullit module to version >= 1.4.0
 ### Details
 Remote Command Execution vulnerability in pullit
 <br><br>• Affected Versions: <=1.3.0

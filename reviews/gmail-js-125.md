@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*DOM-based XSS*<br><br>Since there is no public patch yet available, it may be best to avoid using these functions altogether for the time being.
+*DOM-based XSS*<br><br>Recommendation: Since there is no public patch yet available, it may be best to avoid using these functions altogether for the time being.
 ### Details
 gmail-js is a client side library for interacting with the Gmail API.  Three functions exposed by the Gmail.js API (not the Google Gmail API) are vulnerable to [DOM-based cross site scripting](https://www.owasp.org/index.php/DOM_Based_XSS) (DOMXSS).  The three functions are `tools.parse_response`, `helper.get.visible_emails_post`, and `helper.get.email_data_post`.  Each one of these functions calls `new Function()` with user data passed as the argument.  This vulnerability is being disclosed before a public patched version is available because the issue was reported in a public Github issue.
 <br><br>• Affected Versions: <=99.999.99999

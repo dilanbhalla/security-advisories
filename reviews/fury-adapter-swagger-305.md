@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Arbitrary File Read*<br><br>Upgrade to version 0.9.7 or later
+*Arbitrary File Read*<br><br>Recommendation: Upgrade to version 0.9.7 or later
 ### Details
 fury-adapter-swagger is a fury.js adapter for loading swagger HTTP API description documents - either via YAML or JSON.  fury-adapter-swagger has a vulnerability that allows arbitrary file reads off the file system.  This could be used to retrieve sensitive data, or cause a denial of service by reading `/dev/zero`.  An example proof of concept is provided below:  ``` --- swagger: '2.0' info:   title: Read local files   version: '1.0'  paths:   /foo:     get:       responses:         200:           description: Some description           examples:             text/html:               example:                 $ref: '/etc/passwd' ```
 <br><br>• Affected Versions: >= 0.2.0 <= 0.9.6 || ~0.8.0-pre

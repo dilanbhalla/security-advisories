@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-Site Scripting (XSS)*<br><br>Upgrade to v4.1.0 or greater.
+*Cross-Site Scripting (XSS)*<br><br>Recommendation: Upgrade to v4.1.0 or greater.
 ### Details
 Restify is a framework for building REST APIs.  Using URL encoded script tags in a non-existent URL, an attacker can get script to run in some browsers.  For example, for the URL `https://localhost:3000/no5_such3_file7.pl?%22%3E%3Cscript%3Ealert(73541);%3C/script%3E` restify will return `<script>alert(73541);</script>` as part of the response, and in some browsers will run.
 <br><br>• Affected Versions: >=2.0.0 <=4.0.4

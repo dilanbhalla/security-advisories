@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Content Injection*<br><br>Upgrade to version 1.4.1 or greater
+*Content Injection*<br><br>Recommendation: Upgrade to version 1.4.1 or greater
 ### Details
 Certain input when passed into remarkable will bypass the bad prototcol check that disallows the javascript: scheme allowing for javascript: url's to be injected into the rendered content.  ### Example  ``` [link](<javascript:alert(1)>) ``` This will be turned into `<a href="javascript:alert(1)">link</a>`  where as  ``` [link](javascript:alert(1)) ```  Would be rendered as `[link](javascript:alert(1))` because it's an invalid scheme.
 <br><br>• Affected Versions: <1.4.1

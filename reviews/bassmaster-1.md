@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Arbitrary JavaScript Execution*<br><br>Update to bassmaster version 1.5.2 or greater.
+*Arbitrary JavaScript Execution*<br><br>Recommendation: Update to bassmaster version 1.5.2 or greater.
 ### Details
 A vulnerability exists in bassmaster <= 1.5.1 that allows for an attacker to provide arbitrary JavaScript that is then executed server side via eval.
 <br><br>• Affected Versions: <=1.5.1

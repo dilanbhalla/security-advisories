@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*XSS in links*<br><br>update mrk.js to version 2.0.1 and use mark.sanitizeURL() for any attributes when extending the md
+*XSS in links*<br><br>Recommendation: update mrk.js to version 2.0.1 and use mark.sanitizeURL() for any attributes when extending the md
 ### Details
 mrk.js suffered from a XSS vulnerability when markdown was converted to HTML.
 <br><br>• Affected Versions: <2.0.1

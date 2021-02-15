@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Invalid Curve Attack*<br><br>Upgrade to version 0.9.3 or greater
+*Invalid Curve Attack*<br><br>Recommendation: Upgrade to version 0.9.3 or greater
 ### Details
 node-jose is a JavaScript implementation of the JSON Object Signing and Encryption (JOSE) for current web browsers and node.js-based servers.  As outlined in [this post](http://blog.intothesymmetry.com/2017/03/critical-vulnerability-in-json-web.html) node-jose earlier than version 0.9.3 is vulnerable to an invalid curve attack. This allows an attacker to recover the private secret key when JWE with Key Agreement with Elliptic Curve Diffie-Hellman Ephemeral Static (ECDH-ES) is used.  [Proof of Concept](https://gist.github.com/asanso/fa25685348051ef6a28d49aa0f27a4ae)
 <br><br>• Affected Versions: <0.9.3

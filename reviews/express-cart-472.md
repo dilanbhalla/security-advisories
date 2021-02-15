@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*NoSQL injection on express-cart*<br><br>Update express-cart module to version >=1.1.8
+*NoSQL injection on express-cart*<br><br>Recommendation: Update express-cart module to version >=1.1.8
 ### Details
 [express-cart] Customer and admin email enumeration through MongoDB injection
 <br><br>• Affected Versions: <1.1.8

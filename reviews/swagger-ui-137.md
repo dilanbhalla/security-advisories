@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*XSS in URL Query String Parameter*<br><br>Upgrade to 2.1.0 or later.
+*XSS in URL Query String Parameter*<br><br>Recommendation: Upgrade to 2.1.0 or later.
 ### Details
 In versions 2.1.0-M1 and 2.1.0-M2, swagger-ui has a cross site scripting (XSS) vulnerability in the `url` query string parameter.
 <br><br>• Affected Versions: 2.1.0-M1 || 2.1.0-M2

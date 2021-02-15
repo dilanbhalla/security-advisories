@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Arbitrary File Write Through Archive Extraction*<br><br>Update adm-zip module to version >= 0.4.9
+*Arbitrary File Write Through Archive Extraction*<br><br>Recommendation: Update adm-zip module to version >= 0.4.9
 ### Details
 attackers can write arbitrary files when a malicious archive is extracted.
 <br><br>• Affected Versions: <0.4.9

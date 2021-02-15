@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*SQL Injection*<br><br>Upgrade sequelize to version 3.17.0 or greater
+*SQL Injection*<br><br>Recommendation: Upgrade sequelize to version 3.17.0 or greater
 ### Details
 sequalize is an Object-relational mapping, or a middleman to convert things from Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server into usable data for NodeJS  If user input goes into the `limit` or `order` parameters, a malicious user can put in their own SQL statements.   `1; DELETE FROM "Users" WHERE 1=1; --`
 <br><br>• Affected Versions: <= 3.16.0

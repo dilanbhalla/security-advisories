@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads Resources over HTTP*<br><br>It's the recommendation of the module author that if you are using this in production to 'install the bindings using a pinned and verified version of SDK instead of the automated download. More information is available in the modules [README](https://www.npmjs.com/package/libxl)
+*Downloads Resources over HTTP*<br><br>Recommendation: It's the recommendation of the module author that if you are using this in production to 'install the bindings using a pinned and verified version of SDK instead of the automated download. More information is available in the modules [README](https://www.npmjs.com/package/libxl)
 ### Details
 libxl provides Node bindings for the libxl library for reading and writing excel (XLS and XLSX) spreadsheets.  libxl downloads zipped resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested zip file with an attacker controlled zip file if the attacker is on the network or positioned in between the user and the remote server.
 <br><br>• Affected Versions: <=99.999.99999

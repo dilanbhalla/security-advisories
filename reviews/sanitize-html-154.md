@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross Site Scripting*<br><br>Upgrade to version 1.11.4 or later
+*Cross Site Scripting*<br><br>Recommendation: Upgrade to version 1.11.4 or later
 ### Details
 Sanitize-html is a library for scrubbing html input of malicious values.  Versions 1.11.1 and below are vulnerable to cross site scripting (XSS) in certain scenarios:  If allowed at least one nonTextTags, the result is a potential XSS vulnerability. PoC:  ``` var sanitizeHtml = require('sanitize-html');  var dirty = '!<textarea>&lt;/textarea&gt;<svg/onload=prompt`xs`&gt;</textarea>!'; var clean = sanitizeHtml(dirty, {     allowedTags: [ 'textarea' ] });  console.log(clean);  // !<textarea></textarea><svg/onload=prompt`xs`></textarea>! ```
 <br><br>• Affected Versions: <=1.11.1

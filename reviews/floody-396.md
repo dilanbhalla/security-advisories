@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Remote Memory Exposure*<br><br>update floody to 1.1.1 or higher
+*Remote Memory Exposure*<br><br>Recommendation: update floody to 1.1.1 or higher
 ### Details
 `.write(number)` in the affected `floody` versions passes a number to Buffer constructor, appending a chunk of uninitialized memory. PoC: `var f = require('floody')(process.stdout); f.write(1000); f.stop();`
 <br><br>• Affected Versions: <0.1.1

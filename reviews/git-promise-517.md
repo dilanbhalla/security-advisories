@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Code Injection*<br><br>Update Other module module to version >=1.0.0
+*Code Injection*<br><br>Recommendation: Update Other module module to version >=1.0.0
 ### Details
 [git-promise] RCE via insecure command formatting
 <br><br>• Affected Versions: <1.0.0

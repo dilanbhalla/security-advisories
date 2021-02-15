@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Improper Authorization*<br><br>Update aedes module to version >= 0.35.1
+*Improper Authorization*<br><br>Recommendation: Update aedes module to version >= 0.35.1
 ### Details
 Aedes does not respect its own authorization rules when a client sets a Last Will
 <br><br>• Affected Versions: <=0.35.0

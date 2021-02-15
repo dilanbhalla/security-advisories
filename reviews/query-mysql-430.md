@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*SQL Injection*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*SQL Injection*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 SQL Injection due to lack of user input sanitization allows to run arbitrary SQL queries when fetching data from database
 <br><br>• Affected Versions: <=0.0.2

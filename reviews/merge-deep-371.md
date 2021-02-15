@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*merge-deep prototype pollution*<br><br>Update module to 3.0.1 or higher
+*merge-deep prototype pollution*<br><br>Recommendation: Update module to 3.0.1 or higher
 ### Details
 merge-deep node module before 3.0.1 suffers from a prototype pollution vulnerability via merging functions, which allows a malicious user to modify the prototype of 'Object' via __proto__, causing the addition or modification of an existing property that will exist on all objects.
 <br><br>• Affected Versions: <3.0.1

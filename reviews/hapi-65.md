@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Route level CORS config overrides connection level defaults*<br><br>You should install hapi v11.1.4 or newer if you combine server level, connection level, or route level CORS configuration.
+*Route level CORS config overrides connection level defaults*<br><br>Recommendation: You should install hapi v11.1.4 or newer if you combine server level, connection level, or route level CORS configuration.
 ### Details
 When server level, connection level or route level CORS configurations are combined and when a higher level config included security restrictions (like origin), a higher level config that included security restrictions (like origin) would have those restrictions overridden by less restrictive defaults (e.g. origin defaults to all origins `*`).
 <br><br>• Affected Versions: <11.1.4

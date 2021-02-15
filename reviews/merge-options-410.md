@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*merge-options prototype pollution*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*merge-options prototype pollution*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 merge-options node module suffers from a prototype pollution vulnerability
 <br><br>• Affected Versions: <=1.0.0

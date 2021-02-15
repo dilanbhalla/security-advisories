@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>Update node.extend module to version ^1.1.7 || >= 2.0.1
+*Denial of Service*<br><br>Recommendation: Update node.extend module to version ^1.1.7 || >= 2.0.1
 ### Details
 Prototype pollution attack in node.extend
 <br><br>• Affected Versions: <2.0.1 || <1.1.7

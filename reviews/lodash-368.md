@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*lodash prototype pollution*<br><br>Update module to 4.17.5 or higher
+*lodash prototype pollution*<br><br>Recommendation: Update module to 4.17.5 or higher
 ### Details
 lodash node module before 4.17.5 suffers from a prototype pollution vulnerability via 'defaultsDeep', 'merge', and 'mergeWith' functions, which allows a malicious user to modify the prototype of 'Object' via __proto__, causing the addition or modification of an existing property that will exist on all objects.
 <br><br>• Affected Versions: <4.17.5

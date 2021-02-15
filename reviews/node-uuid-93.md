@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Insecure Entropy Source - Math.random()*<br><br>Upgrade to version 1.4.4 or greater
+*Insecure Entropy Source - Math.random()*<br><br>Recommendation: Upgrade to version 1.4.4 or greater
 ### Details
 node-uuid prior to 1.4.4 contained a bug that caused it to consistently fall back to using `Math.random` instead of a more cryptographically sound source of entropy, the native `crypto` module.
 <br><br>• Affected Versions: <1.4.4

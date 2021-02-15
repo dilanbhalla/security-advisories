@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection*<br><br>Upgrade Electron to >=3.0.0-beta.7, >=2.0.8, >=1.8.8, or >=1.7.16.
+*Command Injection*<br><br>Recommendation: Upgrade Electron to >=3.0.0-beta.7, >=2.0.8, >=1.8.8, or >=1.7.16.
 ### Details
 [electron] A remote code execution vulnerability has been discovered affecting apps with the ability to open nested child windows on Electron versions (3.0.0-beta.6, 2.0.7, 1.8.7, and 1.7.15). 
 <br><br>• Affected Versions: >=1.7.0 <1.7.16 || >=1.8.0 <1.8.8 || >=2.0.0 <2.0.8 || >=3.0.0-beta.1 <3.0.0-beta.7

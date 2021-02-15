@@ -3,14 +3,18 @@ import json
 import glob
 from mdutils.mdutils import MdUtils
 
+
+# Path to Node core vulnerabilities and npm vulnerabilities, respectively
 core = './core'
 ecosystem = './ecosystem'
 
 
+# store json data as variables for convert_to_markdown method
 def retrieve_data(json_data, vuln_file):
 
     vuln = json_data[vuln_file]
 
+    # assign json data to variables, convert ints to strs, and return variables
     (author_name, author_username, author_website, coordinating_vendor, created_at, cves, cvss_score, cvss_vector,
     id, module_name, overview, patched_versions, publish_date, recommendation, references, title, updated_at, vulnerable_versions) = (vuln['author']['name'],
     vuln['author']['username'], vuln['author']['website'], vuln["coordinating_vendor"], vuln["created_at"], vuln["cves"],
@@ -24,12 +28,10 @@ def retrieve_data(json_data, vuln_file):
     module_name, overview, patched_versions, publish_date, recommendation, references, title, updated_at, vulnerable_versions)
 
 
+# use variables from retrieve_data to build markdown file
 def convert_to_markdown(json_data):
 
     num_success, num_failed, succeeded, failed = 0, 0, [], []
-    count = 0
-
-    print(len(json_data))
 
     for vuln_file in json_data:
         try:
@@ -38,13 +40,14 @@ def convert_to_markdown(json_data):
             num_success += 1
             succeeded.append(str(vuln_file))
         except:
-            # print("Could not retrieve all data from " + str(vuln_file))
             num_failed += 1
             failed.append(str(vuln_file))
             continue
 
         review_basename = vuln_file.split("/")[-2]
         json_basename = vuln_file.split("/")[-1].split(".")[0]
+
+        # build markdown file
         with open("./reviews/" + str(review_basename) + "-" + str(id) + ".md", 'w') as review:
 
             # Metadata
@@ -54,8 +57,6 @@ def convert_to_markdown(json_data):
             review.write("Access: Public\n")
             review.write("Reviewers:\n")
             review.write("- Name: " + author_name + "\n  Associated-With-Project: false\n  Compensation-Source: external\n")
-            # review.write("Associated-With-Project: false\n")
-            # review.write("Compensation-Source: External\n")
             review.write("Domain: Security\n")
             review.write("Methodology:\n")
             review.write("- Code-Review\n")
@@ -74,7 +75,7 @@ def convert_to_markdown(json_data):
             review.write("### Summary\n")
             review.write("*" + title + "*")
             review.write("<br><br>")
-            if recommendation: review.write(recommendation + "\n")
+            if recommendation: review.write("Recommendation: " + recommendation + "\n")
 
             review.write("### Details\n")
             review.write(overview + "\n")
@@ -95,10 +96,6 @@ def convert_to_markdown(json_data):
             review.write("### License\n")
             review.write("This text is released under at least the [Creative Commons Attribution 4.0 (CC-BY-4.0) license](https://creativecommons.org/licenses/by/4.0/legalcode.txt). Externally-referenced content may be licensed differently.\n")
 
-        count += 1
-        # if count == 5:
-        #     break
-
         # print(str(author_name) + "\n" + str(author_username) + "\n" + str(author_website) + "\n" + str(coordinating_vendor) +
         # "\n" + str(created_at) + "\n" + str(cves) + "\n" + str(cvss_score) + "\n" + str(cvss_vector) + "\n" + str(id) + "\n" + str(module_name) +
         # "\n" + str(overview) + "\n" + str(patched_versions) + "\n" + str(publish_date) + "\n" + str(recommendation) + "\n" + str(references) +
@@ -106,23 +103,24 @@ def convert_to_markdown(json_data):
 
     print("\nMARKDOWN CONVERSION: \nSucceeded: " + str(num_success) + ", Failed: " + str(num_failed) + "\n")
 
+# locate all vulnerability files for npm, validate files, convert text to json, and call convert_to_markdown
+def convert_npm(path):
 
-def parse_npm(path):
-
+    # initialize empty data dictionary
     data = {}
     json_data = json.dumps(data)
 
-    # for testing, remove after
-    start, stop = 1, 10000
-
     num_success, num_failed, succeeded, failed = 0, 0, [], []
 
+    # find all vulnerability files
     for (dirpath, _, filenames) in os.walk(path):
         for filename in filenames:
             filepath = os.path.join(dirpath, filename)
             with open(filepath, encoding='utf-8', mode='r') as currentFile:
 
                 vuln = json.load(currentFile)
+
+                # only add files that can be successfully converted to json to data dictionary
                 try:
                     test_data = {filepath : vuln}
                     test_json_dump = json.dumps(test_data, indent=3, sort_keys=True).replace("\\n"," ")
@@ -134,47 +132,38 @@ def parse_npm(path):
                     failed.append(filepath)
                     continue
 
+                # if vulnerability file can be converted to json, add it to data dictionary
                 data[filepath] = vuln
 
-                start += 1
-                if start == stop: break
-        if start == stop: break
-
     print("\nJSON PARSE: \nSucceeded: " + str(num_success) + ", Failed: " + str(num_failed))
-    # print("Succeded: " + str(succeeded))
-    # print("Failed: " + str(failed))
 
+    # convert data dictionary to json and call convert_to_markdown
     json_dump = json.dumps(data, indent=3, sort_keys=True).replace("\\n"," ")
-    # print(json_dump)
     json_data = json.loads(json_dump)
-    # print("Length of Output: " + str(len(json_data)))
     convert_to_markdown(json_data)
     return json_data
 
+def convert_node_reviews():
 
-def json_parser():
+    # convert npm and node core vulnerability data from json files to markdown files (only converting npm data for now)
+    ecosystem_output = convert_npm(ecosystem)
+    # core_output = convert_core(core)
 
-    ecosystem_output = parse_npm(ecosystem)
-    # core_output = parse_core(core)
-
+    # Not important, just for development - outputs json data to file so data can be more easily seen/worked with
     with open('./ecosystem_output.json', 'w') as output_file:
         json.dump(ecosystem_output, output_file, indent=3, sort_keys=True)
     # with open('./core_output.json', 'w') as output_file:
     #     json.dump(core_output, output_file, indent=3, sort_keys=True)
 
 
-def main():
-    json_parser()
-
-
 if __name__ == '__main__':
-    main()
+    convert_node_reviews()
 
 
 
 
-# For core node vulnerabilities. When ready paste this above pare_npm function and fix up (use parse_npm structure to make fixes here)
-# def parse_core(path):
+# For core node vulnerabilities. When ready paste this above pare_npm function and fix up (use convert_npm structure to make fixes here)
+# def convert_core(path):
 #
 #     data = {}
 #     json_data = json.dumps(data)

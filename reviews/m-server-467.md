@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-site Scripting (XSS) - Stored*<br><br>Update m-server module to version 1.4.2
+*Cross-site Scripting (XSS) - Stored*<br><br>Recommendation: Update m-server module to version 1.4.2
 ### Details
 [m-server] HTML Injection in filenames displayed as directory listing in the browser allows to embed iframe with malicious JavaScript code
 <br><br>• Affected Versions: <1.4.2

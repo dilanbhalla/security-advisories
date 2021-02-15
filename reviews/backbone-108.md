@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross Site Scripting*<br><br>Upgrade to at least version 0.5.0
+*Cross Site Scripting*<br><br>Recommendation: Upgrade to at least version 0.5.0
 ### Details
 backbone is a module that adds in structure to a JavaScript heavy application through key-value pairs and custom events connecting to your RESTful API through JSON  There exists a potential Cross Site Scripting vulnerability in the `Model#Escape` function if a user is able to supply input.  This is due to the regex that's replacing things to miss the conversion of things such as `&#60;` to `<`.
 <br><br>• Affected Versions: <= 0.3.3

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Authentication Bypass in Try Mode*<br><br>Upgrade to version 5.1.2 or greater.
+*Authentication Bypass in Try Mode*<br><br>Recommendation: Upgrade to version 5.1.2 or greater.
 ### Details
 When attempting to allow authentication mode `try` in [hapi](https://www.npmjs.com/package/hapi), hapi-auth-jwt2 version 5.1.1 introduced an issue whereby people could bypass authentication.
 <br><br>• Affected Versions: 5.1.1

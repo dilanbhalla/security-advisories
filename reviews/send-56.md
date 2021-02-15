@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Root Path Disclosure*<br><br>Upgrade to send version 0.11.1 or greater.
+*Root Path Disclosure*<br><br>Recommendation: Upgrade to send version 0.11.1 or greater.
 ### Details
 The send module < 0.11.1 discloses the root path.
 <br><br>• Affected Versions: <0.11.1

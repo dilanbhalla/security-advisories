@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>Update markdown-pdf module to version >=9.0.0
+*Path Traversal*<br><br>Recommendation: Update markdown-pdf module to version >=9.0.0
 ### Details
 [markdown-pdf] Local file reading
 <br><br>• Affected Versions: <9.0.0

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-site Scripting (XSS) - Reflected*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Cross-site Scripting (XSS) - Reflected*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 [bracket-template] Reflected XSS possible when variable passed via GET parameter is used in template
 <br><br>• Affected Versions: <=1.1.5

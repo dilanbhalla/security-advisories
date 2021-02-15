@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Memory Exposure*<br><br>update concat-stream to 1.5.2 or higher
+*Memory Exposure*<br><br>Recommendation: update concat-stream to 1.5.2 or higher
 ### Details
 .write(number) in the affected `concat-stream` versions passes a number to Buffer constructor, appending a chunk of uninitialized memory. Versions <1.3.0 are not affected due to not using unguarded Buffer constructor.
 <br><br>• Affected Versions: >=1.3.0 <1.3.2 || >=1.4.0 <1.4.11 || >=1.5.0 <1.5.2

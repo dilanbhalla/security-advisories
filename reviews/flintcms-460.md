@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Privilege Escalation*<br><br>Update flintcms module to version >=1.1.0
+*Privilege Escalation*<br><br>Recommendation: Update flintcms module to version >=1.1.0
 ### Details
 [flintcms] Account takeover due to blind MongoDB injection in password reset
 <br><br>• Affected Versions: <=1.1.9

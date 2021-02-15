@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*SQL Injection via GeoJSON*<br><br>Update to the most recent version of Sequelize.
+*SQL Injection via GeoJSON*<br><br>Recommendation: Update to the most recent version of Sequelize.
 ### Details
 SequelizeJS 3.23.4 is vulnerable to SQL injection via GeoJSON documents containing a value with a single quote.  This vulnerability affects postresql/postgis as well as MySQL. This vulnerability only exists within GeoJSON documents using the function `ST_GeomFromGeoJSON` for postgresql/postgis and the function `GeomFromText` for mysql. SequelizeJS's `geometry` datatype is vulnerable.  If you have SequelizeJS models with a field that has a datatype of 'Geometry' and run a mysql or postgresql/postgis backend, your application is vulnerable  SequelizeJS is a popular ORM (Object Relational Mapper) for node.    GeoJSON is a format for encoding a variety of geographic data structures.
 <br><br>• Affected Versions: <3.23.6

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>Update mpath module to version >=0.5.1
+*Denial of Service*<br><br>Recommendation: Update mpath module to version >=0.5.1
 ### Details
 Prototype Pollution Vulnerability in mpath Package
 <br><br>• Affected Versions: <0.5.1

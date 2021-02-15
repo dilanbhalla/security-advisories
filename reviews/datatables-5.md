@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-Site Scripting*<br><br>Update to a version greater than 1.10.8.
+*Cross-Site Scripting*<br><br>Recommendation: Update to a version greater than 1.10.8.
 ### Details
 Cross-site scripting (XSS) vulnerability in the DataTables plugin 1.10.8 and earlier for jQuery allows remote attackers to inject arbitrary web script or HTML via the scripts parameter to media/unit_testing/templates/6776.php.
 <br><br>• Affected Versions: <=1.10.8

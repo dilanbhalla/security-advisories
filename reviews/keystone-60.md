@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Authentication Weakness*<br><br>Users of this module should update to version 0.3.16 or greater
+*Authentication Weakness*<br><br>Recommendation: Users of this module should update to version 0.3.16 or greater
 ### Details
 Due to a bug in the the default sign in functionality, incomplete email addresses could be matched. A correct password is still required to complete sign in.
 <br><br>• Affected Versions: <0.3.16

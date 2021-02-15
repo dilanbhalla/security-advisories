@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*XSS via Content-type header*<br><br>Update to 2.1.5 or later.
+*XSS via Content-type header*<br><br>Recommendation: Update to 2.1.5 or later.
 ### Details
 By using a malicious server which returns script as the value of the Content-Type header, it is possible to execute arbitrary code using the demonstration capabilities of Swagger-UI.
 <br><br>• Affected Versions: 2.1.4

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Tmp files readable by other users*<br><br>upgrade to Node >=0.12.0. The functionality is provided natively.
+*Tmp files readable by other users*<br><br>Recommendation: upgrade to Node >=0.12.0. The functionality is provided natively.
 ### Details
 The sync-exec module is used to simulate child_process.execSync in node versions <0.11.9.   Sync-exec uses tmp directories as a buffer before returning values. Other users on the server have read access to the tmp directory, possibly allowing an attacker on the server to obtain confidential information from the buffer/tmp file, while it exists.
 <br><br>• Affected Versions: <=99.999.99999

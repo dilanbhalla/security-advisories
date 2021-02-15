@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Code Injection*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Code Injection*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 [npm-git-publish] RCE via insecure command formatting
 <br><br>• Affected Versions: *

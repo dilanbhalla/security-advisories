@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Regular Expression Denial of Service (ReDoS)*<br><br>update is-my-json-valid to 1.4.1, 2.17.2 or higher
+*Regular Expression Denial of Service (ReDoS)*<br><br>Recommendation: update is-my-json-valid to 1.4.1, 2.17.2 or higher
 ### Details
 is-my-json-valid is vulnerable to Regular Expression Denial of Service (ReDoS) attacks via the email validation function
 <br><br>• Affected Versions: <1.4.1 || >=2.0.0 <2.17.2

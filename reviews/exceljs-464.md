@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-site Scripting (XSS) - Generic*<br><br>Update exceljs module to version >=1.6.0
+*Cross-site Scripting (XSS) - Generic*<br><br>Recommendation: Update exceljs module to version >=1.6.0
 ### Details
 [exceljs] Possible XSS via cell value when worksheet is displayed in browser
 <br><br>• Affected Versions: <1.6.0

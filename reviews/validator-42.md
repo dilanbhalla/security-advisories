@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Regular Expression Denial of Service*<br><br>Update to version 3.22.1 or greater.
+*Regular Expression Denial of Service*<br><br>Recommendation: Update to version 3.22.1 or greater.
 ### Details
 The validator module, versions < 3.22.1 are vulnerable to Regular Expression Denial of Service ([ReDoS](http://en.wikipedia.org/wiki/ReDoS)) in the isURL method.
 <br><br>• Affected Versions: <3.22.1

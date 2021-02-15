@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>Update bower module to version >=1.8.8
+*Path Traversal*<br><br>Recommendation: Update bower module to version >=1.8.8
 ### Details
 [bower] Arbitrary File Write through improper validation of symlinks while package extraction
 <br><br>• Affected Versions: <1.8.8

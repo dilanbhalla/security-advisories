@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*CSRF Vulnerability*<br><br>Upgrade to the latest version
+*CSRF Vulnerability*<br><br>Recommendation: Upgrade to the latest version
 ### Details
 This description pulled from the rubyonrails-security post.  Reported to NodeSecurity Project by Reed Loden.  CSRF Vulnerability in jquery-ujs and jquery-rails  There is an vulnerability in jquery-ujs and jquery-rails that can be used to bypass CSP protections and allows attackers to send CSRF tokens to attacker domains.  In the scenario where an attacker might be able to control the href attribute of an anchor tag or the action attribute of a form tag that will trigger a POST action, the attacker can set the href or action to " https://attacker.com" (note the leading space) that will be passed to JQuery, who will see this as a same origin request, and send the user's CSRF token to the attacker domain.
 <br><br>• Affected Versions: <= 1.0.3

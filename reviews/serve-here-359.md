@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Directory Traversal*<br><br>Use the new version of the package @vivaxy/here with version >=3.2.2
+*Directory Traversal*<br><br>Recommendation: Use the new version of the package @vivaxy/here with version >=3.2.2
 ### Details
 A crafted request can be used to traverse the directory structure of a host using the serve-here package, and request arbitrary files outside of the specified web root.
 <br><br>• Affected Versions: <=3.2.0

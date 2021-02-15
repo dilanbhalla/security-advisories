@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Directory Traversal*<br><br>Because there is no fix for this module, we recommend using a different one.
+*Directory Traversal*<br><br>Recommendation: Because there is no fix for this module, we recommend using a different one.
 ### Details
 `badjs-sourcemap-server` recieves files sent by `badjs-sourcemap`.  `badjs-sourcemap-server` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing "../" in the url.  Example request: ``` GET /../../../../../../etc/passwd HTTP/1.1 host:localhost ``` and response: ``` HTTP/1.1 200 OK Date: Wed, 17 May 2017 22:59:49 GMT Connection: keep-alive Transfer-Encoding: chunked  {content of /etc/passwd} ```
 <br><br>• Affected Versions: <99.999.9999

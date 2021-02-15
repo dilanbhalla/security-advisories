@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Sanitization bypass using HTML Entities*<br><br>Upgrade to version 0.3.6 or greater.
+*Sanitization bypass using HTML Entities*<br><br>Recommendation: Upgrade to version 0.3.6 or greater.
 ### Details
 marked is an application that is meant to parse and compile markdown.  Due to the way that marked parses input, specifically HTML entities, it's possible to bypass marked's content injection protection (`sanitize: true`) to inject a `javascript:` URL.  This flaw exists because `&#xNNanything;` gets parsed to what it could and leaves the rest behind, resulting in just `anything;` being left.   For example:  If a malicious user could provide this input to the application `javascript&#x58document;alert&#40;1&#41;` resulting in a valid link, that when a user clicked it would execute `alert(1)`.
 <br><br>• Affected Versions: <=0.3.5

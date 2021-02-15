@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads Resources over HTTP*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Downloads Resources over HTTP*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 jser-stat is a JSer.info stat library.  jser-stat downloads data resources over HTTP, which leaves it vulnerable to MITM attacks.
 <br><br>• Affected Versions: <=99.999.99999

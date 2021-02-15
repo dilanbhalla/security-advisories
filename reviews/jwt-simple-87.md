@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Forgeable Public/Private Tokens*<br><br>Change jwt.decode() to include an algorithm parameter.
+*Forgeable Public/Private Tokens*<br><br>Recommendation: Change jwt.decode() to include an algorithm parameter.
 ### Details
 Since "algorithm" isn't enforced in jwt.decode(), a malicious user could choose what algorithm is sent sent to the server. If the server is expecting RSA but is sent HMAC-SHA with RSA's public key, the server will think the public key is actually an HMAC private key. This could be used to forge any data an attacker wants.
 <br><br>• Affected Versions: < 0.3.0

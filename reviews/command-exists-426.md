@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection - Generic*<br><br>update command-exists to 1.2.4 or higher
+*Command Injection - Generic*<br><br>Recommendation: update command-exists to 1.2.4 or higher
 ### Details
 `command-exists` concatenates unsanitized input into exec()/execSync() commands
 <br><br>• Affected Versions: <=1.2.3

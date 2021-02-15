@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-Site Scripting (XSS) - Stored*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Cross-Site Scripting (XSS) - Stored*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 simplehttpserver suffers from Stored XSS in file names leads to malicious JavaScript code execution when directory listing is output in HTML
 <br><br>• Affected Versions: <=0.0.6

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Arbitrary File Write*<br><br>Update to version 1.0.0 or later
+*Arbitrary File Write*<br><br>Recommendation: Update to version 1.0.0 or later
 ### Details
 ``` lock_file = '/tmp/' + cli.app + '.pid', log_file = '/tmp/' + cli.app + '.log'; ``` The package `node-cli` insecurely uses the lock_file and log_file. Both of these are temporary, but it allows the starting user to overwrite any file they have access to.
 <br><br>• Affected Versions: <1.0.0

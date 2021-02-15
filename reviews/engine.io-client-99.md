@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Insecure Defaults Allow MITM Over TLS*<br><br>Upgrade to version 1.6.9 or greater. If you are unable to upgrade, make sure and force all calls to socket.io to have a `rejectedUnauthorized: true` flag.
+*Insecure Defaults Allow MITM Over TLS*<br><br>Recommendation: Upgrade to version 1.6.9 or greater. If you are unable to upgrade, make sure and force all calls to socket.io to have a `rejectedUnauthorized: true` flag.
 ### Details
 engine.io-client is the client for [engine.io](https://github.com/socketio/engine.io), the implementation of a transport-based cross-browser/cross-device bi-directional communication layer for Socket.IO.  The vulnerability is related to the way that node.js handles the `rejectUnauthorized` setting. If the value is something that evaluates to false, certificate verification will be disabled.  This is problematic as engine.io-client passes in an object for settings that includes the rejectUnauthorized property, whether it has been set or not. If the value has not been explicitly changed, it will be passed in as `null`, resulting in certificate verification being turned off:  ```   // line that causes bug this.rejectUnauthorized = opts.rejectUnauthorized === undefined ? null : opts.rejectUnauthorized;  ```
 <br><br>• Affected Versions: <= 1.6.8

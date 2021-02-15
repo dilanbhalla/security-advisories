@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*No CSRF Validation*<br><br>Upgrade to droppy version 3.5.0 or greater.
+*No CSRF Validation*<br><br>Recommendation: Upgrade to droppy version 3.5.0 or greater.
 ### Details
 Droppy versions <=3.4.0 does not perform any verification for cross-domain websocket requests. An attacker is able to make a specially crafted page that can send requests as the context of the currently logged in user. For example this means the malicious user could add a new admin account under his control and delete others.
 <br><br>• Affected Versions: <3.5.0

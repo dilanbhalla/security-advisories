@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection - Generic*<br><br>use npm package `which` instead
+*Command Injection - Generic*<br><br>Recommendation: use npm package `which` instead
 ### Details
 `whereis` concatenates unsanitized input into exec() command
 <br><br>• Affected Versions: <=0.4.0

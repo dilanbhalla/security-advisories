@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>update http-proxy-agent to 2.1.0 or higher
+*Denial of Service*<br><br>Recommendation: update http-proxy-agent to 2.1.0 or higher
 ### Details
 `http-proxy-agent` passes unsanitized options to Buffer(arg), resulting in DoS and uninitialized memory leak
 <br><br>• Affected Versions: <=2.0.0

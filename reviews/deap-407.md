@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*deap prototype pollution*<br><br>Update to module version >= 1.0.1
+*deap prototype pollution*<br><br>Recommendation: Update to module version >= 1.0.1
 ### Details
 deap node module before 1.0.1 suffers from a prototype pollution vulnerability
 <br><br>• Affected Versions: <1.0.1

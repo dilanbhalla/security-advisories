@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*XSS - Sanitization not applied recursively*<br><br>Upgrade to 1.4.3 or later
+*XSS - Sanitization not applied recursively*<br><br>Recommendation: Upgrade to 1.4.3 or later
 ### Details
 Sanitization of HTML strings is not applied recursively to input, allowing an attacker to potentially inject script and other markup.
 <br><br>• Affected Versions: <=1.4.2

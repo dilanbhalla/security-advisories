@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Arbitrary File Write Through Archive Extraction*<br><br>Update bower to latest patch version >=1.8.7
+*Arbitrary File Write Through Archive Extraction*<br><br>Recommendation: Update bower to latest patch version >=1.8.7
 ### Details
 attackers can write arbitrary files when a malicious archive is extracted.
 <br><br>• Affected Versions: <1.8.7

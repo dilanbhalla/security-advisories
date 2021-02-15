@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-Site Scripting (XSS) - Stored*<br><br>update anywhere to 1.5.0 or higher
+*Cross-Site Scripting (XSS) - Stored*<br><br>Recommendation: update anywhere to 1.5.0 or higher
 ### Details
 anywhere suffers from an XSS where an iframe element with url to malicious HTML file (with eg. JavaScript malware) can be used as filename and served
 <br><br>• Affected Versions: <1.5.0

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service - Illegal access crash from if-modified-since header*<br><br>Upgrade to ecstatic version 1.4.0 or greater.
+*Denial of Service - Illegal access crash from if-modified-since header*<br><br>Recommendation: Upgrade to ecstatic version 1.4.0 or greater.
 ### Details
 Certain input strings when passed to new Date() or Date.parse() will cause v8 to raise an exception. This leads to a crash and denial of service in ecstatic  when this input is passed into the server via the If-Modified-Since header.
 <br><br>• Affected Versions: <1.4.0

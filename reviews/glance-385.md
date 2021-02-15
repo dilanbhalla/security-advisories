@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>update glance to 3.0.4 or higher
+*Path Traversal*<br><br>Recommendation: update glance to 3.0.4 or higher
 ### Details
 path traversal in glance static file server allows to read content of arbitrary file
 <br><br>• Affected Versions: <3.0.4

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Regular Expression Denial of Service*<br><br>Upgrade to version 2.3.22 or greater.
+*Regular Expression Denial of Service*<br><br>Recommendation: Upgrade to version 2.3.22 or greater.
 ### Details
 The riot-compiler version version 2.3.21 "has an issue in a regex (Catastrophic Backtracking) thats make it unusable under certain conditions"  It should be noted that 2.3.21 has been unpublished.  Thanks to Sven Slootweg for letting us know about this issue.
 <br><br>• Affected Versions: 2.3.21

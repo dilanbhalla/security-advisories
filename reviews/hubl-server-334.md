@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads resources over HTTP*<br><br>As there currently is not a fix available for this it is our recommendation that you do not use this module. If you must use it download the content and verify it's integrity in your production environment.
+*Downloads resources over HTTP*<br><br>Recommendation: As there currently is not a fix available for this it is our recommendation that you do not use this module. If you must use it download the content and verify it's integrity in your production environment.
 ### Details
 The hubl-server module is a wrapper for the HubL Development Server.  During installation hubl-server downloads a set of dependencies from api.hubapi.com. It appears in the code that these files are downloaded over HTTPS however the api.hubapi.com endpoint redirects to a HTTP url. Because of this behavior an attacker with the ability to man-in-the-middle a developer or system performing a package installation could compromise the integrity of the installation.
 <br><br>• Affected Versions: <=99.999.99999

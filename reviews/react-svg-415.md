@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-site Scripting (XSS) - Generic*<br><br>Update react-svg module to 2.2.18 or higher.
+*Cross-site Scripting (XSS) - Generic*<br><br>Recommendation: Update react-svg module to 2.2.18 or higher.
 ### Details
 [react-svg] Scripts found in SVG files are run by default.
 <br><br>• Affected Versions: <=2.2.17

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*hoek prototype pollution*<br><br>Update module to 5.0.3 or 4.2.1 or higher
+*hoek prototype pollution*<br><br>Recommendation: Update module to 5.0.3 or 4.2.1 or higher
 ### Details
 hoek node module before 5.0.3 and before 4.2.1 suffers from a prototype pollution vulnerability via 'merge' and 'applyToDefaults' functions, which allows a malicious user to modify the prototype of 'Object' via __proto__, causing the addition or modification of an existing property that will exist on all objects.
 <br><br>• Affected Versions: <5.0.3 >=5.0.0 || < 4.2.1

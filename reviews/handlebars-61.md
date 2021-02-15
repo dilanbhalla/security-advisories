@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Quoteless Attributes in Templates can lead to Content Injection*<br><br>If you are unable to upgrade to version 4.0.0 or greater you can add quotes to your attributes in your handlebar templates.
+*Quoteless Attributes in Templates can lead to Content Injection*<br><br>Recommendation: If you are unable to upgrade to version 4.0.0 or greater you can add quotes to your attributes in your handlebar templates.
 ### Details
 Not using quotes around your attributes in handlebar templates, could lead to content injection.  ### Example Template: ```<a href={{foo}}/>```  Input: ```{ 'foo' : 'test.com onload=alert(1)'}```  Rendered result: ```<a href=test.com onload=alert(1)/>```
 <br><br>• Affected Versions: <4.0.0

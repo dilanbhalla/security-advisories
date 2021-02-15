@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Symlink Arbitrary File Overwrite*<br><br>Update to a version 2.0.0 or greater
+*Symlink Arbitrary File Overwrite*<br><br>Recommendation: Update to a version 2.0.0 or greater
 ### Details
 The `tar` module earlier than version 2.0.0 allow for archives to contain symbolic links that will overwrite targets outside the expected path for extraction.
 <br><br>• Affected Versions: <2.0.0

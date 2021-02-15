@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Directory Traversal*<br><br>Upgrade to a version greater than or equal to 0.8.4.
+*Directory Traversal*<br><br>Recommendation: Upgrade to a version greater than or equal to 0.8.4.
 ### Details
 When relying on the root option to restrict file access it may be possible for an application consumer to escape out of the restricted directory and access files in a similarly named directory. For example, `static(_dirname + '/public')` would allow access to `_dirname + '/public-restricted'`.
 <br><br>• Affected Versions: < 0.8.4

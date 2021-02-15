@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-site Scripting (XSS) - Stored*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Cross-site Scripting (XSS) - Stored*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 There is a Stored XSS vulnerability in glance module. File name, which contains malicious HTML (eg. embedded iframe element or javascript: pseudoprotocol handler in <a> element) allows to execute JavaScript code against any user who opens directory listing contains such crafted file name.
 <br><br>• Affected Versions: <=3.0.5

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Information Exposure Through an Error Message*<br><br>Update seneca module to version >=3.9.0
+*Information Exposure Through an Error Message*<br><br>Recommendation: Update seneca module to version >=3.9.0
 ### Details
 environment variable leakage in error reporting
 <br><br>• Affected Versions: <3.9.0

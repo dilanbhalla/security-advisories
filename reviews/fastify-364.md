@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Fastify denial-of-service vulnerability with large JSON payloads*<br><br>Update to version 0.38.0 or later.
+*Fastify denial-of-service vulnerability with large JSON payloads*<br><br>Recommendation: Update to version 0.38.0 or later.
 ### Details
 Fastify prior to 0.37.0 is vulnerable to a denial-of-service attack by sending a request with Content-Type set to application/json and a very large payload.
 <br><br>• Affected Versions: <=0.37.0

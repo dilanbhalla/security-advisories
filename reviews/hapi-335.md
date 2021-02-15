@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service via malformed accept-encoding header*<br><br>Upgrade to hapi 16.1.1 or greater.
+*Denial of Service via malformed accept-encoding header*<br><br>Recommendation: Upgrade to hapi 16.1.1 or greater.
 ### Details
 hapi is a web and services application framework.  When hapi encounters a malformed `accept-encoding` header an uncaught exception is thrown. This may cause hapi to crash or to hang the client connection until the timeout period is reached.
 <br><br>• Affected Versions: >= 15.0.0 <= 16.1.0

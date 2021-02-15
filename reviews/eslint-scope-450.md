@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Malicious Package*<br><br>Use 3.7.1 for the latest 3.x major or upgrade to version 4.0.0 and above. It is advised that you revoke all of your existing npm tokens, recreate new tokens, enable 2FA for publishes (`auth-and-writes`).
+*Malicious Package*<br><br>Recommendation: Use 3.7.1 for the latest 3.x major or upgrade to version 4.0.0 and above. It is advised that you revoke all of your existing npm tokens, recreate new tokens, enable 2FA for publishes (`auth-and-writes`).
 ### Details
 [eslint-scope] version 3.7.2 has been published as a malicious package, where-as eslint-scope is part of the larger and more popular eslint package
 <br><br>• Affected Versions: 3.7.2

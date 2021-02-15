@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Authentication Bypass*<br><br>Upgrade to at least version 2.3.0
+*Authentication Bypass*<br><br>Recommendation: Upgrade to at least version 2.3.0
 ### Details
 console-io is a module that allows users to implement a web console in their application.   A malicious user could bypass the authentication and execute any command that the user who is running the console-io application is able to run. This means that if console-io was running from root, the attacker would have full access to the system.   This vulnerability exists because the console-io application does not configure socket.io to require authentication, which allows a malicious user to connect via a websocket to send commands and receive the response.
 <br><br>• Affected Versions: <=2.2.13

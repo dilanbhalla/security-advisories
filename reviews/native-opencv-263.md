@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads Resources over HTTP*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Downloads Resources over HTTP*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 native-opencv is the OpenCV library installed via npm  native-opencv downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.
 <br><br>• Affected Versions: <= 3.0.0

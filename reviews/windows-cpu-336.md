@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Execution*<br><br>Avoid passing user input to the findLoad method. If you must, pass user input through a sanitizer (such as a shell escaping tool) prior to passing it to findLoad.
+*Command Execution*<br><br>Recommendation: Avoid passing user input to the findLoad method. If you must, pass user input through a sanitizer (such as a shell escaping tool) prior to passing it to findLoad.
 ### Details
 Windows-cpu is a CPU monitoring utility for windows.  The findLoad method passes a provided string directly to the shell, allowing arbitrary command execution.   Proof of Concept: This code will open the built-in calculator program. ``` var win = require('windows-cpu'); wind.findLoad('foo & calc.exe'); ```
 <br><br>• Affected Versions: <=99.999.99999

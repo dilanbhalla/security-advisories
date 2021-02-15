@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads Resources over HTTP*<br><br>No fix is currently available for this vulnerability and the module readme now marks the module as deprecated.  It is our recommendation to not install or use this module at this time.
+*Downloads Resources over HTTP*<br><br>Recommendation: No fix is currently available for this vulnerability and the module readme now marks the module as deprecated.  It is our recommendation to not install or use this module at this time.
 ### Details
 ipip is a Node.js module to query geolocation information for an IP or domain, based on database by ipip.net.  ipip downloads data resources over HTTP, which leaves it vulnerable to MITM attacks.
 <br><br>• Affected Versions: <=99.999.99999

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>Update to a version 2.2.0 or greater.
+*Denial of Service*<br><br>Recommendation: Update to a version 2.2.0 or greater.
 ### Details
 Yar uses an encrypted cookie for session support, during the hapi request/reply flow if this cookie value is invalid (changed by the end-user), a request object variable is not set. In versions prior 2.2.0, the presence of this variable was not validated prior to use, resulting in an unhandled ReferenceError, which in most cases will crash the process.
 <br><br>• Affected Versions: <2.2.0

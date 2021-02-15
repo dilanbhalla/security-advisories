@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*XSS in itemTitle parameter*<br><br>Avoid using the `itemTitle` parameter until a patch is available
+*XSS in itemTitle parameter*<br><br>Recommendation: Avoid using the `itemTitle` parameter until a patch is available
 ### Details
 Bootstrap Tags Input is a jQuery plugin providing a Twitter Bootstrap user interface for managing tags.   Version 0.8.0 contains a cross site scripting vulnerability (XSS) via the `itemTitle` parameter. By supplying a malicious value for this parameter, it is possible to execute arbitrary code.  This vulnerability is being disclosed before a public patched release is available because of an existing Github issue which is already public.
 <br><br>• Affected Versions: <=0.8.0

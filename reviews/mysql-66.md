@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*SQL Injection due to unescaped object keys*<br><br>Update to the latest version of the mysql module. At least version v2.0.0-alpha8 or greater to address this issue.
+*SQL Injection due to unescaped object keys*<br><br>Recommendation: Update to the latest version of the mysql module. At least version v2.0.0-alpha8 or greater to address this issue.
 ### Details
 Keys of objects are not escaped with `mysql.escape()` which could lead to SQL Injection.
 <br><br>• Affected Versions: <=v2.0.0-alpha7

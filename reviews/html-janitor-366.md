@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*html-janitor passing user-controlled data to clean() leads to XSS*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*html-janitor passing user-controlled data to clean() leads to XSS*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 Passing user-controlled data to the module's clean() function can result in arbitrary JS execution, because of unsafe DOM operations.
 <br><br>• Affected Versions: <=2.0.2

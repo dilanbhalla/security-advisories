@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Remote Memory Exposure*<br><br>Upgrade request to version 2.68.0 or higher. Note that versions 2.47.0-2.51.0 are not vulnerable due to a node level error that occurs when a number is passed as the body.
+*Remote Memory Exposure*<br><br>Recommendation: Upgrade request to version 2.68.0 or higher. Note that versions 2.47.0-2.51.0 are not vulnerable due to a node level error that occurs when a number is passed as the body.
 ### Details
 Request is an http client.   If a request is made using ```multipart```, and the body type is a ```number```, then the specified number of non-zero memory is passed in the body.   Example to reproduce: ``` var request = require('request'); var http = require('http');  var serveFunction = function (req, res){ 	req.on('data', function (data) {             console.log(data)         }); 	res.end(); }; var server = http.createServer(serveFunction); server.listen(8000);  request({ 	method: "POST", 	uri: 'http://localhost:8000', 	multipart: [{body:500}] },function(err,res,body){}); ```
 <br><br>• Affected Versions: >=2.2.6 <2.47.0 || >2.51.0 <=2.67.0

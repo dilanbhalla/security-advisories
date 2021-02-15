@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Insufficient Entropy*<br><br>Update cryptiles module to version >=4.1.2
+*Insufficient Entropy*<br><br>Recommendation: Update cryptiles module to version >=4.1.2
 ### Details
 [cryptiles] randomDigits() method generates digits that lack a perfect distribution over enough attempts
 <br><br>• Affected Versions: >=3.1.0 <4.1.2

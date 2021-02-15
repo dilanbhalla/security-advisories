@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads Resources over HTTP*<br><br>Update to version 0.4.4 or greater
+*Downloads Resources over HTTP*<br><br>Recommendation: Update to version 0.4.4 or greater
 ### Details
 During the installation process, the go-ipfs-deps module insecurely downloads resources over HTTP. This allows for a MITM attack to compromise the integrity of the resources used by this module and could allow for further compromise.
 <br><br>• Affected Versions: <0.4.4

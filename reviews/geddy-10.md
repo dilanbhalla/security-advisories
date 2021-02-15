@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Directory Traversal*<br><br>Update to version >= 13.0.8
+*Directory Traversal*<br><br>Recommendation: Update to version >= 13.0.8
 ### Details
 Geddy static file serving allows directory traversal with a URI encoded path.  ### Example ``` http://localhost:4000/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd  geddy is serving the output as it doesn't match the routes and it's a static file ```
 <br><br>• Affected Versions: <13.0.8

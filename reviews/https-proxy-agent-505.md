@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Man-in-the-Middle*<br><br>Update https-proxy-agent module to version >=2.2.3
+*Man-in-the-Middle*<br><br>Recommendation: Update https-proxy-agent module to version >=2.2.3
 ### Details
 [https-proxy-agent] Socket returned without TLS upgrade on non-200 CONNECT response, allowing request data to be sent over unencrypted connection
 <br><br>• Affected Versions: <2.2.3

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>Update just-extend module to version >=4.0.0
+*Denial of Service*<br><br>Recommendation: Update just-extend module to version >=4.0.0
 ### Details
 Prototype pollution attack in just-extend
 <br><br>• Affected Versions: <4.0.0

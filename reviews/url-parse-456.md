@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Open Redirect*<br><br>Update url-parse module to version >=1.4.3
+*Open Redirect*<br><br>Recommendation: Update url-parse module to version >=1.4.3
 ### Details
 url-parse package return wrong hostname 
 <br><br>• Affected Versions: <1.4.3

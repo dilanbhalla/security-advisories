@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Buffer Over-read*<br><br>Update mqtt-packet module to version >=3.5.1 <4.0.0 || >=4.1.3 <5.0.0 || >=5.6.1 <6.0.0 || >=6.1.2
+*Buffer Over-read*<br><br>Recommendation: Update mqtt-packet module to version >=3.5.1 <4.0.0 || >=4.1.3 <5.0.0 || >=5.6.1 <6.0.0 || >=6.1.2
 ### Details
 A specifically malformed MQTT Subscribe packet crashes MQTT Brokers using the mqtt-packet module for decoding  
 <br><br>• Affected Versions: <3.5.1 || >=4.0.0 <4.1.3 || >=5.0.0 <5.6.1 || >=6.0.0 <6.1.2

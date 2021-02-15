@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*npm Token Leak*<br><br>Upgrade npm itself with `npm install npm@latest -g` and [revoke your tokens](https://www.npmjs.com/settings/tokens)
+*npm Token Leak*<br><br>Recommendation: Upgrade npm itself with `npm install npm@latest -g` and [revoke your tokens](https://www.npmjs.com/settings/tokens)
 ### Details
 The primary npm registry has, since late 2014, used HTTP bearer tokens to authenticate requests from the npm command-line interface. Due to a design flaw in the CLI, these bearer tokens were sent with every request made by the CLI for logged-in users, regardless of the destination of the request. They should instead only be included for requests made against the registry or registries used for the current install.  This flaw allows an attacker to set up an HTTP server that could collect authentication information they could use to impersonate the users whose tokens they collected. This impersonation would allow them to do anything the compromised users could do, including publishing new versions of packages.
 <br><br>• Affected Versions: <= 2.15.0 || >= 3.0.0 <= 3.8.2

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Out-of-bounds Read*<br><br>Update base64url module to 3.0.0 or higher.
+*Out-of-bounds Read*<br><br>Recommendation: Update base64url module to 3.0.0 or higher.
 ### Details
 `base64url` allocates uninitialized Buffers when number is passed in input on Node.js 4.x and below
 <br><br>• Affected Versions: <=2.0.0

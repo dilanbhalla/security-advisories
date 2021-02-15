@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>update localhost-now to 1.0.2 or higher
+*Path Traversal*<br><br>Recommendation: update localhost-now to 1.0.2 or higher
 ### Details
 localhost-now Path Traversal allows to read content of arbitrary file
 <br><br>• Affected Versions: <1.0.2

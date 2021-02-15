@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Remote PUBLISH DoS*<br><br>Update to version 2.15.0 or later.
+*Remote PUBLISH DoS*<br><br>Recommendation: Update to version 2.15.0 or later.
 ### Details
 MQTT.js 2.x.x prior to 2.15.0 issue in handling PUBLISH tickets may lead to an attacker causing a denial-of-service condition.
 <br><br>• Affected Versions: >=2.0.0

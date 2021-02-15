@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads Resources over HTTP*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Downloads Resources over HTTP*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 ipip-coffee queries geolocation information from IP   ipip-coffee downloads geolocation resources over HTTP, which leaves it vulnerable to MITM attacks.  This could impact the integrity and availability of the data being used to make geolocation decisions by an application.
 <br><br>• Affected Versions: <=99.999.99999

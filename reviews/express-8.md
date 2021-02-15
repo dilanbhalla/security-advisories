@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*No Charset in Content-Type Header*<br><br>Update express to a patched version.
+*No Charset in Content-Type Header*<br><br>Recommendation: Update express to a patched version.
 ### Details
 Vulnerable versions of express do not specify a charset field in the content-type header while displaying 400 level response messages. The lack of enforcing user's browser to set correct charset, could be leveraged by an attacker to perform a cross-site scripting attack, using non-standard encodings, like UTF-7.
 <br><br>• Affected Versions: <3.11 || >= 4 <4.5

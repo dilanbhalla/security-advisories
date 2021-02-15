@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Out-of-bounds Read*<br><br>update base64-url to 2.0.0 or higher
+*Out-of-bounds Read*<br><br>Recommendation: update base64-url to 2.0.0 or higher
 ### Details
 `base64-url` below 2.0 allocates uninitialized Buffers when number is passed in input
 <br><br>• Affected Versions: <=1.3.3

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads Resources over HTTP*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Downloads Resources over HTTP*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 selenium-binaries downloads Selenium related binaries for your OS.  selenium-binaries downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.
 <br><br>• Affected Versions: <=99.999.99999

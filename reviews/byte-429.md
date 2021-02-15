@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Out-of-bounds Read*<br><br>update `byte` module to 1.4.1 or higher
+*Out-of-bounds Read*<br><br>Recommendation: update `byte` module to 1.4.1 or higher
 ### Details
 `byte` allocates uninitialized buffers and reads data from them past the initialized length
 <br><br>• Affected Versions: <=1.4.0

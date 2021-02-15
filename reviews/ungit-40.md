@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection*<br><br>Update to the version >=0.9.0
+*Command Injection*<br><br>Recommendation: Update to the version >=0.9.0
 ### Details
 Due to the use of `child_process.exec` when executing git commands, ungit allows for commands to be injection from user input fields that end up in an executed git command.
 <br><br>• Affected Versions: <=0.8.4

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads Resources over HTTP*<br><br>Update to version 1.1.4 or greater.
+*Downloads Resources over HTTP*<br><br>Recommendation: Update to version 1.1.4 or greater.
 ### Details
 geoip-lite-country is a stripped down version of geoip-lite, supporting only country lookup.  geoip-lite-country downloads data resources over HTTP, which leaves it vulnerable to MITM attacks.
 <br><br>• Affected Versions: <1.1.4

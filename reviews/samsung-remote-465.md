@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection - Generic*<br><br>Update samsung-remote module to version >=1.3.5
+*Command Injection - Generic*<br><br>Recommendation: Update samsung-remote module to version >=1.3.5
 ### Details
 [samsung-remote] Command injection
 <br><br>• Affected Versions: <1.3.5

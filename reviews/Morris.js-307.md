@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*XSS in Hover Over Label Names*<br><br>Escape the label names. They can be escaped using only a few lines of code. A pull request with a fix has been merged on GitHub, but not published to npm. This can be found on [Github.](https://github.com/morrisjs/morris.js/commit/1c66cfc4ac7b23d324f131bec7739265887e30fc)
+*XSS in Hover Over Label Names*<br><br>Recommendation: Escape the label names. They can be escaped using only a few lines of code. A pull request with a fix has been merged on GitHub, but not published to npm. This can be found on [Github.](https://github.com/morrisjs/morris.js/commit/1c66cfc4ac7b23d324f131bec7739265887e30fc)
 ### Details
 Morris.js creates an svg graph, with labels that appear when hovering over a point. The hovering label names are not escaped. If control over the labels is obtained, script can be injected. The script will run on the client side whenever that specific graph is loaded.
 <br><br>• Affected Versions: <=0.5.0

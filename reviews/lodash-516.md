@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Allocation of Resources Without Limits or Throttling*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Allocation of Resources Without Limits or Throttling*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 Prototype pollution attack (lodash)
 <br><br>• Affected Versions: >=4.1.0

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>Update handlebars module to version >=4.6.0
+*Denial of Service*<br><br>Recommendation: Update handlebars module to version >=4.6.0
 ### Details
 Crash Node.js process from handlebars using a small and simple source
 <br><br>• Affected Versions: <4.6.0

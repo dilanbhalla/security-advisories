@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection - Generic*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Command Injection - Generic*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 `macaddress` concatenates unsanitized input into exec() command
 <br><br>• Affected Versions: <=0.2.8

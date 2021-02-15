@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*SQL Injection*<br><br>Update to version 2.0.0-rc8 or greater.
+*SQL Injection*<br><br>Recommendation: Update to version 2.0.0-rc8 or greater.
 ### Details
 SQL Injection is possible in an application using the npm module sequelize if untrusted user input is passed into the order parameter.   Example: ``` Test.findAndCountAll({ where: { id :1 }, order : [['id', 'UNTRUSTED USER INPUT']] }) ```
 <br><br>• Affected Versions: <=2.0.0-rc7

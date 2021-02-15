@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Regular Expression Denial of Service*<br><br> Upgrade to version 2.12.4 or greater.
+*Regular Expression Denial of Service*<br><br>Recommendation:  Upgrade to version 2.12.4 or greater.
 ### Details
 It is possible to block the event loop when specially crafted user input is allowed into a validator using the `utc-millisec` format.  "The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time." [1]
 <br><br>• Affected Versions: <=2.12.3

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Insecure Comparison*<br><br>Upgrade to secure-compare 3.0.1 or greater.
+*Insecure Comparison*<br><br>Recommendation: Upgrade to secure-compare 3.0.1 or greater.
 ### Details
 secure-compare 3.0.0 and below do not actually compare two strings properly.   compare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.
 <br><br>• Affected Versions: <=3.0.0

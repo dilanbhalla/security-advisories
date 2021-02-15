@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Arbitrary File Write Through Archive Extraction*<br><br>Update decompress-zip to either 0.2.2 or 0.3.2
+*Arbitrary File Write Through Archive Extraction*<br><br>Recommendation: Update decompress-zip to either 0.2.2 or 0.3.2
 ### Details
 attackers can write arbitrary files when a malicious archive is extracted.
 <br><br>• Affected Versions: <0.2.2 || >=0.3.0 <0.3.2

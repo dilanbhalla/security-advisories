@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross Site Scripting*<br><br>Upgrade to version 1.2.3 or later.
+*Cross Site Scripting*<br><br>Recommendation: Upgrade to version 1.2.3 or later.
 ### Details
 sanitize-html is a library for scrubbing html input for malicious values Versions 1.2.2 and below have a cross site scripting vulnerability under certain scenarios:  Entering the following:  `<IMG SRC= onmouseover="alert('XSS');">` produces the following:  `<img src="onmouseover="alert('XSS');"" />` This is definitely invalid HTML, but would suggest that it's being interpreted incorrectly by the parser.
 <br><br>• Affected Versions: <=1.2.2

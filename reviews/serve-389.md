@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Information Exposure Through Directory Listing*<br><br>update serve to 6.5.2 or higher
+*Information Exposure Through Directory Listing*<br><br>Recommendation: update serve to 6.5.2 or higher
 ### Details
 [serve] Directory listing and File access even when they have been set to be ignored.
 <br><br>• Affected Versions: <6.5.2

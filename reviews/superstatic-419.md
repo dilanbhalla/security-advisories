@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>Update to version 5.0.2 or higher.
+*Path Traversal*<br><br>Recommendation: Update to version 5.0.2 or higher.
 ### Details
 `superstatic` is vulnerable to path traversal on Windows. Additionally, it is vulnerable to path traversal on other platforms combined with certain Node.js versions which erroneously normalize `\` to `/` in paths on all platforms (a known example being Node.js v9.9.0).
 <br><br>• Affected Versions: <=5.0.1

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*XSS in dialog closeText*<br><br>Upgrade to jQuery-UI 1.12.0 or later.
+*XSS in dialog closeText*<br><br>Recommendation: Upgrade to jQuery-UI 1.12.0 or later.
 ### Details
 jQuery-UI is a library for manipulating UI elements via jQuery.  Version 1.11.4 has a cross site scripting (XSS) vulnerability in the `closeText` parameter of the `dialog`  function.  If your application passes user input to this parameter, it may be vulnerable to XSS via this attack vector.
 <br><br>• Affected Versions: <=1.11.4

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>Update m-server module to version >=1.4.2
+*Path Traversal*<br><br>Recommendation: Update m-server module to version >=1.4.2
 ### Details
 [m-server] Path Traversal allows to display content of arbitrary file(s) from the server
 <br><br>• Affected Versions: <=1.4.1

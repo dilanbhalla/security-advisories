@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-site Scripting (XSS) - Stored*<br><br>update crud-file-server to 0.8.0 or higher
+*Cross-site Scripting (XSS) - Stored*<br><br>Recommendation: update crud-file-server to 0.8.0 or higher
 ### Details
 crud-file-server suffers from stored XSS in filenames when directory index is served by crud-file-server
 <br><br>• Affected Versions: <=0.7.0

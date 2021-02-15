@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>update node-srv to 2.1.1 or higher
+*Path Traversal*<br><br>Recommendation: update node-srv to 2.1.1 or higher
 ### Details
 node-srv path traversal allows to read arbitrary files from remote server
 <br><br>• Affected Versions: <2.1.1

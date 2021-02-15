@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>Update to version 0.1.6 or later
+*Denial of Service*<br><br>Recommendation: Update to version 0.1.6 or later
 ### Details
 `rgb2hex` is vulnerable to ReDoS when parsing crafted invalid colors
 <br><br>• Affected Versions: <0.1.6

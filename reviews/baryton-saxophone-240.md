@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads Resources over HTTP*<br><br>Update to version 3.0.1 or greater.
+*Downloads Resources over HTTP*<br><br>Recommendation: Update to version 3.0.1 or greater.
 ### Details
 baryton-saxophone is a module to install and launch Selenium Server for Mac, Linux and Windows.  baryton-saxophone versions below 3.0.1 download binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.
 <br><br>• Affected Versions: <3.0.1

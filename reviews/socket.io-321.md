@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Insecure randomness*<br><br>Upgrade to v0.9.7 or later.
+*Insecure randomness*<br><br>Recommendation: Upgrade to v0.9.7 or later.
 ### Details
 Socket.io is a realtime application framework that provides communication via websockets.  Because socket.io depends on `Math.random()` to create socket IDs, the IDs are predictable. An attacker is able to guess the socket ID and gain access to socket.io servers, potentially obtaining sensitive information.
 <br><br>• Affected Versions: <=0.9.6

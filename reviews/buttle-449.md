@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Path Traversal*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 [buttle] Path traversal in mid-buttle module allows to read any file in the server.
 <br><br>• Affected Versions: <=0.2.0

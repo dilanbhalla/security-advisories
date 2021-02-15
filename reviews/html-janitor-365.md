@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*html-janitor bypassing sanitization using DOM clobbering*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*html-janitor bypassing sanitization using DOM clobbering*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 Arbitrary HTML can pass the sanitization process, which can be unexpected and dangerous (XSS) in case user-controlled input is passed to the clean function.
 <br><br>• Affected Versions: <=2.0.2

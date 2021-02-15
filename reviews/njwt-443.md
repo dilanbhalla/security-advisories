@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Out-of-bounds Read*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Out-of-bounds Read*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 `njwt` allocates uninitialized Buffers when number is passed in base64urlEncode input
 <br><br>• Affected Versions: <=0.4.0

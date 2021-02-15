@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*XSS via Angular Expression*<br><br>Avoid using ag-grid in combination with AngularJS until a fix is available.
+*XSS via Angular Expression*<br><br>Recommendation: Avoid using ag-grid in combination with AngularJS until a fix is available.
 ### Details
 ag-grid is an advanced data grid that is library agnostic.  ag-grid is vulnerable to Cross-site Scripting (XSS) via Angular Expressions, if AngularJS is used in combination with ag-grid.
 <br><br>• Affected Versions: <=99.999.99999

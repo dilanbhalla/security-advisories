@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>update stattic to 0.3.0 or higher
+*Path Traversal*<br><br>Recommendation: update stattic to 0.3.0 or higher
 ### Details
 stattic inproper path validation leads to path traversal and allows to read arbitrary files with any extension(s)
 <br><br>• Affected Versions: <0.3.0

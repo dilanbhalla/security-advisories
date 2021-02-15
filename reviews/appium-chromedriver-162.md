@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads Resources over HTTP*<br><br>Upgrade to version 2.9.4 or greater.
+*Downloads Resources over HTTP*<br><br>Recommendation: Upgrade to version 2.9.4 or greater.
 ### Details
 appium-chromedriver is a Node.js wrapper around Chromedriver.  Versions below 2.9.4 download binary resources over HTTP, which leaves the module vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.
 <br><br>• Affected Versions: <2.9.4

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*SQL Injection*<br><br>Upgrade to at least version 0.5.1
+*SQL Injection*<br><br>Recommendation: Upgrade to at least version 0.5.1
 ### Details
 waterline-sequel is a module that helps generate SQL statements for Waterline apps  Any user input that goes into Waterline's `like`, `contains`, `startsWith`, or `endsWith` will end up in waterline-sequel with the potential for malicious code.  A malicious user can input their own SQL statements that will get executed and have full access to the database.
 <br><br>• Affected Versions: 0.5.0

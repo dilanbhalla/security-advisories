@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Arbitrary Code Injection*<br><br>Update to version 1.2.5 or later
+*Arbitrary Code Injection*<br><br>Recommendation: Update to version 1.2.5 or later
 ### Details
 Arbitrary code execution is possible through crafted css.  This makes cross sites scripting (XSS) possible on the client and arbitrary code injection possible on the server and user input is passed to the `calc` function.
 <br><br>• Affected Versions: <=1.2.4

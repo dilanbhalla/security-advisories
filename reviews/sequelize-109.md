@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Potential SQL Injection*<br><br>Upgrade to at least version 3.0.0
+*Potential SQL Injection*<br><br>Recommendation: Upgrade to at least version 3.0.0
 ### Details
 sequalize is an Object-relational mapping, or a middleman to convert things from Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server into usable data for NodeJS  A fix was pushed out that fixed potential SQL injection.  The two fixes were  - [REMOVED/SECURITY] findOne no longer takes a string / integer / binary argument to represent a primaryKey. Use findById instead - [REMOVED/SECURITY] where: "raw query" is no longer legal, you must now explicitly use where: ["raw query", [replacements]]
 <br><br>• Affected Versions: <= 2.1.3

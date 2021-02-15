@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Directory Traversal*<br><br>featurebook serve is not meant to be run as a server app in production.
+*Directory Traversal*<br><br>Recommendation: featurebook serve is not meant to be run as a server app in production.
 ### Details
 A crafted request can be used to traverse the directory structure of a host using the featurebook package, and request arbitrary files outside of the specified web root.
 <br><br>• Affected Versions: <=0.0.32

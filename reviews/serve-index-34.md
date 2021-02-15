@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-Site Scripting*<br><br>* Update to version 1.6.3 or greater
+*Cross-Site Scripting*<br><br>Recommendation: * Update to version 1.6.3 or greater
 ### Details
 When using serve-index middleware version < 1.6.3 file and directory names are not escaped in HTML output. If remote users can influence file or directory names, this can trigger a persistent XSS attack.
 <br><br>• Affected Versions: <1.6.3

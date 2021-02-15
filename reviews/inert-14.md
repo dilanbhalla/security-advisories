@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Hidden Directories Always Served*<br><br>Update to version >= 1.1.1.
+*Hidden Directories Always Served*<br><br>Recommendation: Update to version >= 1.1.1.
 ### Details
 The inert directory handler always allows files in hidden directories to be served, even when `showHidden` is false.
 <br><br>• Affected Versions: <1.1.1

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Denial of Service*<br><br>Upgrade cache-path relative module to version 1.0.2 or later
+*Denial of Service*<br><br>Recommendation: Upgrade cache-path relative module to version 1.0.2 or later
 ### Details
 Prototype Pollution Vulnerability in cached-path-relative Package
 <br><br>• Affected Versions: <=1.0.1

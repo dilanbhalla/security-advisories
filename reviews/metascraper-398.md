@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-site Scripting (XSS) - Stored*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Cross-site Scripting (XSS) - Stored*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 [metascraper] Stored XSS in Open Graph meta properties read by metascraper
 <br><br>• Affected Versions: <=3.9.2

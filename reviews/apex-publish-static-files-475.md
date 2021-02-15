@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection - Generic*<br><br>Update apex-publish-static-files module to version >=2.0.1
+*Command Injection - Generic*<br><br>Recommendation: Update apex-publish-static-files module to version >=2.0.1
 ### Details
 [apex-publish-static-files] Command Injection on connectString
 <br><br>• Affected Versions: <=2.0.0

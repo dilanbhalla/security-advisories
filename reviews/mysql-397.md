@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Remote Memory Exposure*<br><br>update mysql to 2.14.0 or higher
+*Remote Memory Exposure*<br><br>Recommendation: update mysql to 2.14.0 or higher
 ### Details
 Affected versions of `mysql` package allocate and send an uninitialized memory chunk over network when a number is used as a password.  Only `mysql` running on Node.js versions below 6.0.0 is affected due to a throw added at Node.js side in newer versions.  PoC: ``` require('mysql').createConnection({   host     : 'localhost',   user     : 'user',   password : 1e6,   database : 'my_db' }).connect(); ```  Reported at 2017-03-15.
 <br><br>• Affected Versions: >=2.0.0-alpha8 <=2.0.0-rc2 || >=2.0.0 <=2.13.0

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Code Execution Through IIFE*<br><br>Upgrade to version 1.0.0, be aware of [this disclaimer](https://www.npmjs.com/package/serialize-to-js#deserialize) from the author.
+*Code Execution Through IIFE*<br><br>Recommendation: Upgrade to version 1.0.0, be aware of [this disclaimer](https://www.npmjs.com/package/serialize-to-js#deserialize) from the author.
 ### Details
 Serialize-to-js can "serialize objects into a require-able module while checking circular structures and respecting references."  Passing untrusted data to the `.deserialize` function can cause arbitrary code execution through an Immediately Invoked Function Expression (IIFE).   Example: ``` var payload = "{e: (function(){ eval('console.log(`exploited`)') })() }" var serialize = require('serialize-to-js'); serialize.deserialize(payload); ```
 <br><br>• Affected Versions: <=0.5.0

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*pdfinfojs command injection*<br><br>Update to module version >= 0.4.1
+*pdfinfojs command injection*<br><br>Recommendation: Update to module version >= 0.4.1
 ### Details
 The pdfinfojs NPM module has a command injection vulnerability that allows an attacker execute arbitrary commands on the victim's machine.
 <br><br>• Affected Versions: <=0.3.6

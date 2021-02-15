@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Remote Memory Disclosure*<br><br>Update to version 5.1.3 or greater
+*Remote Memory Disclosure*<br><br>Recommendation: Update to version 5.1.3 or greater
 ### Details
 A security issue was found in bittorrent-dht that allows someone to send a specific series of messages to a listening peer and get it to reveal internal memory.  There are two mitigating factors here, that slightly reduce the impact of this vulnerability:  1. Any modern kernel will zero out new memory pages before handing them off to a process. This means that only memory previously used and deallocated by the node process can be leaked. 1. Node.js manages Buffers by creating a few large internal SlowBuffers, and slicing them up into smaller Buffers which are made accessible in JS. They are not stored on V8's heap, because garbage collection would interfere. The result is that only memory that has been previously allocated as a Buffer can be leaked.
 <br><br>• Affected Versions: <5.1.3

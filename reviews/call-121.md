@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Invalid input to route validation rules*<br><br>Upgrade to call 3.0.2.  hapi users should upgrade to 13.4.2.
+*Invalid input to route validation rules*<br><br>Recommendation: Upgrade to call 3.0.2.  hapi users should upgrade to 13.4.2.
 ### Details
 call is an HTTP router that is primarily used by the hapi framework.  There exists a bug in call versions 2.0.1-3.0.1 that does not validate empty parameters, which could result in invalid input bypassing the route validation rules.  For example, in the routing scheme `/api/{param}/{param2}/details`, a request made to `/api///` would match incorrectly.
 <br><br>• Affected Versions: >= 2.0.1 <3.0.2

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Arbitrary Code Execution*<br><br>Update electron module to ^2.0.18 || ^3.0.16 || ^3.1.6 || ^4.0.8 || ^5.0.0-beta.5
+*Arbitrary Code Execution*<br><br>Recommendation: Update electron module to ^2.0.18 || ^3.0.16 || ^3.1.6 || ^4.0.8 || ^5.0.0-beta.5
 ### Details
 A vulnerability in Chromium, which Electron is based on, can be exploited and used to execute arbitrary code. According to the Electron team, "this affects any Electron application that may run third-party or untrusted JavaScript." Depending on the Electron application's privileges, this can allow an attacker to create and delete files or modify a user's system in other ways. Google has received reports of this vulnerability being exploited in the wild.
 <br><br>• Affected Versions: <2.0.18 || <3.0.16 || <3.1.6 || <4.0.8 || <5.0.0-beta.5

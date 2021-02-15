@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Arbitrary Code Injection*<br><br>Update morgan module to version >=1.9.1
+*Arbitrary Code Injection*<br><br>Recommendation: Update morgan module to version >=1.9.1
 ### Details
 Code Injection Vulnerability in morgan Package
 <br><br>• Affected Versions: <1.9.1

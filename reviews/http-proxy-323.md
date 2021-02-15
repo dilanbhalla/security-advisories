@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Insufficient Error Handling*<br><br>Upgrade to v0.7.0 or later.
+*Insufficient Error Handling*<br><br>Recommendation: Upgrade to v0.7.0 or later.
 ### Details
 Http-proxy is a proxying library.  Because of the way errors are handled in versions before 0.7.0, an attacker that forces an error can crash the server, causing a denial of service.
 <br><br>• Affected Versions: <=0.6.6

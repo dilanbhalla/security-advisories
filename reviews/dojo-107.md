@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross Site Scripting*<br><br>Upgrade to at least version 1.1
+*Cross Site Scripting*<br><br>Recommendation: Upgrade to at least version 1.1
 ### Details
 dojo is the core module for the Dojo Toolkit. The dojo package covers a wide range of functionality like AJAX, DOM manipulation, class-type programming, events, promises, data stores, drag-and-drop and internationalization libraries.  There is a bug in the `dijit.Editor` and `textarea` where input, even sanitized, executes javascript. This is because the `<textarea>` tag only sees the final, unsanitized, user input.
 <br><br>• Affected Versions: <= 1.0

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Regular Expression Denial Of Service*<br><br>Upgrade to v3.0.0
+*Regular Expression Denial Of Service*<br><br>Recommendation: Upgrade to v3.0.0
 ### Details
 uri-js is a module that tries to fully implement RFC 3986. One of these features is validating whether or not a supplied URL is valid or not. To do this, uri-js uses a regular expression, This regular expression is vulnerable to redos. This causes the program to hang and the CPU to idle at 100% usage while uri-js is trying to validate if the supplied URL is valid or not.  To check if you're vulnerable, look for a call to `require("uri-js").parse()` where a user is able to send their own input.
 <br><br>• Affected Versions: <=2.1.1

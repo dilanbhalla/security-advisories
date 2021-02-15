@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-Site Scripting (XSS)*<br><br>Upgrade to version 2.0.0 or later.
+*Cross-Site Scripting (XSS)*<br><br>Recommendation: Upgrade to version 2.0.0 or later.
 ### Details
 PivotTable.js is a Javascript Pivot Table library with drag'n'drop functionality built on top of jQuery/jQueryUI.  Due to a change from text to html functions in how JSON elements are rendered, a cross site scripting (XSS) vulnerability was introduced in version 1.4.0.  This vulnerability remained in place until version 2.0.0.
 <br><br>• Affected Versions: >=1.4.0 <2.0.0

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>Update Other module module to version >=3.4.0
+*Path Traversal*<br><br>Recommendation: Update Other module module to version >=3.4.0
 ### Details
 [Total.js] Path traversal vulnerability allows to read files outside public directory
 <br><br>• Affected Versions: <3.4.0

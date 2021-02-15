@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads Resources over HTTP*<br><br>An update is available in GitHub, but has yet to be published. Apply [this update](https://github.com/samatt/Herbivore/commit/0a041defc3463e99948e5d2064aef54b2128c5a3) manually before installing the module.
+*Downloads Resources over HTTP*<br><br>Recommendation: An update is available in GitHub, but has yet to be published. Apply [this update](https://github.com/samatt/Herbivore/commit/0a041defc3463e99948e5d2064aef54b2128c5a3) manually before installing the module.
 ### Details
 herbivore is a packet sniffing and crafting library. Built on libtins  herbivore 0.0.3 and below download binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.
 <br><br>• Affected Versions: <=99.999.99999

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Directory Traversal*<br><br>update serve to 6.4.9 or higher
+*Directory Traversal*<br><br>Recommendation: update serve to 6.4.9 or higher
 ### Details
 serve handles directory listing on its own and does not protect against listing of any directory on the remote server.
 <br><br>• Affected Versions: <=6.4.8

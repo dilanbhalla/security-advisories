@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Path Traversal*<br><br>Recommendation: No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 [mcstatic] Path Traversal allows to read content of arbitrary files
 <br><br>• Affected Versions: <=0.0.20

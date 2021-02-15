@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Unsafe eval()*<br><br>The PouchDB driver is not recommended for use in production.
+*Unsafe eval()*<br><br>Recommendation: The PouchDB driver is not recommended for use in production.
 ### Details
 Summit is a node web framework.   When using the PouchDB driver in the module, an attacker can execute arbitrary commands via the collection name.
 <br><br>• Affected Versions: >=0.1.0

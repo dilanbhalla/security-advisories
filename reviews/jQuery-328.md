@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Cross-Site Scripting (XSS)*<br><br>Upgrade to v3.0.0 or greater.
+*Cross-Site Scripting (XSS)*<br><br>Recommendation: Upgrade to v3.0.0 or greater.
 ### Details
 Jquery is a javascript library for DOM traversal and manipulation, event handling, animation, and Ajax.   When text/javascript responses are received from cross-origin ajax requests not containing the option `dataType`, the result is executed in `jQuery.globalEval` potentially allowing an attacker to execute arbitrary code on the origin.
 <br><br>• Affected Versions: >=1.4.0 <=1.11.3 || >=1.12.3 <=2.2.4

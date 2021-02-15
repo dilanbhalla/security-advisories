@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Out-of-bounds Read*<br><br>update npmconf to 2.1.3 or higher and consider switching to another config storage mechanism, as npmconf is deprecated and should not be used
+*Out-of-bounds Read*<br><br>Recommendation: update npmconf to 2.1.3 or higher and consider switching to another config storage mechanism, as npmconf is deprecated and should not be used
 ### Details
 `npmconf` (and `npm` js api) allocate and write to disk uninitialized memory content when a typed number is passed as input on Node.js 4.x
 <br><br>• Affected Versions: <=2.1.2

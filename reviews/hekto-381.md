@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Path Traversal*<br><br>update hekto to 0.2.3 or higher
+*Path Traversal*<br><br>Recommendation: update hekto to 0.2.3 or higher
 ### Details
 hekto suffers from Path Traversal vulnerability which allows to read content of arbitrary files
 <br><br>• Affected Versions: <0.2.3

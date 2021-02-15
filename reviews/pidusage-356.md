@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Command Injection*<br><br>Update to version 1.1.5 or later.  Otherwise, before passing any untrusted data to the `stat` function, ensure that the data is sanitized using a proper shell escaping library. Note that Windows and Linux are not vulnerable.
+*Command Injection*<br><br>Recommendation: Update to version 1.1.5 or later.  Otherwise, before passing any untrusted data to the `stat` function, ensure that the data is sanitized using a proper shell escaping library. Note that Windows and Linux are not vulnerable.
 ### Details
 pidusage is a module for cross-platform process cpu % and memory usage of a PID.  The pidusage module passes unsanitized input to child_process.exec, resulting in command injection in the ps method, as the pid is never cast to an integer as the comment expects. This module is vulnerable to this PoC on Darwin, SunOS, FreeBSD, and AIX. Windows and Linux are not vulnerable.   Proof of Concept: ``` var pid = require('pidusage'); pid.stat('1 && /usr/local/bin/python'); ```
 <br><br>• Affected Versions: <=1.1.4

@@ -17,7 +17,7 @@ Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-*Downloads Resources over HTTP*<br><br>Update to versions 2.2.5 or later.
+*Downloads Resources over HTTP*<br><br>Recommendation: Update to versions 2.2.5 or later.
 ### Details
 product-monitor is a HTML/JavaScript template for monitoring a product by encouraging product developers to gather all the information about the status of a product, including live monitoring, statistics, endpoints, and test results into one place.  product-monitor versions below 2.2.5 download JavaScript resources over HTTP, which leaves the module vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested JavaScript file with an attacker controlled JavaScript file if the attacker is on the network or positioned in between the user and the remote server.
 <br><br>• Affected Versions: <2.2.5
