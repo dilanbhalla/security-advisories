@@ -1,4 +1,4 @@
----<br>Publication-State: "Active"<br>Access: Public<br>Reviewers:<br>- Name: Adam Baldwin<br>&nbsp;&nbsp;&nbsp;Associated-With-Project: false<br>&nbsp;&nbsp;&nbsp;Compensation-Source: "External"<br>Domain: Security<br>Methodology:<br>- Code-Review<br>Issues-Identified: "Not-Examined"<br>Package-URLs:<br>- pkg:npm/adamvr-geoip-lite<br>Date-Reviewed: '2017-01-01'<br>Scope: "Implementation/Full"<br>Schema-Version: '1.0'<br>SPDX-License-Identifier: CC-BY-4.0<br>---<br>
+---<br>Publication-State: Active<br>Access: Public<br>Reviewers:<br>- Name: Adam Baldwin<br>&nbsp;&nbsp;&nbsp;Associated-With-Project: false<br>&nbsp;&nbsp;&nbsp;Compensation-Source: External<br>Domain: Security<br>Methodology:<br>- Code-Review<br>Issues-Identified: Not-Examined<br>Package-URLs:<br>- pkg:npm/adamvr-geoip-lite<br>Date-Reviewed: 2017-01-01<br>Scope: Implementation/Full<br>Schema-Version: 1.0<br>SPDX-License-Identifier: CC-BY-4.0<br>---<br>
 ### Summary
 Downloads Resources over HTTP<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details

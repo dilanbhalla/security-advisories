@@ -47,22 +47,22 @@ def convert_to_markdown(json_data):
             # Metadata
 
             review.write("---<br>")
-            review.write("Publication-State: \"Active\"<br>")
+            review.write("Publication-State: Active<br>")
             review.write("Access: Public<br>")
             review.write("Reviewers:<br>")
             review.write("- Name: " + author_name + "<br>")
             review.write("&nbsp;&nbsp;&nbsp;Associated-With-Project: false<br>")
-            review.write("&nbsp;&nbsp;&nbsp;Compensation-Source: \"External\"<br>")
+            review.write("&nbsp;&nbsp;&nbsp;Compensation-Source: External<br>")
             review.write("Domain: Security<br>")
             review.write("Methodology:<br>")
             review.write("- Code-Review<br>")
-            review.write("Issues-Identified: \"Not-Examined\"<br>")
+            review.write("Issues-Identified: Not-Examined<br>")
             review.write("Package-URLs:<br>")
             review.write("- pkg:npm/" + review_basename + "<br>")
             # NOT SURE ABOUT THIS. Which date is the appropriate date to use here?
-            review.write("Date-Reviewed: '" + publish_date + "'<br>")
-            review.write("Scope: \"Implementation/Full\"<br>")
-            review.write("Schema-Version: '1.0'<br>")
+            review.write("Date-Reviewed: " + publish_date + "<br>")
+            review.write("Scope: Implementation/Full<br>")
+            review.write("Schema-Version: 1.0<br>")
             review.write("SPDX-License-Identifier: CC-BY-4.0<br>")
             review.write("---<br>\n")
 
