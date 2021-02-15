@@ -1,5 +1,5 @@
 {
-   "./ecosystem/626/": {
+   "./ecosystem/626/378.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -25,7 +25,7 @@
       "updated_at": "2018-02-26",
       "vulnerable_versions": "<=1.1.1"
    },
-   "./ecosystem/Morris.js/": {
+   "./ecosystem/Morris.js/307.json": {
       "author": {
          "name": "JelteF",
          "username": null,
@@ -49,7 +49,7 @@
       "updated_at": "2017-04-18",
       "vulnerable_versions": "<=0.5.0"
    },
-   "./ecosystem/adamvr-geoip-lite/": {
+   "./ecosystem/adamvr-geoip-lite/283.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -71,7 +71,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/adm-zip/": {
+   "./ecosystem/adm-zip/458.json": {
       "author": {
          "name": "Danny Grander",
          "username": "danny_grander",
@@ -97,7 +97,7 @@
       "updated_at": "2018-08-12",
       "vulnerable_versions": "<0.4.9"
    },
-   "./ecosystem/aedes/": {
+   "./ecosystem/aedes/457.json": {
       "author": {
          "name": "Matteo Collina",
          "username": "mcollina",
@@ -124,7 +124,7 @@
       "updated_at": "2018-08-07",
       "vulnerable_versions": "<=0.35.0"
    },
-   "./ecosystem/aerospike/": {
+   "./ecosystem/aerospike/167.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -146,7 +146,7 @@
       "updated_at": "2016-12-06",
       "vulnerable_versions": "<2.4.2"
    },
-   "./ecosystem/ag-grid/": {
+   "./ecosystem/ag-grid/327.json": {
       "author": {
          "name": "Gabrielle Bourdages",
          "username": null,
@@ -171,7 +171,7 @@
       "updated_at": "2017-03-15",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/air-sdk/": {
+   "./ecosystem/air-sdk/200.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -193,7 +193,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/airbrake/": {
+   "./ecosystem/airbrake/96.json": {
       "author": {
          "name": "Phil Schleihauf",
          "username": null,
@@ -217,7 +217,7 @@
       "updated_at": "2016-04-25",
       "vulnerable_versions": "<=0.3.8"
    },
-   "./ecosystem/alto-saxophone/": {
+   "./ecosystem/alto-saxophone/172.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -239,7 +239,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<2.25.1"
    },
-   "./ecosystem/angular-http-server/": {
+   "./ecosystem/angular-http-server/384.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -265,7 +265,32 @@
       "updated_at": "2018-03-02",
       "vulnerable_versions": "<1.4.3"
    },
-   "./ecosystem/ansi2html/": {
+   "./ecosystem/angular-http-server/421.json": {
+      "author": {
+         "name": "tungpun",
+         "username": null,
+         "website": "https://tungpun.pw"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-03-27",
+      "cves": [],
+      "cvss_score": 8.6,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+      "id": 421,
+      "module_name": "angular-http-server",
+      "overview": "[angular-http-server] Server Directory Traversal",
+      "patched_versions": ">=1.4.4",
+      "publish_date": "2018-04-26",
+      "recommendation": "update angular-http-server to 1.44 or higher",
+      "references": [
+         "https://hackerone.com/reports/330349",
+         "https://github.com/simonh1000/angular-http-server/commit/8bafc9577161469f5dea01e0b98ea9c525d063e9"
+      ],
+      "title": "Path Traversal",
+      "updated_at": "2018-04-26",
+      "vulnerable_versions": "<=1.4.3"
+   },
+   "./ecosystem/ansi2html/51.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -289,7 +314,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/anywhere/": {
+   "./ecosystem/anywhere/379.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -316,7 +341,7 @@
       "updated_at": "2018-02-26",
       "vulnerable_versions": "<1.5.0"
    },
-   "./ecosystem/apex-publish-static-files/": {
+   "./ecosystem/apex-publish-static-files/475.json": {
       "author": {
          "name": "Abdillah Muhamad",
          "username": "abdilahrf_",
@@ -342,7 +367,7 @@
       "updated_at": "2018-10-25",
       "vulnerable_versions": "<=2.0.0"
    },
-   "./ecosystem/apk-parser/": {
+   "./ecosystem/apk-parser/195.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -364,7 +389,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<0.1.6"
    },
-   "./ecosystem/apk-parser2/": {
+   "./ecosystem/apk-parser2/223.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -386,7 +411,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/apk-parser3/": {
+   "./ecosystem/apk-parser3/245.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -408,7 +433,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<0.1.3"
    },
-   "./ecosystem/appium-chromedriver/": {
+   "./ecosystem/appium-chromedriver/162.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -430,7 +455,7 @@
       "updated_at": "2016-12-06",
       "vulnerable_versions": "<2.9.4"
    },
-   "./ecosystem/arcanist/": {
+   "./ecosystem/arcanist/286.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -452,7 +477,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/arrayfire-js/": {
+   "./ecosystem/arrayfire-js/192.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -474,7 +499,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/ascii-art/": {
+   "./ecosystem/ascii-art/471.json": {
       "author": {
          "name": "Douglas Hall",
          "username": "douglas_hall",
@@ -498,7 +523,7 @@
       "updated_at": "2018-09-08",
       "vulnerable_versions": "<1.4.4"
    },
-   "./ecosystem/assign-deep/": {
+   "./ecosystem/assign-deep/370.json": {
       "author": {
          "name": "Olivier Arteau",
          "username": "HoLyVieR",
@@ -524,7 +549,7 @@
       "updated_at": "2018-02-15",
       "vulnerable_versions": "<0.4.7"
    },
-   "./ecosystem/atob/": {
+   "./ecosystem/atob/403.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -550,7 +575,7 @@
       "updated_at": "2018-04-09",
       "vulnerable_versions": "<=2.0.3"
    },
-   "./ecosystem/atom-node-module-installer/": {
+   "./ecosystem/atom-node-module-installer/216.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -572,7 +597,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/augustine/": {
+   "./ecosystem/augustine/360.json": {
       "author": {
          "name": "Yasin Soliman",
          "username": "ysx",
@@ -596,7 +621,7 @@
       "updated_at": "2018-01-23",
       "vulnerable_versions": "<=0.2.3"
    },
-   "./ecosystem/backbone/": {
+   "./ecosystem/backbone/108.json": {
       "author": {
          "name": "Unknown",
          "username": null,
@@ -620,7 +645,7 @@
       "updated_at": "2016-05-23",
       "vulnerable_versions": "<= 0.3.3"
    },
-   "./ecosystem/badjs-sourcemap-server/": {
+   "./ecosystem/badjs-sourcemap-server/349.json": {
       "author": {
          "name": "Liang Gong",
          "username": null,
@@ -644,7 +669,7 @@
       "updated_at": "2017-06-05",
       "vulnerable_versions": "<99.999.9999"
    },
-   "./ecosystem/baryton-saxophone/": {
+   "./ecosystem/baryton-saxophone/240.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -666,7 +691,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<3.0.1"
    },
-   "./ecosystem/base64-url/": {
+   "./ecosystem/base64-url/434.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -690,7 +715,7 @@
       "updated_at": "2018-05-12",
       "vulnerable_versions": "<=1.3.3"
    },
-   "./ecosystem/base64url/": {
+   "./ecosystem/base64url/428.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -715,7 +740,7 @@
       "updated_at": "2018-05-11",
       "vulnerable_versions": "<=2.0.0"
    },
-   "./ecosystem/bassmaster/": {
+   "./ecosystem/bassmaster/1.json": {
       "author": {
          "name": "Jarda Kot\u011b\u0161ovec",
          "username": null,
@@ -742,7 +767,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<=1.5.1"
    },
-   "./ecosystem/bionode-sra/": {
+   "./ecosystem/bionode-sra/211.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -764,7 +789,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/bittorrent-dht/": {
+   "./ecosystem/bittorrent-dht/68.json": {
       "author": {
          "name": "Feross Aboukhadijeh / Mathias Buss Madsen",
          "username": null,
@@ -788,7 +813,7 @@
       "updated_at": "2016-04-25",
       "vulnerable_versions": "<5.1.3"
    },
-   "./ecosystem/bitty/": {
+   "./ecosystem/bitty/150.json": {
       "author": {
          "name": "Liang Gong",
          "username": null,
@@ -810,7 +835,7 @@
       "updated_at": "2016-12-07",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/bkjs-wand/": {
+   "./ecosystem/bkjs-wand/220.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -832,7 +857,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<0.3.2"
    },
-   "./ecosystem/bl/": {
+   "./ecosystem/bl/391.json": {
       "author": {
          "name": "Feross Aboukhadijeh",
          "username": null,
@@ -856,7 +881,7 @@
       "updated_at": "2018-03-24",
       "vulnerable_versions": "<=0.9.4 || 1.0.0"
    },
-   "./ecosystem/bleach/": {
+   "./ecosystem/bleach/47.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -882,7 +907,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/bootstrap-tagsinput/": {
+   "./ecosystem/bootstrap-tagsinput/124.json": {
       "author": {
          "name": "Alex Wong",
          "username": null,
@@ -908,7 +933,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "<=0.8.0"
    },
-   "./ecosystem/bower/": {
+   "./ecosystem/bower/487.json": {
       "author": {
          "name": "Anonymous",
          "username": null,
@@ -932,7 +957,33 @@
       "updated_at": "2019-01-24",
       "vulnerable_versions": "<1.8.7"
    },
-   "./ecosystem/box2d-native/": {
+   "./ecosystem/bower/489.json": {
+      "author": {
+         "name": "Skynet",
+         "username": "skyn3t",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-01-01",
+      "cves": [
+         "CVE-2019-5484"
+      ],
+      "cvss_score": 8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 489,
+      "module_name": "bower",
+      "overview": "[bower] Arbitrary File Write through improper validation of symlinks while package extraction",
+      "patched_versions": ">=1.8.8",
+      "publish_date": "2019-01-26",
+      "recommendation": "Update bower module to version >=1.8.8",
+      "references": [
+         "https://hackerone.com/reports/473811"
+      ],
+      "title": "Path Traversal",
+      "updated_at": "2019-02-01",
+      "vulnerable_versions": "<1.8.8"
+   },
+   "./ecosystem/box2d-native/219.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -954,7 +1005,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/bracket-template/": {
+   "./ecosystem/bracket-template/404.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -978,7 +1029,7 @@
       "updated_at": "2018-04-09",
       "vulnerable_versions": "<=1.1.5"
    },
-   "./ecosystem/broccoli-closure/": {
+   "./ecosystem/broccoli-closure/242.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1000,7 +1051,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<1.3.1"
    },
-   "./ecosystem/buttle/": {
+   "./ecosystem/buttle/425.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -1024,7 +1075,33 @@
       "updated_at": "2018-05-11",
       "vulnerable_versions": "<=0.2.0"
    },
-   "./ecosystem/byte/": {
+   "./ecosystem/buttle/449.json": {
+      "author": {
+         "name": "N0n4me",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-05-27",
+      "cves": [
+         "CVE-2018-3766"
+      ],
+      "cvss_score": 10,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
+      "id": 449,
+      "module_name": "buttle",
+      "overview": "[buttle] Path traversal in mid-buttle module allows to read any file in the server.",
+      "patched_versions": null,
+      "publish_date": "2018-06-27",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/358112"
+      ],
+      "title": "Path Traversal",
+      "updated_at": "2018-06-27",
+      "vulnerable_versions": "<=0.2.0"
+   },
+   "./ecosystem/byte/429.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -1049,7 +1126,7 @@
       "updated_at": "2018-05-11",
       "vulnerable_versions": "<=1.4.0"
    },
-   "./ecosystem/c3/": {
+   "./ecosystem/c3/138.json": {
       "author": {
          "name": "Calvin K Cox",
          "username": null,
@@ -1075,7 +1152,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "<=0.4.10"
    },
-   "./ecosystem/cached-path-relative/": {
+   "./ecosystem/cached-path-relative/480.json": {
       "author": {
          "name": "Cristian-Alexandru Staicu",
          "username": "cris_semmle",
@@ -1102,7 +1179,7 @@
       "updated_at": "2018-11-02",
       "vulnerable_versions": "<=1.0.1"
    },
-   "./ecosystem/call/": {
+   "./ecosystem/call/121.json": {
       "author": {
          "name": "Nicolas Morel",
          "username": null,
@@ -1126,7 +1203,7 @@
       "updated_at": "2016-07-05",
       "vulnerable_versions": ">= 2.0.1 <3.0.2"
    },
-   "./ecosystem/chromedriver/": {
+   "./ecosystem/chromedriver/160.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1148,7 +1225,7 @@
       "updated_at": "2016-12-22",
       "vulnerable_versions": "<2.26.1"
    },
-   "./ecosystem/chromedriver126/": {
+   "./ecosystem/chromedriver126/203.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1170,7 +1247,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/clang-extra/": {
+   "./ecosystem/clang-extra/265.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1192,7 +1269,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/cli/": {
+   "./ecosystem/cli/95.json": {
       "author": {
          "name": "Steve Kemp",
          "username": null,
@@ -1217,7 +1294,7 @@
       "updated_at": "2016-11-09",
       "vulnerable_versions": "<1.0.0"
    },
-   "./ecosystem/closure-util/": {
+   "./ecosystem/closure-util/165.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1239,7 +1316,7 @@
       "updated_at": "2016-12-18",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/closurecompiler/": {
+   "./ecosystem/closurecompiler/169.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1261,7 +1338,7 @@
       "updated_at": "2016-12-18",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/cloudcmd/": {
+   "./ecosystem/cloudcmd/414.json": {
       "author": {
          "name": "Tung Pun",
          "username": null,
@@ -1286,7 +1363,7 @@
       "updated_at": "2018-04-25",
       "vulnerable_versions": "<=9.1.5"
    },
-   "./ecosystem/cloudpub-redis/": {
+   "./ecosystem/cloudpub-redis/282.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1308,7 +1385,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/cmake/": {
+   "./ecosystem/cmake/233.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1330,7 +1407,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/co-cli-installer/": {
+   "./ecosystem/co-cli-installer/268.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1352,7 +1429,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/cobalt-cli/": {
+   "./ecosystem/cobalt-cli/197.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1374,7 +1451,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/codem-transcode/": {
+   "./ecosystem/codem-transcode/2.json": {
       "author": {
          "name": "Neal Poole",
          "username": null,
@@ -1398,7 +1475,7 @@
       "updated_at": "2016-04-29",
       "vulnerable_versions": "<0.5.0"
    },
-   "./ecosystem/command-exists/": {
+   "./ecosystem/command-exists/426.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -1423,7 +1500,7 @@
       "updated_at": "2018-05-11",
       "vulnerable_versions": "<=1.2.3"
    },
-   "./ecosystem/concat-stream/": {
+   "./ecosystem/concat-stream/392.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -1448,7 +1525,7 @@
       "updated_at": "2018-03-24",
       "vulnerable_versions": ">=1.3.0 <1.3.2 || >=1.4.0 <1.4.11 || >=1.5.0 <1.5.2"
    },
-   "./ecosystem/concat-with-sourcemaps/": {
+   "./ecosystem/concat-with-sourcemaps/416.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -1473,7 +1550,7 @@
       "updated_at": "2018-04-28",
       "vulnerable_versions": "<=1.0.5"
    },
-   "./ecosystem/connect/": {
+   "./ecosystem/connect/3.json": {
       "author": {
          "name": "Sergio Arcos",
          "username": null,
@@ -1498,7 +1575,7 @@
       "updated_at": "2016-04-29",
       "vulnerable_versions": "<=2.8.0"
    },
-   "./ecosystem/console-io/": {
+   "./ecosystem/console-io/90.json": {
       "author": {
          "name": "Craig Arendt",
          "username": null,
@@ -1520,7 +1597,7 @@
       "updated_at": "2016-06-02",
       "vulnerable_versions": "<=2.2.13"
    },
-   "./ecosystem/cookie-signature/": {
+   "./ecosystem/cookie-signature/134.json": {
       "author": {
          "name": "unknown",
          "username": null,
@@ -1546,7 +1623,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "<=1.0.5"
    },
-   "./ecosystem/crud-file-server/": {
+   "./ecosystem/crud-file-server/374.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -1573,7 +1650,7 @@
       "updated_at": "2018-02-17",
       "vulnerable_versions": "<=0.7.0"
    },
-   "./ecosystem/crumb/": {
+   "./ecosystem/crumb/4.json": {
       "author": {
          "name": "Marcus Stong",
          "username": null,
@@ -1599,7 +1676,7 @@
       "updated_at": "2016-10-27",
       "vulnerable_versions": "<3.0.0"
    },
-   "./ecosystem/cryo/": {
+   "./ecosystem/cryo/461.json": {
       "author": {
          "name": "Alexey Tyurin",
          "username": "greendog",
@@ -1625,7 +1702,7 @@
       "updated_at": "2018-06-19",
       "vulnerable_versions": "<=0.0.6"
    },
-   "./ecosystem/cryptiles/": {
+   "./ecosystem/cryptiles/476.json": {
       "author": {
          "name": "Microsoft Vulnerability Research",
          "username": null,
@@ -1651,7 +1728,7 @@
       "updated_at": "2018-06-24",
       "vulnerable_versions": ">=3.1.0 <4.1.2"
    },
-   "./ecosystem/csrf-lite/": {
+   "./ecosystem/csrf-lite/94.json": {
       "author": {
          "name": "Todd Wolfson",
          "username": null,
@@ -1675,7 +1752,7 @@
       "updated_at": "2016-05-13",
       "vulnerable_versions": "<=0.1.1"
    },
-   "./ecosystem/cue-sdk-node/": {
+   "./ecosystem/cue-sdk-node/190.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1697,7 +1774,7 @@
       "updated_at": "2016-12-21",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/curses/": {
+   "./ecosystem/curses/215.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1719,7 +1796,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/dalek-browser-chrome-canary/": {
+   "./ecosystem/dalek-browser-chrome-canary/181.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1741,7 +1818,7 @@
       "updated_at": "2016-12-18",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/dalek-browser-chrome/": {
+   "./ecosystem/dalek-browser-chrome/199.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1763,7 +1840,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/dalek-browser-ie-canary/": {
+   "./ecosystem/dalek-browser-ie-canary/205.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1785,7 +1862,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/dalek-browser-ie/": {
+   "./ecosystem/dalek-browser-ie/209.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -1807,7 +1884,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/datatables/": {
+   "./ecosystem/datatables/5.json": {
       "author": {
          "name": "Onur Yilmaz",
          "username": null,
@@ -1836,7 +1913,7 @@
       "updated_at": "2016-04-25",
       "vulnerable_versions": "<=1.10.8"
    },
-   "./ecosystem/deap/": {
+   "./ecosystem/deap/407.json": {
       "author": {
          "name": "Olivier Arteau",
          "username": "HoLyVieR",
@@ -1860,7 +1937,7 @@
       "updated_at": "2018-04-09",
       "vulnerable_versions": "<1.0.1"
    },
-   "./ecosystem/decamelize/": {
+   "./ecosystem/decamelize/308.json": {
       "author": {
          "name": "saurik",
          "username": null,
@@ -1884,7 +1961,7 @@
       "updated_at": "2017-04-14",
       "vulnerable_versions": ">=1.1.0 <=1.1.1"
    },
-   "./ecosystem/decompress-zip/": {
+   "./ecosystem/decompress-zip/488.json": {
       "author": {
          "name": "Anonymous",
          "username": null,
@@ -1908,7 +1985,7 @@
       "updated_at": "2019-01-24",
       "vulnerable_versions": "<0.2.2 || >=0.3.0 <0.3.2"
    },
-   "./ecosystem/deep-extend/": {
+   "./ecosystem/deep-extend/408.json": {
       "author": {
          "name": "Olivier Arteau",
          "username": "HoLyVieR",
@@ -1932,7 +2009,7 @@
       "updated_at": "2018-05-08",
       "vulnerable_versions": "<=0.5.0"
    },
-   "./ecosystem/defaults-deep/": {
+   "./ecosystem/defaults-deep/372.json": {
       "author": {
          "name": "Olivier Arteau",
          "username": "HoLyVieR",
@@ -1958,7 +2035,33 @@
       "updated_at": "2018-02-15",
       "vulnerable_versions": "<0.2.4"
    },
-   "./ecosystem/dns-sync/": {
+   "./ecosystem/defaults-deep/494.json": {
+      "author": {
+         "name": "asgerf",
+         "username": "asgerf",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-07-12",
+      "cves": [
+         "CVE-2018-16486"
+      ],
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 494,
+      "module_name": "defaults-deep",
+      "overview": "Prototype pollution attack (defaults-deep / constructor.prototype)",
+      "patched_versions": null,
+      "publish_date": "2018-09-28",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/380878"
+      ],
+      "title": "Denial of Service",
+      "updated_at": "2019-01-03",
+      "vulnerable_versions": "<=0.2.4"
+   },
+   "./ecosystem/dns-sync/153.json": {
       "author": {
          "name": "Steve Kemp",
          "username": null,
@@ -1986,7 +2089,7 @@
       "updated_at": "2017-04-12",
       "vulnerable_versions": "<0.1.1"
    },
-   "./ecosystem/dojo/": {
+   "./ecosystem/dojo/107.json": {
       "author": {
          "name": "Unknown",
          "username": null,
@@ -2012,7 +2115,7 @@
       "updated_at": "2016-06-27",
       "vulnerable_versions": "<= 1.0"
    },
-   "./ecosystem/droppy/": {
+   "./ecosystem/droppy/91.json": {
       "author": {
          "name": "Craig Arendt",
          "username": null,
@@ -2034,7 +2137,7 @@
       "updated_at": "2016-05-09",
       "vulnerable_versions": "<3.5.0"
    },
-   "./ecosystem/dwebp-bin/": {
+   "./ecosystem/dwebp-bin/232.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -2056,7 +2159,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/ecstatic/": {
+   "./ecosystem/ecstatic/64.json": {
       "author": {
          "name": "James Halliday",
          "username": null,
@@ -2081,7 +2184,7 @@
       "updated_at": "2016-04-25",
       "vulnerable_versions": "<1.4.0"
    },
-   "./ecosystem/egg-scripts/": {
+   "./ecosystem/egg-scripts/463.json": {
       "author": {
          "name": "Douglas Hall",
          "username": "douglas_hall",
@@ -2108,7 +2211,7 @@
       "updated_at": "2018-08-19",
       "vulnerable_versions": "<2.8.1"
    },
-   "./ecosystem/electron-packager/": {
+   "./ecosystem/electron-packager/104.json": {
       "author": {
          "name": "Mark Lee",
          "username": null,
@@ -2132,7 +2235,7 @@
       "updated_at": "2016-06-22",
       "vulnerable_versions": ">= 5.2.1 <= 6.0.0 || >=6.0.0 <= 6.0.2"
    },
-   "./ecosystem/electron/": {
+   "./ecosystem/electron/466.json": {
       "author": {
          "name": "Matt Austin",
          "username": "matt-",
@@ -2159,7 +2262,35 @@
       "updated_at": "2018-09-02",
       "vulnerable_versions": ">=1.7.0 <1.7.16 || >=1.8.0 <1.8.8 || >=2.0.0 <2.0.8 || >=3.0.0-beta.1 <3.0.0-beta.7"
    },
-   "./ecosystem/embedza/": {
+   "./ecosystem/electron/495.json": {
+      "author": {
+         "name": "Clement Lecigne",
+         "username": null,
+         "website": "https://www.linkedin.com/in/clem1/"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-03-31",
+      "cves": [
+         "CVE-2019-5786"
+      ],
+      "cvss_score": 10.0,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "id": 495,
+      "module_name": "electron",
+      "overview": "A vulnerability in Chromium, which Electron is based on, can be exploited and used to execute arbitrary code. According to the Electron team, \"this affects any Electron application that may run third-party or untrusted JavaScript.\" Depending on the Electron application's privileges, this can allow an attacker to create and delete files or modify a user's system in other ways. Google has received reports of this vulnerability being exploited in the wild.",
+      "patched_versions": "^2.0.18 || ^3.0.16 || ^3.1.6 || ^4.0.8 || ^5.0.0-beta.5",
+      "publish_date": "2019-03-04",
+      "recommendation": "Update electron module to ^2.0.18 || ^3.0.16 || ^3.1.6 || ^4.0.8 || ^5.0.0-beta.5",
+      "references": [
+         "https://electronjs.org/blog/filereader-fix",
+         "https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2019-026/",
+         "https://security.googleblog.com/2019/03/disclosing-vulnerabilities-to-protect.html"
+      ],
+      "title": "Arbitrary Code Execution",
+      "updated_at": "2019-03-31",
+      "vulnerable_versions": "<2.0.18 || <3.0.16 || <3.1.6 || <4.0.8 || <5.0.0-beta.5"
+   },
+   "./ecosystem/embedza/187.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -2181,7 +2312,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<1.2.4"
    },
-   "./ecosystem/emojione/": {
+   "./ecosystem/emojione/129.json": {
       "author": {
          "name": "Andrea Giammarchi",
          "username": null,
@@ -2207,7 +2338,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "<=1.3.0"
    },
-   "./ecosystem/engine.io-client/": {
+   "./ecosystem/engine.io-client/99.json": {
       "author": {
          "name": "David Johansson",
          "username": null,
@@ -2232,7 +2363,7 @@
       "updated_at": "2016-05-13",
       "vulnerable_versions": "<= 1.6.8"
    },
-   "./ecosystem/ep_imageconvert/": {
+   "./ecosystem/ep_imageconvert/7.json": {
       "author": {
          "name": "Neal Poole",
          "username": null,
@@ -2259,7 +2390,7 @@
       "updated_at": "2016-04-29",
       "vulnerable_versions": "<=0.0.2"
    },
-   "./ecosystem/eslint-scope/": {
+   "./ecosystem/eslint-scope/450.json": {
       "author": {
          "name": "pronebird",
          "username": null,
@@ -2286,7 +2417,7 @@
       "updated_at": "2018-07-12",
       "vulnerable_versions": "3.7.2"
    },
-   "./ecosystem/exceljs/": {
+   "./ecosystem/exceljs/464.json": {
       "author": {
          "name": "bl4de",
          "username": "bl4de",
@@ -2312,7 +2443,57 @@
       "updated_at": "2018-09-01",
       "vulnerable_versions": "<1.6.0"
    },
-   "./ecosystem/express-cart/": {
+   "./ecosystem/express-cart/441.json": {
+      "author": {
+         "name": "Patrick",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-04-27",
+      "cves": [
+         "CVE-2018-3758"
+      ],
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+      "id": 441,
+      "module_name": "express-cart",
+      "overview": "Unrestricted file upload (RCE)",
+      "patched_versions": ">=1.1.7",
+      "publish_date": "2018-06-02",
+      "recommendation": "update express-cart to 1.1.7 or higher",
+      "references": [
+         "https://hackerone.com/reports/343726"
+      ],
+      "title": "Path Traversal",
+      "updated_at": "2018-06-02",
+      "vulnerable_versions": "<=1.1.5"
+   },
+   "./ecosystem/express-cart/469.json": {
+      "author": {
+         "name": "Patrick",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-04-26",
+      "cves": [],
+      "cvss_score": 9.9,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "id": 469,
+      "module_name": "express-cart",
+      "overview": "Privilege escalation allows any user to add an administrator",
+      "patched_versions": ">1.1.5",
+      "publish_date": "2018-07-12",
+      "recommendation": "Update express-cart module to version >1.1.5",
+      "references": [
+         "https://hackerone.com/reports/343626"
+      ],
+      "title": "Privilege Escalation",
+      "updated_at": "2018-07-12",
+      "vulnerable_versions": "<=1.1.5"
+   },
+   "./ecosystem/express-cart/472.json": {
       "author": {
          "name": "Benoit C\u00f4t\u00e9-Jodoin",
          "username": "becojo",
@@ -2336,7 +2517,7 @@
       "updated_at": "2018-09-10",
       "vulnerable_versions": "<1.1.8"
    },
-   "./ecosystem/express-restify-mongoose/": {
+   "./ecosystem/express-restify-mongoose/92.json": {
       "author": {
          "name": "Stefan Mirea",
          "username": null,
@@ -2360,7 +2541,7 @@
       "updated_at": "2016-05-04",
       "vulnerable_versions": "<= 2.4.2 || >= 3.0.0 <=3.0.1"
    },
-   "./ecosystem/express/": {
+   "./ecosystem/express/8.json": {
       "author": {
          "name": "Pawe\u0142 Ha\u0142drzy\u0144ski",
          "username": null,
@@ -2384,7 +2565,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<3.11 || >= 4 <4.5"
    },
-   "./ecosystem/ezseed-transmission/": {
+   "./ecosystem/ezseed-transmission/114.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -2408,7 +2589,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": ">= 0.0.10 <= 0.0.14"
    },
-   "./ecosystem/fancy-server/": {
+   "./ecosystem/fancy-server/9.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -2432,7 +2613,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<0.1.4"
    },
-   "./ecosystem/fastify/": {
+   "./ecosystem/fastify/364.json": {
       "author": {
          "name": "nwoltman",
          "username": null,
@@ -2460,7 +2641,7 @@
       "updated_at": "2018-01-24",
       "vulnerable_versions": "<=0.37.0"
    },
-   "./ecosystem/featurebook/": {
+   "./ecosystem/featurebook/358.json": {
       "author": {
          "name": "Yasin Soliman",
          "username": "ysx",
@@ -2484,7 +2665,7 @@
       "updated_at": "2018-01-10",
       "vulnerable_versions": "<=0.0.32"
    },
-   "./ecosystem/fibjs/": {
+   "./ecosystem/fibjs/217.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -2506,7 +2687,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/file-static-server/": {
+   "./ecosystem/file-static-server/446.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -2530,7 +2711,7 @@
       "updated_at": "2018-06-14",
       "vulnerable_versions": "<=1.0.2"
    },
-   "./ecosystem/fileview/": {
+   "./ecosystem/fileview/510.json": {
       "author": {
          "name": "johns simon",
          "username": "johnssimon007",
@@ -2556,7 +2737,7 @@
       "updated_at": "2019-12-28",
       "vulnerable_versions": "*"
    },
-   "./ecosystem/fis-parser-sass-bin/": {
+   "./ecosystem/fis-parser-sass-bin/269.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -2578,7 +2759,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/fis-sass-all/": {
+   "./ecosystem/fis-sass-all/287.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -2600,7 +2781,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/flatmap-stream/": {
+   "./ecosystem/flatmap-stream/477.json": {
       "author": {
          "name": "Danny Grander",
          "username": "danny_grander",
@@ -2625,7 +2806,7 @@
       "updated_at": "2018-11-26",
       "vulnerable_versions": "*"
    },
-   "./ecosystem/flintcms/": {
+   "./ecosystem/flintcms/460.json": {
       "author": {
          "name": "Benoit C\u00f4t\u00e9-Jodoin",
          "username": "becojo",
@@ -2651,7 +2832,7 @@
       "updated_at": "2018-08-16",
       "vulnerable_versions": "<=1.1.9"
    },
-   "./ecosystem/floody/": {
+   "./ecosystem/floody/396.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -2675,7 +2856,7 @@
       "updated_at": "2018-03-24",
       "vulnerable_versions": "<0.1.1"
    },
-   "./ecosystem/foreman/": {
+   "./ecosystem/foreman/417.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -2700,7 +2881,7 @@
       "updated_at": "2018-04-28",
       "vulnerable_versions": "<=2.0.0"
    },
-   "./ecosystem/forms/": {
+   "./ecosystem/forms/158.json": {
       "author": {
          "name": "Jordan Harband",
          "username": null,
@@ -2724,7 +2905,7 @@
       "updated_at": "2017-04-12",
       "vulnerable_versions": "<1.3.0"
    },
-   "./ecosystem/frames-compiler/": {
+   "./ecosystem/frames-compiler/247.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -2746,7 +2927,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/fs-path/": {
+   "./ecosystem/fs-path/423.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -2771,7 +2952,7 @@
       "updated_at": "2018-05-11",
       "vulnerable_versions": "<=0.0.24"
    },
-   "./ecosystem/fuelux/": {
+   "./ecosystem/fuelux/133.json": {
       "author": {
          "name": "Keenan Jaenicke",
          "username": null,
@@ -2797,7 +2978,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/fury-adapter-swagger/": {
+   "./ecosystem/fury-adapter-swagger/305.json": {
       "author": {
          "name": "Honza Javorek",
          "username": null,
@@ -2823,7 +3004,7 @@
       "updated_at": "2017-01-23",
       "vulnerable_versions": ">= 0.2.0 <= 0.9.6 || ~0.8.0-pre"
    },
-   "./ecosystem/fuseki/": {
+   "./ecosystem/fuseki/278.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -2845,7 +3026,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<1.0.1"
    },
-   "./ecosystem/galenframework-cli/": {
+   "./ecosystem/galenframework-cli/170.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -2867,7 +3048,7 @@
       "updated_at": "2016-12-06",
       "vulnerable_versions": "<2.3.1"
    },
-   "./ecosystem/geddy/": {
+   "./ecosystem/geddy/10.json": {
       "author": {
          "name": "Vikram Chaitanya",
          "username": null,
@@ -2894,7 +3075,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<13.0.8"
    },
-   "./ecosystem/general-file-server/": {
+   "./ecosystem/general-file-server/387.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -2920,7 +3101,7 @@
       "updated_at": "2018-03-10",
       "vulnerable_versions": "<=1.1.8"
    },
-   "./ecosystem/geoip-lite-country/": {
+   "./ecosystem/geoip-lite-country/183.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -2942,7 +3123,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<1.1.4"
    },
-   "./ecosystem/git-dummy-commit/": {
+   "./ecosystem/git-dummy-commit/442.json": {
       "author": {
          "name": "Caio L\u00fcders",
          "username": "caioluders",
@@ -2969,7 +3150,7 @@
       "updated_at": "2018-06-16",
       "vulnerable_versions": "<=1.3.0"
    },
-   "./ecosystem/git-promise/": {
+   "./ecosystem/git-promise/517.json": {
       "author": {
          "name": "Michele Romano",
          "username": "mik317",
@@ -2993,7 +3174,7 @@
       "updated_at": "2020-04-25",
       "vulnerable_versions": "<1.0.0"
    },
-   "./ecosystem/gitbook/": {
+   "./ecosystem/gitbook/159.json": {
       "author": {
          "name": "Bj\u00f6rn Kimminich",
          "username": null,
@@ -3017,7 +3198,7 @@
       "updated_at": "2017-04-14",
       "vulnerable_versions": "<3.2.2"
    },
-   "./ecosystem/gitlabhook/": {
+   "./ecosystem/gitlabhook/502.json": {
       "author": {
          "name": "garumpage",
          "username": "garumpage",
@@ -3043,7 +3224,7 @@
       "updated_at": "2019-09-13",
       "vulnerable_versions": "*"
    },
-   "./ecosystem/glance/": {
+   "./ecosystem/glance/385.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -3070,7 +3251,31 @@
       "updated_at": "2018-03-04",
       "vulnerable_versions": "<3.0.4"
    },
-   "./ecosystem/gm/": {
+   "./ecosystem/glance/406.json": {
+      "author": {
+         "name": "bl4de",
+         "username": null,
+         "website": "https://twitter.com/_bl4de"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-04-15",
+      "cves": [],
+      "cvss_score": 3.9,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:L",
+      "id": 406,
+      "module_name": "glance",
+      "overview": "There is a Stored XSS vulnerability in glance module. File name, which contains malicious HTML (eg. embedded iframe element or javascript: pseudoprotocol handler in <a> element) allows to execute JavaScript code against any user who opens directory listing contains such crafted file name.",
+      "patched_versions": null,
+      "publish_date": "2018-04-15",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/310133"
+      ],
+      "title": "Cross-site Scripting (XSS) - Stored",
+      "updated_at": "2018-04-15",
+      "vulnerable_versions": "<=3.0.5"
+   },
+   "./ecosystem/gm/54.json": {
       "author": {
          "name": "Brendan Scarvell of Console",
          "username": null,
@@ -3096,7 +3301,7 @@
       "updated_at": "2016-04-25",
       "vulnerable_versions": "<=1.20.0"
    },
-   "./ecosystem/gmail-js/": {
+   "./ecosystem/gmail-js/125.json": {
       "author": {
          "name": "Gursev Singh Kalra",
          "username": null,
@@ -3123,7 +3328,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/go-ipfs-dep/": {
+   "./ecosystem/go-ipfs-dep/156.json": {
       "author": {
          "name": "Scott Hardy & Adam Baldwin",
          "username": null,
@@ -3147,7 +3352,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<0.4.4"
    },
-   "./ecosystem/gomeplus-h5-proxy/": {
+   "./ecosystem/gomeplus-h5-proxy/350.json": {
       "author": {
          "name": "Liang Gong",
          "username": null,
@@ -3171,7 +3376,7 @@
       "updated_at": "2017-06-05",
       "vulnerable_versions": "<99.999.9999"
    },
-   "./ecosystem/google-closure-tools-latest/": {
+   "./ecosystem/google-closure-tools-latest/274.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3193,7 +3398,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/grunt-ccompiler/": {
+   "./ecosystem/grunt-ccompiler/239.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3215,7 +3420,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/grunt-gh-pages/": {
+   "./ecosystem/grunt-gh-pages/85.json": {
       "author": {
          "name": "Stephan B\u00f6nnemann",
          "username": null,
@@ -3239,7 +3444,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<=0.9.1"
    },
-   "./ecosystem/grunt-images/": {
+   "./ecosystem/grunt-images/255.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3261,7 +3466,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/grunt-webdriver-qunit/": {
+   "./ecosystem/grunt-webdriver-qunit/207.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3283,7 +3488,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/handlebars/": {
+   "./ecosystem/handlebars/519.json": {
       "author": {
          "name": "Alexander",
          "username": "macasun",
@@ -3307,7 +3512,34 @@
       "updated_at": "2020-04-27",
       "vulnerable_versions": "<4.6.0"
    },
-   "./ecosystem/hapi-auth-jwt2/": {
+   "./ecosystem/handlebars/61.json": {
+      "author": {
+         "name": "Matias P. Brutti",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-12-14",
+      "cves": [
+         "CVE-2015-8861"
+      ],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "id": 61,
+      "module_name": "handlebars",
+      "overview": "Not using quotes around your attributes in handlebar templates, could lead to content injection.  ### Example Template: ```<a href={{foo}}/>```  Input: ```{ 'foo' : 'test.com onload=alert(1)'}```  Rendered result: ```<a href=test.com onload=alert(1)/>```",
+      "patched_versions": ">=4.0.0",
+      "publish_date": "2015-12-14",
+      "recommendation": "If you are unable to upgrade to version 4.0.0 or greater you can add quotes to your attributes in your handlebar templates.",
+      "references": [
+         "https://blog.srcclr.com/handlebars_vulnerability_research_findings/",
+         "https://github.com/wycats/handlebars.js/pull/1083"
+      ],
+      "title": "Quoteless Attributes in Templates can lead to Content Injection",
+      "updated_at": "2016-04-25",
+      "vulnerable_versions": "<4.0.0"
+   },
+   "./ecosystem/hapi-auth-jwt2/81.json": {
       "author": {
          "name": "Alan Shaw",
          "username": null,
@@ -3332,7 +3564,109 @@
       "updated_at": "2016-05-13",
       "vulnerable_versions": "5.1.1"
    },
-   "./ecosystem/hapi/": {
+   "./ecosystem/hapi/11.json": {
+      "author": {
+         "name": "Jo Liss",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-17",
+      "cves": [
+         "CVE-2014-3742"
+      ],
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "id": 11,
+      "module_name": "hapi",
+      "overview": "Versions 2.0.x and 2.1.x have a file descriptor leak that when triggered repeatedly will cause the server to run out of file descriptors and the node process to die. The effort required to take down a server depends on the process file descriptor limit. No other side effects or exploits have been identified.  ### Impact  This vulnerability allows an attacker to take down a hapi-based server running versions 2.0.x and 2.1.x.  This does NOT affect hapi 1.x deployments.",
+      "patched_versions": ">= 2.2.x",
+      "publish_date": "2014-02-14",
+      "recommendation": "- Please upgrade to version 2.2.x or above as soon as possible.",
+      "references": [
+         "https://github.com/spumko/hapi/issues/1427"
+      ],
+      "title": "File Descriptor Leak Can Cause DoS Vulnerability",
+      "updated_at": "2016-04-28",
+      "vulnerable_versions": "2.0.x || 2.1.x"
+   },
+   "./ecosystem/hapi/12.json": {
+      "author": {
+         "name": "Michele Spagnuolo",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-17",
+      "cves": [
+         "CVE-2014-4671A"
+      ],
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "id": 12,
+      "module_name": "hapi",
+      "overview": "This description taken from the pull request provided by Patrick Kettner.  [Background from the vulnerabilty finder](http://miki.it/blog/2014/7/8/abusing-jsonp-with-rosetta-flash/)  tl:dr - someone created a alphanum only swf converter, which means that they can in theory use it as a callback at a JSONP endpoint, and as a result, send data across domains.  Prepending callbacks with an empty inline comment breaks the flash parser, and prevents the issue. This is a fairly common solution currently being implemented by Google, Facebook, and Github.",
+      "patched_versions": ">= 6.1.0",
+      "publish_date": "2014-07-08",
+      "recommendation": "- Update to the latest version of hapi.js",
+      "references": [
+         "https://github.com/spumko/hapi/pull/1766)",
+         "https://github.com/patrickkettner)"
+      ],
+      "title": "Rosetta-Flash JSONP Vulnerability",
+      "updated_at": "2016-07-25",
+      "vulnerable_versions": "< 6.1.0"
+   },
+   "./ecosystem/hapi/335.json": {
+      "author": {
+         "name": "Georgios Andrianakis",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2017-03-31",
+      "cves": [],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "id": 335,
+      "module_name": "hapi",
+      "overview": "hapi is a web and services application framework.  When hapi encounters a malformed `accept-encoding` header an uncaught exception is thrown. This may cause hapi to crash or to hang the client connection until the timeout period is reached.",
+      "patched_versions": ">= 16.1.1",
+      "publish_date": "2017-04-05",
+      "recommendation": "Upgrade to hapi 16.1.1 or greater.",
+      "references": [
+         "https://github.com/hapijs/hapi/issues/3466"
+      ],
+      "title": "Denial of Service via malformed accept-encoding header",
+      "updated_at": "2017-04-05",
+      "vulnerable_versions": ">= 15.0.0 <= 16.1.0"
+   },
+   "./ecosystem/hapi/45.json": {
+      "author": {
+         "name": "Eran Hammer",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-20",
+      "cves": [],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "id": 45,
+      "module_name": "hapi",
+      "overview": "Hapi versions less than 11.0.0 implement CORS incorrectly and allowed for configurations that at best returned inconsistent headers and at worst allowed cross-origin activities that were expected to be forbidden. [1]  'If the connection has CORS enabled but one route has it off, and the route is not GET, the OPTIONS prefetch request will return the default CORS headers and then the actual request will go through and return no CORS headers. This defeats the purpose of turning CORS on the route.' [2]",
+      "patched_versions": ">=11.0.0",
+      "publish_date": "2015-10-20",
+      "recommendation": "Updated to hapi version 11.0.0 or greater",
+      "references": [
+         "https://github.com/hapijs/hapi/issues/2850",
+         "https://github.com/hapijs/hapi/issues/2840"
+      ],
+      "title": "Incorrect handling of CORS preflight request headers",
+      "updated_at": "2016-04-25",
+      "vulnerable_versions": "<11.0.0"
+   },
+   "./ecosystem/hapi/63.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3357,7 +3691,31 @@
       "updated_at": "2016-04-25",
       "vulnerable_versions": "<11.1.3"
    },
-   "./ecosystem/harp/": {
+   "./ecosystem/hapi/65.json": {
+      "author": {
+         "name": "Eran Hammer",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-12-28",
+      "cves": [],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 65,
+      "module_name": "hapi",
+      "overview": "When server level, connection level or route level CORS configurations are combined and when a higher level config included security restrictions (like origin), a higher level config that included security restrictions (like origin) would have those restrictions overridden by less restrictive defaults (e.g. origin defaults to all origins `*`).",
+      "patched_versions": ">=11.1.4",
+      "publish_date": "2015-12-28",
+      "recommendation": "You should install hapi v11.1.4 or newer if you combine server level, connection level, or route level CORS configuration.",
+      "references": [
+         "https://github.com/hapijs/hapi/issues/2980"
+      ],
+      "title": "Route level CORS config overrides connection level defaults",
+      "updated_at": "2016-04-25",
+      "vulnerable_versions": "<11.1.4"
+   },
+   "./ecosystem/harp/497.json": {
       "author": {
          "name": "Skynet",
          "username": "skyn3t",
@@ -3381,7 +3739,59 @@
       "updated_at": "2019-04-06",
       "vulnerable_versions": "<=0.29.0"
    },
-   "./ecosystem/hawk/": {
+   "./ecosystem/harp/498.json": {
+      "author": {
+         "name": "Skynet",
+         "username": "skyn3t",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-12-02",
+      "cves": [
+         "CVE-2019-5437"
+      ],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "id": 498,
+      "module_name": "harp",
+      "overview": "[harp] File access even when they have been set to be ignored.",
+      "patched_versions": null,
+      "publish_date": "2019-04-06",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/453820"
+      ],
+      "title": "Information Exposure Through Directory Listing",
+      "updated_at": "2019-04-06",
+      "vulnerable_versions": "<=0.29.0"
+   },
+   "./ecosystem/harp/499.json": {
+      "author": {
+         "name": "Skynet",
+         "username": "skyn3t",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-04-06",
+      "cves": [
+         "CVE-2019-5438"
+      ],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "id": 499,
+      "module_name": "harp",
+      "overview": "[harp] Path traversal using symlink",
+      "patched_versions": null,
+      "publish_date": "2019-04-09",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/530289"
+      ],
+      "title": "Path Traversal",
+      "updated_at": "2019-04-09",
+      "vulnerable_versions": "<=0.30.0"
+   },
+   "./ecosystem/hawk/77.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3408,7 +3818,7 @@
       "updated_at": "2016-04-21",
       "vulnerable_versions": "< 3.1.3  || >= 4.0.0 <4.1.1"
    },
-   "./ecosystem/haxe-dev/": {
+   "./ecosystem/haxe-dev/237.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3430,7 +3840,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/haxe/": {
+   "./ecosystem/haxe/177.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3452,7 +3862,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/haxe3/": {
+   "./ecosystem/haxe3/294.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3474,7 +3884,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/haxeshim/": {
+   "./ecosystem/haxeshim/300.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3496,7 +3906,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/headless-browser-lite/": {
+   "./ecosystem/headless-browser-lite/230.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3518,7 +3928,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/healthcenter/": {
+   "./ecosystem/healthcenter/288.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3540,7 +3950,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/hekto/": {
+   "./ecosystem/hekto/381.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -3566,7 +3976,34 @@
       "updated_at": "2018-02-27",
       "vulnerable_versions": "<0.2.3"
    },
-   "./ecosystem/herbivore/": {
+   "./ecosystem/hekto/436.json": {
+      "author": {
+         "name": "panic",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-02-28",
+      "cves": [
+         "CVE-2018-3743"
+      ],
+      "cvss_score": 2.7,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N",
+      "id": 436,
+      "module_name": "hekto",
+      "overview": "[hekto] open redirect when target domain name is used as html filename on server",
+      "patched_versions": ">=0.2.4",
+      "publish_date": "2018-05-20",
+      "recommendation": "update hekto to 0.2.4 or higher",
+      "references": [
+         "https://hackerone.com/reports/320693",
+         "https://github.com/herber/hekto/pull/3"
+      ],
+      "title": "Open Redirect",
+      "updated_at": "2018-05-20",
+      "vulnerable_versions": "<=0.2.3"
+   },
+   "./ecosystem/herbivore/258.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3590,7 +4027,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/hexo-admin/": {
+   "./ecosystem/hexo-admin/513.json": {
       "author": {
          "name": "chintan",
          "username": "ayerobot",
@@ -3614,7 +4051,7 @@
       "updated_at": "2020-01-11",
       "vulnerable_versions": "*"
    },
-   "./ecosystem/hoek/": {
+   "./ecosystem/hoek/367.json": {
       "author": {
          "name": "Olivier Arteau",
          "username": "HoLyVieR",
@@ -3640,7 +4077,7 @@
       "updated_at": "2018-02-12",
       "vulnerable_versions": "<5.0.3 >=5.0.0 || < 4.2.1"
    },
-   "./ecosystem/hostr/": {
+   "./ecosystem/hostr/303.json": {
       "author": {
          "name": "Liang Gong",
          "username": null,
@@ -3664,7 +4101,34 @@
       "updated_at": "2017-04-18",
       "vulnerable_versions": "<=2.3.5"
    },
-   "./ecosystem/html-janitor/": {
+   "./ecosystem/html-janitor/365.json": {
+      "author": {
+         "name": "_bayotop",
+         "username": null,
+         "website": "https://twitter.com/_bayotop"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-01-23",
+      "cves": [
+         "CVE-2017-0928"
+      ],
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "id": 365,
+      "module_name": "html-janitor",
+      "overview": "Arbitrary HTML can pass the sanitization process, which can be unexpected and dangerous (XSS) in case user-controlled input is passed to the clean function.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2018-01-23",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://github.com/guardian/html-janitor/issues/35",
+         "https://hackerone.com/reports/308158"
+      ],
+      "title": "html-janitor bypassing sanitization using DOM clobbering",
+      "updated_at": "2018-01-23",
+      "vulnerable_versions": "<=2.0.2"
+   },
+   "./ecosystem/html-janitor/366.json": {
       "author": {
          "name": "_bayotop",
          "username": null,
@@ -3691,7 +4155,7 @@
       "updated_at": "2018-01-23",
       "vulnerable_versions": "<=2.0.2"
    },
-   "./ecosystem/html-pages/": {
+   "./ecosystem/html-pages/420.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -3717,7 +4181,7 @@
       "updated_at": "2018-05-09",
       "vulnerable_versions": "<=2.0.9"
    },
-   "./ecosystem/http-live-simulator/": {
+   "./ecosystem/http-live-simulator/486.json": {
       "author": {
          "name": "3la2kb",
          "username": "3la2kb",
@@ -3743,7 +4207,7 @@
       "updated_at": "2018-12-28",
       "vulnerable_versions": "<=1.0.6"
    },
-   "./ecosystem/http-proxy-agent/": {
+   "./ecosystem/http-proxy-agent/402.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -3768,7 +4232,7 @@
       "updated_at": "2018-04-06",
       "vulnerable_versions": "<=2.0.0"
    },
-   "./ecosystem/http-proxy/": {
+   "./ecosystem/http-proxy/323.json": {
       "author": {
          "name": "TJ Holowaychuk",
          "username": null,
@@ -3792,7 +4256,7 @@
       "updated_at": "2017-04-11",
       "vulnerable_versions": "<=0.6.6"
    },
-   "./ecosystem/http_server/": {
+   "./ecosystem/http_server/503.json": {
       "author": {
          "name": "An Nguyen",
          "username": "lightangel1412",
@@ -3816,7 +4280,33 @@
       "updated_at": "2019-09-13",
       "vulnerable_versions": "*"
    },
-   "./ecosystem/https-proxy-agent/": {
+   "./ecosystem/http_server/509.json": {
+      "author": {
+         "name": "Vineet Kumar Pandey",
+         "username": "vineetpandey",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-09-11",
+      "cves": [
+         "CVE-2019-15600"
+      ],
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "id": 509,
+      "module_name": "http_server",
+      "overview": "Path traversal in https://www.npmjs.com/package/http_server via symlink",
+      "patched_versions": null,
+      "publish_date": "1970-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/692262"
+      ],
+      "title": "Path Traversal",
+      "updated_at": "2019-12-04",
+      "vulnerable_versions": "*"
+   },
+   "./ecosystem/https-proxy-agent/388.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -3841,7 +4331,31 @@
       "updated_at": "2018-04-02",
       "vulnerable_versions": "<=2.1.1"
    },
-   "./ecosystem/httpsync/": {
+   "./ecosystem/https-proxy-agent/505.json": {
+      "author": {
+         "name": "Kris Adler",
+         "username": "kadler15",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-04-17",
+      "cves": [],
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.0/AV:A/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N",
+      "id": 505,
+      "module_name": "https-proxy-agent",
+      "overview": "[https-proxy-agent] Socket returned without TLS upgrade on non-200 CONNECT response, allowing request data to be sent over unencrypted connection",
+      "patched_versions": ">=2.2.3",
+      "publish_date": "2019-09-25",
+      "recommendation": "Update https-proxy-agent module to version >=2.2.3",
+      "references": [
+         "https://hackerone.com/reports/541502"
+      ],
+      "title": "Man-in-the-Middle",
+      "updated_at": "2019-10-07",
+      "vulnerable_versions": "<2.2.3"
+   },
+   "./ecosystem/httpsync/210.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3863,7 +4377,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/hubl-server/": {
+   "./ecosystem/hubl-server/334.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3885,7 +4399,7 @@
       "updated_at": "2017-06-05",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/hubot-scripts/": {
+   "./ecosystem/hubot-scripts/13.json": {
       "author": {
          "name": "Neal Poole",
          "username": null,
@@ -3909,7 +4423,7 @@
       "updated_at": "2016-04-29",
       "vulnerable_versions": "<= 2.4.3"
    },
-   "./ecosystem/i18n-node-angular/": {
+   "./ecosystem/i18n-node-angular/80.json": {
       "author": {
          "name": "Garth Boyd",
          "username": null,
@@ -3933,7 +4447,31 @@
       "updated_at": "2016-04-27",
       "vulnerable_versions": "<1.4.0"
    },
-   "./ecosystem/i18next/": {
+   "./ecosystem/i18next/325.json": {
+      "author": {
+         "name": "KJ Tsanaktsidis",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2017-03-14",
+      "cves": [],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 325,
+      "module_name": "i18next",
+      "overview": "i18next is a language translation framework.  Because of how the interpolation is implemented, making replacements from the dictionary one at a time, untrusted user input can use the name of one of the dictionary keys to inject script into the browser.  Example:  ``` var init = i18n.init({debug: true}, function(){   var test = i18n.t('__firstName__ __lastName__', {         escapeInterpolation: true,         firstName: '__lastNameHTML__',         lastName: '<script>',   });   console.log(test); }); // equals \"<script> &lt;script&gt;\" ```",
+      "patched_versions": ">=1.10.3",
+      "publish_date": "2017-03-14",
+      "recommendation": "Upgrade to v1.10.3 or greater.",
+      "references": [
+         "https://github.com/i18next/i18next/pull/443)"
+      ],
+      "title": "Cross-Site Scripting",
+      "updated_at": "2017-03-14",
+      "vulnerable_versions": "<=1.10.2"
+   },
+   "./ecosystem/i18next/326.json": {
       "author": {
          "name": "alexmchardy",
          "username": null,
@@ -3957,7 +4495,7 @@
       "updated_at": "2017-03-15",
       "vulnerable_versions": ">=2.0.0 <=3.4.3"
    },
-   "./ecosystem/ibapi/": {
+   "./ecosystem/ibapi/182.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -3979,7 +4517,7 @@
       "updated_at": "2016-12-21",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/ibm_db/": {
+   "./ecosystem/ibm_db/163.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4003,7 +4541,7 @@
       "updated_at": "2017-02-01",
       "vulnerable_versions": "<1.0.2"
    },
-   "./ecosystem/iedriver/": {
+   "./ecosystem/iedriver/174.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4025,7 +4563,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<3.0.0"
    },
-   "./ecosystem/igniteui/": {
+   "./ecosystem/igniteui/116.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4047,7 +4585,7 @@
       "updated_at": "2016-10-31",
       "vulnerable_versions": "<=0.0.5"
    },
-   "./ecosystem/imageoptim/": {
+   "./ecosystem/imageoptim/194.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4069,7 +4607,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/inert/": {
+   "./ecosystem/inert/14.json": {
       "author": {
          "name": "Gil Pedersen",
          "username": null,
@@ -4094,7 +4632,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<1.1.1"
    },
-   "./ecosystem/install-g-test/": {
+   "./ecosystem/install-g-test/228.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4116,7 +4654,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/install-nw/": {
+   "./ecosystem/install-nw/204.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4138,7 +4676,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<1.1.5"
    },
-   "./ecosystem/ipip-coffee/": {
+   "./ecosystem/ipip-coffee/279.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4160,7 +4698,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/ipip/": {
+   "./ecosystem/ipip/184.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4182,7 +4720,33 @@
       "updated_at": "2016-12-21",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/is-my-json-valid/": {
+   "./ecosystem/is-my-json-valid/375.json": {
+      "author": {
+         "name": "Jamie Davis",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "snyk.io",
+      "created_at": "2018-02-21",
+      "cves": [],
+      "cvss_score": 3.7,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "id": 375,
+      "module_name": "is-my-json-valid",
+      "overview": "is-my-json-valid is vulnerable to Regular Expression Denial of Service (ReDoS) attacks via the email validation function",
+      "patched_versions": ">=1.4.1 <2.0.0 || >=2.17.2",
+      "publish_date": "2018-02-21",
+      "recommendation": "update is-my-json-valid to 1.4.1, 2.17.2 or higher",
+      "references": [
+         "https://hackerone.com/reports/317548",
+         "https://github.com/mafintosh/is-my-json-valid/commit/b3051b277f7caa08cd2edc6f74f50aeda65d2976",
+         "https://github.com/mafintosh/is-my-json-valid/pull/159"
+      ],
+      "title": "Regular Expression Denial of Service (ReDoS)",
+      "updated_at": "2018-02-21",
+      "vulnerable_versions": "<1.4.1 || >=2.0.0 <2.17.2"
+   },
+   "./ecosystem/is-my-json-valid/76.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4208,7 +4772,86 @@
       "updated_at": "2016-04-21",
       "vulnerable_versions": "<=2.12.3"
    },
-   "./ecosystem/jQuery/": {
+   "./ecosystem/jQuery/328.json": {
+      "author": {
+         "name": "Egor Homakov",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2017-03-20",
+      "cves": [],
+      "cvss_score": 7.2,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+      "id": 328,
+      "module_name": "jquery",
+      "overview": "Jquery is a javascript library for DOM traversal and manipulation, event handling, animation, and Ajax.   When text/javascript responses are received from cross-origin ajax requests not containing the option `dataType`, the result is executed in `jQuery.globalEval` potentially allowing an attacker to execute arbitrary code on the origin.",
+      "patched_versions": ">=3.0.0",
+      "publish_date": "2017-03-21",
+      "recommendation": "Upgrade to v3.0.0 or greater.",
+      "references": [
+         "https://github.com/jquery/jquery/issues/2432)",
+         "https://github.com/jquery/jquery/commit/b078a62013782c7424a4a61a240c23c4c0b42614)",
+         "https://github.com/jquery/jquery/pull/2588)"
+      ],
+      "title": "Cross-Site Scripting (XSS)",
+      "updated_at": "2017-04-20",
+      "vulnerable_versions": ">=1.4.0 <=1.11.3 || >=1.12.3 <=2.2.4"
+   },
+   "./ecosystem/jQuery/329.json": {
+      "author": {
+         "name": "Richard Gibson",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2017-03-20",
+      "cves": [],
+      "cvss_score": 7.2,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+      "id": 329,
+      "module_name": "jquery",
+      "overview": "jQuery is a javascript library for DOM manipulation.   jQuery's main method in affected versions contains an unreliable way of detecting whether the input to the `jQuery(strInput)` function is intended to be a selector or HTML.  For example, this code would be parsed as a selector, executing the code in the `onerror` attribute: ``` $(\"#log\").html(     $(\"element[attribute='<img src=\\\"x\\\" onerror=\\\"alert(1)\\\" />']\").html() ); ```  The fix in v1.9.0 updates a regular expression for detecting whether the input is HTML or a selector. HTML input must now explicitly start with `<`, rather than previously assuming that the input was HTML if the string contained `<` anywhere.",
+      "patched_versions": ">=1.9.0",
+      "publish_date": "2017-03-21",
+      "recommendation": "Upgrade to v1.9.0 or greater.",
+      "references": [
+         "https://bugs.jquery.com/ticket/11290)",
+         "https://bugs.jquery.com/ticket/6429)",
+         "https://bugs.jquery.com/ticket/9521)",
+         "https://bugs.jquery.com/ticket/12531)"
+      ],
+      "title": "XSS via improper selector detection",
+      "updated_at": "2017-03-22",
+      "vulnerable_versions": ">=1.7.1 <=1.8.3"
+   },
+   "./ecosystem/jQuery/330.json": {
+      "author": {
+         "name": "Micha\u0142 Go\u0142\u0119biowski",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2017-03-21",
+      "cves": [
+         "CVE-2016-10707"
+      ],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "id": 330,
+      "module_name": "jquery",
+      "overview": "jQuery is a DOM manipulation javascript library.  In v2.2.4 and previous, a lowercasing logic was used on the attribute names and was removed in v3.0.0. Because of this, boolean attributes whose names were not all lowercase cause infinite recursion, and will exceed the stack call limit.",
+      "patched_versions": ">=3.0.0",
+      "publish_date": "2017-04-14",
+      "recommendation": "Upgrade to v3.0.0 or greater.",
+      "references": [
+         "https://github.com/jquery/jquery/issues/3133)"
+      ],
+      "title": "Exceeding Stack Call Limit DoS",
+      "updated_at": "2017-04-14",
+      "vulnerable_versions": "=3.0.0-rc.1"
+   },
+   "./ecosystem/jQuery/496.json": {
       "author": {
          "name": "Semmle Security Research Team",
          "username": "asgerf",
@@ -4235,7 +4878,7 @@
       "updated_at": "2019-04-02",
       "vulnerable_versions": "<3.4.0"
    },
-   "./ecosystem/jadedown/": {
+   "./ecosystem/jadedown/52.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4259,7 +4902,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/jdf-sass/": {
+   "./ecosystem/jdf-sass/198.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4281,7 +4924,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/jqtree/": {
+   "./ecosystem/jqtree/132.json": {
       "author": {
          "name": "https://github.com/Monisha-M",
          "username": null,
@@ -4307,7 +4950,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "<=1.3.3"
    },
-   "./ecosystem/jquery-ui/": {
+   "./ecosystem/jquery-ui/127.json": {
       "author": {
          "name": "Phat Ly",
          "username": null,
@@ -4333,7 +4976,7 @@
       "updated_at": "2016-08-30",
       "vulnerable_versions": "<=1.11.4"
    },
-   "./ecosystem/jquery-ujs/": {
+   "./ecosystem/jquery-ujs/15.json": {
       "author": {
          "name": "Ben Toews of GitHub",
          "username": null,
@@ -4362,7 +5005,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<= 1.0.3"
    },
-   "./ecosystem/js-given/": {
+   "./ecosystem/js-given/241.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4384,7 +5027,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/jser-stat/": {
+   "./ecosystem/jser-stat/188.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4408,7 +5051,7 @@
       "updated_at": "2016-12-21",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/jshamcrest/": {
+   "./ecosystem/jshamcrest/53.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4432,7 +5075,7 @@
       "updated_at": "2016-04-27",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/jsonwebtoken/": {
+   "./ecosystem/jsonwebtoken/17.json": {
       "author": {
          "name": "Tim McLean",
          "username": null,
@@ -4458,7 +5101,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<4.2.2"
    },
-   "./ecosystem/jsrender/": {
+   "./ecosystem/jsrender/97.json": {
       "author": {
          "name": "Pawe\u0142 Ha\u0142drzy\u0144ski",
          "username": null,
@@ -4484,7 +5127,7 @@
       "updated_at": "2016-04-25",
       "vulnerable_versions": "<=0.9.73"
    },
-   "./ecosystem/jstestdriver/": {
+   "./ecosystem/jstestdriver/244.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4506,7 +5149,7 @@
       "updated_at": "2017-01-09",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/just-extend/": {
+   "./ecosystem/just-extend/492.json": {
       "author": {
          "name": "asgerf",
          "username": "asgerf",
@@ -4532,7 +5175,7 @@
       "updated_at": "2019-01-03",
       "vulnerable_versions": "<4.0.0"
    },
-   "./ecosystem/jvminstall/": {
+   "./ecosystem/jvminstall/225.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4554,7 +5197,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/jws/": {
+   "./ecosystem/jws/88.json": {
       "author": {
          "name": "Brian Brennan and Tim McLean",
          "username": null,
@@ -4581,7 +5224,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "<3.0.0"
    },
-   "./ecosystem/jwt-simple/": {
+   "./ecosystem/jwt-simple/87.json": {
       "author": {
          "name": "Theofanis Katsimpas",
          "username": null,
@@ -4607,7 +5250,7 @@
       "updated_at": "2016-10-31",
       "vulnerable_versions": "< 0.3.0"
    },
-   "./ecosystem/keystone/": {
+   "./ecosystem/keystone/60.json": {
       "author": {
          "name": "Greg Meyer",
          "username": null,
@@ -4629,7 +5272,7 @@
       "updated_at": "2016-04-27",
       "vulnerable_versions": "<0.3.16"
    },
-   "./ecosystem/kindlegen/": {
+   "./ecosystem/kindlegen/251.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4651,7 +5294,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<1.1.0"
    },
-   "./ecosystem/knightjs/": {
+   "./ecosystem/knightjs/484.json": {
       "author": {
          "name": "Abdillah Muhamad",
          "username": "abdilahrf_",
@@ -4677,7 +5320,7 @@
       "updated_at": "2018-11-02",
       "vulnerable_versions": "<=0.0.1"
    },
-   "./ecosystem/lactate/": {
+   "./ecosystem/lactate/361.json": {
       "author": {
          "name": "Yasin Soliman",
          "username": "ysx",
@@ -4701,7 +5344,7 @@
       "updated_at": "2018-01-23",
       "vulnerable_versions": "<=0.13.12"
    },
-   "./ecosystem/ldapauth-fork/": {
+   "./ecosystem/ldapauth-fork/18.json": {
       "author": {
          "name": "Jerome Touffe-Blin",
          "username": null,
@@ -4728,7 +5371,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "< 2.3.3"
    },
-   "./ecosystem/ldapauth/": {
+   "./ecosystem/ldapauth/19.json": {
       "author": {
          "name": "David Black, Jerome Touffe-Blin",
          "username": null,
@@ -4754,7 +5397,7 @@
       "updated_at": "2016-04-25",
       "vulnerable_versions": "<=2.2.4"
    },
-   "./ecosystem/libnmap/": {
+   "./ecosystem/libnmap/474.json": {
       "author": {
          "name": "Cristian-Alexandru Staicu",
          "username": "cris_semmle",
@@ -4780,7 +5423,7 @@
       "updated_at": "2018-10-19",
       "vulnerable_versions": "<0.4.16"
    },
-   "./ecosystem/libnotify/": {
+   "./ecosystem/libnotify/20.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4804,7 +5447,7 @@
       "updated_at": "2016-04-29",
       "vulnerable_versions": "<= 1.0.3"
    },
-   "./ecosystem/libsbml/": {
+   "./ecosystem/libsbml/272.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4826,7 +5469,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/libsbmlsim/": {
+   "./ecosystem/libsbmlsim/275.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4848,7 +5491,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/libxl/": {
+   "./ecosystem/libxl/178.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4870,7 +5513,7 @@
       "updated_at": "2017-01-05",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/libyaml/": {
+   "./ecosystem/libyaml/21.json": {
       "author": {
          "name": "N/A",
          "username": null,
@@ -4897,7 +5540,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<0.2.3"
    },
-   "./ecosystem/limbus-buildgen/": {
+   "./ecosystem/limbus-buildgen/276.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -4919,7 +5562,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<0.1.1"
    },
-   "./ecosystem/localhost-now/": {
+   "./ecosystem/localhost-now/377.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -4946,7 +5589,84 @@
       "updated_at": "2018-02-26",
       "vulnerable_versions": "<1.0.2"
    },
-   "./ecosystem/lodash/": {
+   "./ecosystem/localhost-now/424.json": {
+      "author": {
+         "name": "Caio L\u00fcders",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-03-26",
+      "cves": [],
+      "cvss_score": 8.6,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+      "id": 424,
+      "module_name": "localhost-now",
+      "overview": "Bypass to defective fix of Path Traversal ",
+      "patched_versions": null,
+      "publish_date": "2018-05-11",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/329837",
+         "https://github.com/DCKT/localhost-now/blob/master/lib/app.js#L17"
+      ],
+      "title": "Path Traversal",
+      "updated_at": "2018-05-11",
+      "vulnerable_versions": "<=1.0.2"
+   },
+   "./ecosystem/lodash/368.json": {
+      "author": {
+         "name": "Olivier Arteau",
+         "username": "HoLyVieR",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-02-12",
+      "cves": [
+         "CVE-2018-3721"
+      ],
+      "cvss_score": 2.5,
+      "cvss_vector": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",
+      "id": 368,
+      "module_name": "lodash",
+      "overview": "lodash node module before 4.17.5 suffers from a prototype pollution vulnerability via 'defaultsDeep', 'merge', and 'mergeWith' functions, which allows a malicious user to modify the prototype of 'Object' via __proto__, causing the addition or modification of an existing property that will exist on all objects.",
+      "patched_versions": ">=4.17.5",
+      "publish_date": "2018-02-12",
+      "recommendation": "Update module to 4.17.5 or higher",
+      "references": [
+         "https://hackerone.com/reports/310443"
+      ],
+      "title": "lodash prototype pollution",
+      "updated_at": "2018-02-12",
+      "vulnerable_versions": "<4.17.5"
+   },
+   "./ecosystem/lodash/493.json": {
+      "author": {
+         "name": "asgerf",
+         "username": "asgerf",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-07-12",
+      "cves": [
+         "CVE-2018-16487"
+      ],
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+      "id": 493,
+      "module_name": "lodash",
+      "overview": "Prototype pollution attack (lodash / constructor.prototype)",
+      "patched_versions": ">=4.17.11",
+      "publish_date": "2018-10-30",
+      "recommendation": "Update lodash module to version >=4.17.11",
+      "references": [
+         "https://hackerone.com/reports/380873"
+      ],
+      "title": "Denial of Service",
+      "updated_at": "2019-01-03",
+      "vulnerable_versions": "<4.17.11"
+   },
+   "./ecosystem/lodash/516.json": {
       "author": {
          "name": "posix",
          "username": "posix",
@@ -4970,7 +5690,31 @@
       "updated_at": "2020-04-25",
       "vulnerable_versions": ">=4.1.0"
    },
-   "./ecosystem/m-server/": {
+   "./ecosystem/m-server/467.json": {
+      "author": {
+         "name": "bl4de",
+         "username": "bl4de",
+         "website": "https://twitter.com/_bl4de"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-02-26",
+      "cves": [],
+      "cvss_score": 6,
+      "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:N/A:N",
+      "id": 467,
+      "module_name": "m-server",
+      "overview": "[m-server] HTML Injection in filenames displayed as directory listing in the browser allows to embed iframe with malicious JavaScript code",
+      "patched_versions": ">=1.4.2",
+      "publish_date": "2018-07-12",
+      "recommendation": "Update m-server module to version 1.4.2",
+      "references": [
+         "https://hackerone.com/reports/319794"
+      ],
+      "title": "Cross-site Scripting (XSS) - Stored",
+      "updated_at": "2018-07-12",
+      "vulnerable_versions": "<1.4.2"
+   },
+   "./ecosystem/m-server/468.json": {
       "author": {
          "name": "bl4de",
          "username": "bl4de",
@@ -4994,7 +5738,7 @@
       "updated_at": "2018-07-20",
       "vulnerable_versions": "<=1.4.1"
    },
-   "./ecosystem/macaca-chromedriver-zxa/": {
+   "./ecosystem/macaca-chromedriver-zxa/221.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5016,7 +5760,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/macaca-chromedriver/": {
+   "./ecosystem/macaca-chromedriver/180.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5038,7 +5782,7 @@
       "updated_at": "2016-12-18",
       "vulnerable_versions": "<1.0.29"
    },
-   "./ecosystem/macaddress/": {
+   "./ecosystem/macaddress/427.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -5062,7 +5806,31 @@
       "updated_at": "2018-05-11",
       "vulnerable_versions": "<=0.2.8"
    },
-   "./ecosystem/mapbox.js/": {
+   "./ecosystem/mapbox.js/49.json": {
+      "author": {
+         "name": "John Firebaugh, Juan Broull\u00f3n Sampedro",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-24",
+      "cves": [],
+      "cvss_score": 4.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 49,
+      "module_name": "mapbox.js",
+      "overview": "Mapbox.js versions 1.x prior to 1.6.5 and 2.x prior to 2.1.7 are vulnerable to a cross-site-scripting attack in certain uncommon usage scenarios.  If you use L.mapbox.map or L.mapbox.tileLayer to load untrusted TileJSON content from a non-Mapbox URL, it is possible for a malicious user with control over the TileJSON content to inject script content into the \"attribution\" value of the TileJSON which will be executed in the context of the page using Mapbox.js.  Such usage is uncommon. The following usage scenarios are not vulnerable:  - only trusted TileJSON content is loaded - TileJSON content comes only from mapbox.com URLs - a Mapbox map ID is supplied, rather than a TileJSON URL",
+      "patched_versions": ">=1.6.5 <2.0.0 || >= 2.1.7",
+      "publish_date": "2015-10-24",
+      "recommendation": "Upgrade to Mapbox.js version 2.1.7. If you are still using a 1.x version and unable to upgrade to 2.1.7, upgrade to 1.6.5.",
+      "references": [
+         "https://hackerone.com/reports/54327"
+      ],
+      "title": "Content Injection via TileJSON attribute",
+      "updated_at": "2017-02-23",
+      "vulnerable_versions": "<1.6.5 || < 2.1.7 > 2.0.0"
+   },
+   "./ecosystem/mapbox.js/74.json": {
       "author": {
          "name": "Alexandra Ulsh, Abdullah Ahmet Erdem",
          "username": null,
@@ -5086,7 +5854,7 @@
       "updated_at": "2016-05-04",
       "vulnerable_versions": "<1.6.6 || < 2.2.4 > 2.0.0"
    },
-   "./ecosystem/marionette-socket-host/": {
+   "./ecosystem/marionette-socket-host/252.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5108,7 +5876,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/markdown-pdf/": {
+   "./ecosystem/markdown-pdf/454.json": {
       "author": {
          "name": "Mike",
          "username": null,
@@ -5134,7 +5902,57 @@
       "updated_at": "2018-07-20",
       "vulnerable_versions": "<9.0.0"
    },
-   "./ecosystem/marked/": {
+   "./ecosystem/marked/101.json": {
+      "author": {
+         "name": "Matt Austin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-04-18",
+      "cves": [],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "id": 101,
+      "module_name": "marked",
+      "overview": "marked is an application that is meant to parse and compile markdown.  Due to the way that marked parses input, specifically HTML entities, it's possible to bypass marked's content injection protection (`sanitize: true`) to inject a `javascript:` URL.  This flaw exists because `&#xNNanything;` gets parsed to what it could and leaves the rest behind, resulting in just `anything;` being left.   For example:  If a malicious user could provide this input to the application `javascript&#x58document;alert&#40;1&#41;` resulting in a valid link, that when a user clicked it would execute `alert(1)`.",
+      "patched_versions": ">=0.3.6",
+      "publish_date": "2016-04-18",
+      "recommendation": "Upgrade to version 0.3.6 or greater.",
+      "references": [
+         "https://github.com/chjj/marked/pull/592",
+         "https://github.com/chjj/marked/pull/592/commits/2cff85979be8e7a026a9aca35542c470cf5da523"
+      ],
+      "title": "Sanitization bypass using HTML Entities",
+      "updated_at": "2017-01-20",
+      "vulnerable_versions": "<=0.3.5"
+   },
+   "./ecosystem/marked/22.json": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-17",
+      "cves": [
+         "CVE-2014-1850",
+         "CVE-2014-3743"
+      ],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 22,
+      "module_name": "marked",
+      "overview": "Marked comes with an option to sanitize user output to help protect against content injection attacks.  ```sanitize: true```  Even if this option is set, marked is vulnerable to content injection in multiple locations if untrusted user input is allowed to be provided into marked and that output is passed to the browser.  Injection is possible in two locations  - gfm codeblocks (language) - javascript url's",
+      "patched_versions": ">=0.3.1",
+      "publish_date": "2014-01-31",
+      "recommendation": "- Upgrade to version 0.3.1 or later",
+      "references": null,
+      "title": "Multiple Content Injection Vulnerabilities",
+      "updated_at": "2016-04-29",
+      "vulnerable_versions": "<=0.3.0"
+   },
+   "./ecosystem/marked/23.json": {
       "author": {
          "name": "Bar\u0131\u015f Soner U\u015fakl\u0131",
          "username": null,
@@ -5161,7 +5979,33 @@
       "updated_at": "2016-04-21",
       "vulnerable_versions": "<=0.3.3"
    },
-   "./ecosystem/massif/": {
+   "./ecosystem/marked/24.json": {
+      "author": {
+         "name": "Xiao Long",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-17",
+      "cves": [
+         "CVE-2015-1370"
+      ],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 24,
+      "module_name": "marked",
+      "overview": "Marked 0.3.2 and earlier is vulnerable to content injection even when `sanitize: true` is enabled.  `[xss link](vbscript:alert(1&#41;)`  will get a link  `<a href=\"vbscript:alert(1)\">xss link</a>`  this script does not work in IE 11 edge mode, but works in IE 10 compatibility view.",
+      "patched_versions": ">=0.3.3",
+      "publish_date": "2015-01-22",
+      "recommendation": "Update to version 0.3.3 or greater.",
+      "references": [
+         "https://github.com/chjj/marked/issues/492"
+      ],
+      "title": "VBScript Content Injection",
+      "updated_at": "2016-04-28",
+      "vulnerable_versions": "<=0.3.2"
+   },
+   "./ecosystem/massif/290.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5183,7 +6027,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/mcstatic/": {
+   "./ecosystem/mcstatic/413.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -5209,7 +6053,7 @@
       "updated_at": "2018-04-24",
       "vulnerable_versions": "<=0.0.20"
    },
-   "./ecosystem/memjs/": {
+   "./ecosystem/memjs/448.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -5235,7 +6079,7 @@
       "updated_at": "2018-06-27",
       "vulnerable_versions": "<=1.1.0"
    },
-   "./ecosystem/merge-deep/": {
+   "./ecosystem/merge-deep/371.json": {
       "author": {
          "name": "Olivier Arteau",
          "username": "HoLyVieR",
@@ -5261,7 +6105,7 @@
       "updated_at": "2018-02-15",
       "vulnerable_versions": "<3.0.1"
    },
-   "./ecosystem/merge-objects/": {
+   "./ecosystem/merge-objects/411.json": {
       "author": {
          "name": "Olivier Arteau",
          "username": "HoLyVieR",
@@ -5285,7 +6129,7 @@
       "updated_at": "2018-04-09",
       "vulnerable_versions": "<=1.0.5"
    },
-   "./ecosystem/merge-options/": {
+   "./ecosystem/merge-options/410.json": {
       "author": {
          "name": "Olivier Arteau",
          "username": "HoLyVieR",
@@ -5309,7 +6153,7 @@
       "updated_at": "2018-04-09",
       "vulnerable_versions": "<=1.0.0"
    },
-   "./ecosystem/merge-recursive/": {
+   "./ecosystem/merge-recursive/409.json": {
       "author": {
          "name": "Olivier Arteau",
          "username": "HoLyVieR",
@@ -5333,7 +6177,7 @@
       "updated_at": "2018-04-09",
       "vulnerable_versions": "<=0.0.3"
    },
-   "./ecosystem/meta-git/": {
+   "./ecosystem/meta-git/512.json": {
       "author": {
          "name": "Michele Romano",
          "username": "mik317",
@@ -5357,7 +6201,7 @@
       "updated_at": "2020-01-11",
       "vulnerable_versions": "*"
    },
-   "./ecosystem/metascraper/": {
+   "./ecosystem/metascraper/398.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -5383,7 +6227,7 @@
       "updated_at": "2018-03-28",
       "vulnerable_versions": "<=3.9.2"
    },
-   "./ecosystem/milliseconds/": {
+   "./ecosystem/milliseconds/59.json": {
       "author": {
          "name": "Luigi Pinca",
          "username": null,
@@ -5410,7 +6254,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<0.1.2"
    },
-   "./ecosystem/minimatch/": {
+   "./ecosystem/minimatch/118.json": {
       "author": {
          "name": "Nick Starke",
          "username": null,
@@ -5434,7 +6278,7 @@
       "updated_at": "2016-08-09",
       "vulnerable_versions": "<=3.0.1"
    },
-   "./ecosystem/mixin-deep/": {
+   "./ecosystem/mixin-deep/369.json": {
       "author": {
          "name": "Olivier Arteau",
          "username": "HoLyVieR",
@@ -5460,7 +6304,7 @@
       "updated_at": "2018-02-15",
       "vulnerable_versions": "<1.3.1"
    },
-   "./ecosystem/moment/": {
+   "./ecosystem/moment/55.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5486,7 +6330,7 @@
       "updated_at": "2016-04-21",
       "vulnerable_versions": "<2.11.2"
    },
-   "./ecosystem/mongodb-instance/": {
+   "./ecosystem/mongodb-instance/235.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5508,7 +6352,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<0.0.3"
    },
-   "./ecosystem/mongoose/": {
+   "./ecosystem/mongoose/394.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -5534,7 +6378,7 @@
       "updated_at": "2018-03-24",
       "vulnerable_versions": ">=3.5.5 <=3.8.38 || >=4.0.0 <=4.3.5"
    },
-   "./ecosystem/morgan/": {
+   "./ecosystem/morgan/473.json": {
       "author": {
          "name": "Cristian-Alexandru Staicu",
          "username": "cris_semmle",
@@ -5558,7 +6402,7 @@
       "updated_at": "2018-09-28",
       "vulnerable_versions": "<1.9.1"
    },
-   "./ecosystem/mpath/": {
+   "./ecosystem/mpath/491.json": {
       "author": {
          "name": "Cristian-Alexandru Staicu",
          "username": "cris_semmle",
@@ -5584,7 +6428,33 @@
       "updated_at": "2019-01-03",
       "vulnerable_versions": "<0.5.1"
    },
-   "./ecosystem/mqtt-packet/": {
+   "./ecosystem/mqtt-packet/500.json": {
+      "author": {
+         "name": "Alexander Kaiser",
+         "username": "lxndr",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-04-17",
+      "cves": [
+         "CVE-2019-5432"
+      ],
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "id": 500,
+      "module_name": "mqtt-packet",
+      "overview": "A specifically malformed MQTT Subscribe packet crashes MQTT Brokers using the mqtt-packet module for decoding  ",
+      "patched_versions": ">=3.5.1 <4.0.0 || >=4.1.3 <5.0.0 || >=5.6.1 <6.0.0 || >=6.1.2",
+      "publish_date": "2019-04-28",
+      "recommendation": "Update mqtt-packet module to version >=3.5.1 <4.0.0 || >=4.1.3 <5.0.0 || >=5.6.1 <6.0.0 || >=6.1.2",
+      "references": [
+         "https://hackerone.com/reports/541354"
+      ],
+      "title": "Buffer Over-read",
+      "updated_at": "2019-04-28",
+      "vulnerable_versions": "<3.5.1 || >=4.0.0 <4.1.3 || >=5.0.0 <5.6.1 || >=6.0.0 <6.1.2"
+   },
+   "./ecosystem/mqtt-packet/75.json": {
       "author": {
          "name": "Peter Sorowka",
          "username": null,
@@ -5609,7 +6479,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<3.4.6 || > 4.0.0 <4.0.5"
    },
-   "./ecosystem/mqtt/": {
+   "./ecosystem/mqtt/140.json": {
       "author": {
          "name": "Matteo Collina",
          "username": null,
@@ -5635,7 +6505,35 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "<=0.3.13"
    },
-   "./ecosystem/mrk.js/": {
+   "./ecosystem/mqtt/357.json": {
+      "author": {
+         "name": "mcollina",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-01-02",
+      "cves": [
+         "CVE-2017-10910"
+      ],
+      "cvss_score": 4.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "id": 357,
+      "module_name": "mqtt",
+      "overview": "MQTT.js 2.x.x prior to 2.15.0 issue in handling PUBLISH tickets may lead to an attacker causing a denial-of-service condition.",
+      "patched_versions": ">=2.15.0",
+      "publish_date": "2018-01-02",
+      "recommendation": "Update to version 2.15.0 or later.",
+      "references": [
+         "https://github.com/mqttjs/MQTT.js/commit/403ba53b838f2d319a0c0505a045fe00239e9923",
+         "https://github.com/mqttjs/MQTT.js/releases/tag/v2.15.0",
+         "https://jvn.jp/en/jp/JVN45494523/index.html"
+      ],
+      "title": "Remote PUBLISH DoS",
+      "updated_at": "2018-01-02",
+      "vulnerable_versions": ">=2.0.0"
+   },
+   "./ecosystem/mrk.js/382.json": {
       "author": {
          "name": "joker314",
          "username": null,
@@ -5659,7 +6557,7 @@
       "updated_at": "2018-03-03",
       "vulnerable_versions": "<2.0.1"
    },
-   "./ecosystem/ms/": {
+   "./ecosystem/ms/46.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5685,7 +6583,7 @@
       "updated_at": "2016-04-21",
       "vulnerable_versions": "<=0.7.0"
    },
-   "./ecosystem/mustache/": {
+   "./ecosystem/mustache/62.json": {
       "author": {
          "name": "Matias P. Brutti",
          "username": null,
@@ -5711,7 +6609,31 @@
       "updated_at": "2016-04-25",
       "vulnerable_versions": "<2.2.1"
    },
-   "./ecosystem/mysql/": {
+   "./ecosystem/mysql/397.json": {
+      "author": {
+         "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
+         "username": null,
+         "website": "https://github.com/ChALkeR"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-03-24",
+      "cves": [],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+      "id": 397,
+      "module_name": "mysql",
+      "overview": "Affected versions of `mysql` package allocate and send an uninitialized memory chunk over network when a number is used as a password.  Only `mysql` running on Node.js versions below 6.0.0 is affected due to a throw added at Node.js side in newer versions.  PoC: ``` require('mysql').createConnection({   host     : 'localhost',   user     : 'user',   password : 1e6,   database : 'my_db' }).connect(); ```  Reported at 2017-03-15.",
+      "patched_versions": ">=2.14.0",
+      "publish_date": "2018-03-24",
+      "recommendation": "update mysql to 2.14.0 or higher",
+      "references": [
+         "https://github.com/mysqljs/mysql/commit/310c6a7d1b2e14b63b572dbfbfa10128f20c6d52"
+      ],
+      "title": "Remote Memory Exposure",
+      "updated_at": "2018-03-24",
+      "vulnerable_versions": ">=2.0.0-alpha8 <=2.0.0-rc2 || >=2.0.0 <=2.13.0"
+   },
+   "./ecosystem/mysql/66.json": {
       "author": {
          "name": "S\u00e9bastian Dejonghe",
          "username": null,
@@ -5735,7 +6657,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<=v2.0.0-alpha7"
    },
-   "./ecosystem/mystem-fix/": {
+   "./ecosystem/mystem-fix/301.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5757,7 +6679,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/mystem-wrapper/": {
+   "./ecosystem/mystem-wrapper/280.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5779,7 +6701,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/mystem/": {
+   "./ecosystem/mystem/259.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5801,7 +6723,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/mystem3/": {
+   "./ecosystem/mystem3/229.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5823,7 +6745,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/native-opencv/": {
+   "./ecosystem/native-opencv/263.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5845,7 +6767,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<= 3.0.0"
    },
-   "./ecosystem/negotiator/": {
+   "./ecosystem/negotiator/106.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5869,7 +6791,7 @@
       "updated_at": "2016-06-16",
       "vulnerable_versions": "<= 0.6.0"
    },
-   "./ecosystem/nes/": {
+   "./ecosystem/nes/331.json": {
       "author": {
          "name": "iipokypatop",
          "username": null,
@@ -5894,7 +6816,7 @@
       "updated_at": "2017-04-14",
       "vulnerable_versions": "<=6.4.0"
    },
-   "./ecosystem/nhouston/": {
+   "./ecosystem/nhouston/25.json": {
       "author": {
          "name": "Riku Keski-Keturi",
          "username": null,
@@ -5920,7 +6842,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/njwt/": {
+   "./ecosystem/njwt/443.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -5944,7 +6866,7 @@
       "updated_at": "2018-06-14",
       "vulnerable_versions": "<=0.4.0"
    },
-   "./ecosystem/node-air-sdk/": {
+   "./ecosystem/node-air-sdk/250.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5966,7 +6888,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/node-browser/": {
+   "./ecosystem/node-browser/214.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -5988,7 +6910,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/node-bsdiff-android/": {
+   "./ecosystem/node-bsdiff-android/234.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6010,7 +6932,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/node-df/": {
+   "./ecosystem/node-df/506.json": {
       "author": {
          "name": "Michele Romano",
          "username": "mik317",
@@ -6036,7 +6958,7 @@
       "updated_at": "2019-12-04",
       "vulnerable_versions": "*"
    },
-   "./ecosystem/node-jose/": {
+   "./ecosystem/node-jose/324.json": {
       "author": {
          "name": "Antonio Sanso",
          "username": null,
@@ -6061,7 +6983,7 @@
       "updated_at": "2017-03-13",
       "vulnerable_versions": "<0.9.3"
    },
-   "./ecosystem/node-krb5/": {
+   "./ecosystem/node-krb5/136.json": {
       "author": {
          "name": "Richard Silverman",
          "username": null,
@@ -6088,7 +7010,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/node-serialize/": {
+   "./ecosystem/node-serialize/311.json": {
       "author": {
          "name": "Ajin Abraham",
          "username": null,
@@ -6113,7 +7035,7 @@
       "updated_at": "2017-02-09",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/node-srv/": {
+   "./ecosystem/node-srv/383.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -6139,7 +7061,7 @@
       "updated_at": "2018-03-07",
       "vulnerable_versions": "<2.1.1"
    },
-   "./ecosystem/node-thulac/": {
+   "./ecosystem/node-thulac/236.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6161,7 +7083,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/node-uuid/": {
+   "./ecosystem/node-uuid/93.json": {
       "author": {
          "name": "Fedot Praslov",
          "username": null,
@@ -6188,7 +7110,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<1.4.4"
    },
-   "./ecosystem/node.extend/": {
+   "./ecosystem/node.extend/490.json": {
       "author": {
          "name": "asgerf",
          "username": "asgerf",
@@ -6214,7 +7136,7 @@
       "updated_at": "2019-01-03",
       "vulnerable_versions": "<2.0.1 || <1.1.7"
    },
-   "./ecosystem/nodeschnaps/": {
+   "./ecosystem/nodeschnaps/212.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6236,7 +7158,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/nodewebkit/": {
+   "./ecosystem/nodewebkit/173.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6258,7 +7180,7 @@
       "updated_at": "2016-12-18",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/npm-git-publish/": {
+   "./ecosystem/npm-git-publish/514.json": {
       "author": {
          "name": "Michele Romano",
          "username": "mik317",
@@ -6282,7 +7204,7 @@
       "updated_at": "2020-01-11",
       "vulnerable_versions": "*"
    },
-   "./ecosystem/npm-test-sqlite3-trunk/": {
+   "./ecosystem/npm-test-sqlite3-trunk/297.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6304,7 +7226,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/npm/": {
+   "./ecosystem/npm/152.json": {
       "author": {
          "name": "J\u00e9r\u00e9my Lal",
          "username": null,
@@ -6331,7 +7253,34 @@
       "updated_at": "2017-03-23",
       "vulnerable_versions": "<1.3.3"
    },
-   "./ecosystem/npmconf/": {
+   "./ecosystem/npm/98.json": {
+      "author": {
+         "name": "Mitar, Will White & the team at Mapbox, Max Motovilov, and James Taylor",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-04-01",
+      "cves": [
+         "CVE-2016-3956"
+      ],
+      "cvss_score": 6.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "id": 98,
+      "module_name": "npm",
+      "overview": "The primary npm registry has, since late 2014, used HTTP bearer tokens to authenticate requests from the npm command-line interface. Due to a design flaw in the CLI, these bearer tokens were sent with every request made by the CLI for logged-in users, regardless of the destination of the request. They should instead only be included for requests made against the registry or registries used for the current install.  This flaw allows an attacker to set up an HTTP server that could collect authentication information they could use to impersonate the users whose tokens they collected. This impersonation would allow them to do anything the compromised users could do, including publishing new versions of packages.",
+      "patched_versions": ">= 2.15.1 <= 3.0.0 || >= 3.8.3",
+      "publish_date": "2016-04-18",
+      "recommendation": "Upgrade npm itself with `npm install npm@latest -g` and [revoke your tokens](https://www.npmjs.com/settings/tokens)",
+      "references": [
+         "https://nodejs.org/en/blog/vulnerability/npm-tokens-leak-march-2016/",
+         "http://blog.npmjs.org/post/142036323955/fixing-a-bearer-token-vulnerability"
+      ],
+      "title": "npm Token Leak",
+      "updated_at": "2016-10-27",
+      "vulnerable_versions": "<= 2.15.0 || >= 3.0.0 <= 3.8.2"
+   },
+   "./ecosystem/npmconf/431.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -6355,7 +7304,7 @@
       "updated_at": "2018-05-12",
       "vulnerable_versions": "<=2.1.2"
    },
-   "./ecosystem/ntfserver/": {
+   "./ecosystem/ntfserver/253.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6377,7 +7326,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/nunjucks/": {
+   "./ecosystem/nunjucks/147.json": {
       "author": {
          "name": "Matt Austin",
          "username": null,
@@ -6402,7 +7351,7 @@
       "updated_at": "2016-10-17",
       "vulnerable_versions": "<=2.4.2"
    },
-   "./ecosystem/nw-with-arm/": {
+   "./ecosystem/nw-with-arm/226.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6424,7 +7373,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/nw/": {
+   "./ecosystem/nw/166.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6446,7 +7395,7 @@
       "updated_at": "2016-12-18",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/open/": {
+   "./ecosystem/open/433.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -6470,7 +7419,7 @@
       "updated_at": "2018-05-12",
       "vulnerable_versions": "<=0.0.5"
    },
-   "./ecosystem/openframe-ascii-image/": {
+   "./ecosystem/openframe-ascii-image/298.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6492,7 +7441,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/openframe-glslviewer/": {
+   "./ecosystem/openframe-glslviewer/208.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6514,7 +7463,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/openframe-image/": {
+   "./ecosystem/openframe-image/218.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6536,7 +7485,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/openwhisk/": {
+   "./ecosystem/openwhisk/395.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -6560,7 +7509,7 @@
       "updated_at": "2018-03-24",
       "vulnerable_versions": "<3.3.1"
    },
-   "./ecosystem/operadriver/": {
+   "./ecosystem/operadriver/196.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6582,7 +7531,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<0.2.3"
    },
-   "./ecosystem/passport-azure-ad/": {
+   "./ecosystem/passport-azure-ad/151.json": {
       "author": {
          "name": "Unknown",
          "username": null,
@@ -6609,7 +7558,7 @@
       "updated_at": "2016-12-06",
       "vulnerable_versions": ">= 1.0.0 < 1.4.6 || 2.0.0"
    },
-   "./ecosystem/paypal-ipn/": {
+   "./ecosystem/paypal-ipn/26.json": {
       "author": {
          "name": "Martin Angelov",
          "username": null,
@@ -6633,7 +7582,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<3.0.0"
    },
-   "./ecosystem/pdf-image/": {
+   "./ecosystem/pdf-image/438.json": {
       "author": {
          "name": "N B Sri Harsh\u0430",
          "username": null,
@@ -6659,7 +7608,7 @@
       "updated_at": "2018-05-29",
       "vulnerable_versions": "<=1.0.5"
    },
-   "./ecosystem/pdfinfojs/": {
+   "./ecosystem/pdfinfojs/412.json": {
       "author": {
          "name": "Caio L\u00fcders",
          "username": "caioluders",
@@ -6685,7 +7634,7 @@
       "updated_at": "2018-04-09",
       "vulnerable_versions": "<=0.3.6"
    },
-   "./ecosystem/pennyworth/": {
+   "./ecosystem/pennyworth/213.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6707,7 +7656,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/phantomjs-cheniu/": {
+   "./ecosystem/phantomjs-cheniu/262.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6729,7 +7678,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/pidusage/": {
+   "./ecosystem/pidusage/356.json": {
       "author": {
          "name": "micaksica",
          "username": null,
@@ -6751,7 +7700,7 @@
       "updated_at": "2017-06-05",
       "vulnerable_versions": "<=1.1.4"
    },
-   "./ecosystem/pivottable/": {
+   "./ecosystem/pivottable/139.json": {
       "author": {
          "name": "Todd Wolfson",
          "username": null,
@@ -6777,7 +7726,7 @@
       "updated_at": "2017-04-20",
       "vulnerable_versions": ">=1.4.0 <2.0.0"
    },
-   "./ecosystem/pk-app-wonderbox/": {
+   "./ecosystem/pk-app-wonderbox/289.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6799,7 +7748,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/plotly.js/": {
+   "./ecosystem/plotly.js/145.json": {
       "author": {
          "name": "Jared Folkins",
          "username": null,
@@ -6824,7 +7773,7 @@
       "updated_at": "2016-11-03",
       "vulnerable_versions": "<1.10.4 || >=1.11.0 <1.16.0"
    },
-   "./ecosystem/pm2-kafka/": {
+   "./ecosystem/pm2-kafka/299.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6846,7 +7795,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/pngcrush-installer/": {
+   "./ecosystem/pngcrush-installer/189.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6868,7 +7817,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<1.8.10"
    },
-   "./ecosystem/poco/": {
+   "./ecosystem/poco/271.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6890,7 +7839,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/pouchdb/": {
+   "./ecosystem/pouchdb/143.json": {
       "author": {
          "name": "micaksica",
          "username": null,
@@ -6912,7 +7861,7 @@
       "updated_at": "2016-10-17",
       "vulnerable_versions": "<=6.0.4"
    },
-   "./ecosystem/prebuild-lwip/": {
+   "./ecosystem/prebuild-lwip/248.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6934,7 +7883,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/prince/": {
+   "./ecosystem/prince/185.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6956,7 +7905,7 @@
       "updated_at": "2016-12-21",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/printer/": {
+   "./ecosystem/printer/27.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -6983,7 +7932,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<= 0.0.1"
    },
-   "./ecosystem/product-monitor/": {
+   "./ecosystem/product-monitor/171.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7005,7 +7954,7 @@
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<2.2.5"
    },
-   "./ecosystem/protobufjs/": {
+   "./ecosystem/protobufjs/400.json": {
       "author": {
          "name": "Jamie Davis",
          "username": null,
@@ -7032,7 +7981,7 @@
       "updated_at": "2018-03-31",
       "vulnerable_versions": "<=6.8.5"
    },
-   "./ecosystem/ps/": {
+   "./ecosystem/ps/470.json": {
       "author": {
          "name": "Cristian-Alexandru Staicu",
          "username": "cris_semmle",
@@ -7058,7 +8007,34 @@
       "updated_at": "2018-09-07",
       "vulnerable_versions": "<1.0.0"
    },
-   "./ecosystem/public/": {
+   "./ecosystem/public/373.json": {
+      "author": {
+         "name": "bl4de",
+         "username": null,
+         "website": "https://twitter.com/_bl4de"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-02-17",
+      "cves": [
+         "CVE-2018-3731"
+      ],
+      "cvss_score": 8.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+      "id": 373,
+      "module_name": "public",
+      "overview": "public static hosting module suffers from a lack of file path sanitization which causes that any file on the server might be read by malicious user.",
+      "patched_versions": ">=0.1.3",
+      "publish_date": "2018-02-17",
+      "recommendation": "update public to 0.1.3 or higher",
+      "references": [
+         "https://hackerone.com/reports/312918",
+         "https://github.com/tnantoka/public/commit/eae8ad8017b260f8667ded5e12801bd72b877af2"
+      ],
+      "title": "Directory Traversal",
+      "updated_at": "2018-02-17",
+      "vulnerable_versions": "<=0.1.2"
+   },
+   "./ecosystem/public/405.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -7082,7 +8058,7 @@
       "updated_at": "2018-04-15",
       "vulnerable_versions": "<=0.1.3"
    },
-   "./ecosystem/pullit/": {
+   "./ecosystem/pullit/447.json": {
       "author": {
          "name": "Liran Tal",
          "username": null,
@@ -7106,7 +8082,7 @@
       "updated_at": "2018-06-14",
       "vulnerable_versions": "<=1.3.0"
    },
-   "./ecosystem/put/": {
+   "./ecosystem/put/444.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -7130,7 +8106,7 @@
       "updated_at": "2018-06-14",
       "vulnerable_versions": "<=0.0.6"
    },
-   "./ecosystem/qbs/": {
+   "./ecosystem/qbs/266.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7152,7 +8128,29 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/qs/": {
+   "./ecosystem/qs/28.json": {
+      "author": {
+         "name": "Tom Steele",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-17",
+      "cves": [],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "id": 28,
+      "module_name": "qs",
+      "overview": "The qs module does not have an option or default for specifying object depth and when parsing a string representing a deeply nested object will block the event loop for long periods of time. An attacker could leverage this to cause a temporary denial-of-service condition, for example, in a web application, other requests would not be processed while this blocking is occurring.",
+      "patched_versions": ">= 1.x",
+      "publish_date": "2014-08-06",
+      "recommendation": "Update qs to version 1.0.0 or greater",
+      "references": null,
+      "title": "Denial-of-Service Extended Event Loop Blocking",
+      "updated_at": "2016-04-28",
+      "vulnerable_versions": "<1.0.0"
+   },
+   "./ecosystem/qs/29.json": {
       "author": {
          "name": "Dustin Shiver",
          "username": null,
@@ -7178,7 +8176,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<1.0.0"
    },
-   "./ecosystem/query-mysql/": {
+   "./ecosystem/query-mysql/430.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -7204,7 +8202,7 @@
       "updated_at": "2018-05-11",
       "vulnerable_versions": "<=0.0.2"
    },
-   "./ecosystem/react-marked-markdown/": {
+   "./ecosystem/react-marked-markdown/435.json": {
       "author": {
          "name": "Ron Perris",
          "username": null,
@@ -7229,7 +8227,7 @@
       "updated_at": "2018-05-13",
       "vulnerable_versions": "<=1.4.6"
    },
-   "./ecosystem/react-native-baidu-voice-synthesizer/": {
+   "./ecosystem/react-native-baidu-voice-synthesizer/302.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7251,7 +8249,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/react-native-meteor-oauth/": {
+   "./ecosystem/react-native-meteor-oauth/157.json": {
       "author": {
          "name": "Sven Slootweg",
          "username": null,
@@ -7275,7 +8273,7 @@
       "updated_at": "2017-04-14",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/react-svg/": {
+   "./ecosystem/react-svg/415.json": {
       "author": {
          "name": "Ron Perris",
          "username": null,
@@ -7299,7 +8297,7 @@
       "updated_at": "2018-04-27",
       "vulnerable_versions": "<=2.2.17"
    },
-   "./ecosystem/redis-commander/": {
+   "./ecosystem/redis-commander/362.json": {
       "author": {
          "name": "Yasin Soliman",
          "username": "ysx",
@@ -7323,7 +8321,7 @@
       "updated_at": "2018-01-23",
       "vulnerable_versions": "<=0.13.12"
    },
-   "./ecosystem/redis-srvr/": {
+   "./ecosystem/redis-srvr/238.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7345,7 +8343,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/reduce-css-calc/": {
+   "./ecosystem/reduce-css-calc/144.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -7369,7 +8367,7 @@
       "updated_at": "2016-10-17",
       "vulnerable_versions": "<=1.2.4"
    },
-   "./ecosystem/remarkable/": {
+   "./ecosystem/remarkable/30.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7393,7 +8391,31 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<1.4.1"
    },
-   "./ecosystem/rendr/": {
+   "./ecosystem/remarkable/319.json": {
+      "author": {
+         "name": "Sophie Alpert",
+         "username": null,
+         "website": "https://github.com/sophiebits"
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2017-03-08",
+      "cves": [],
+      "cvss_score": 4.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "id": 319,
+      "module_name": "remarkable",
+      "overview": "Remarkable is a markdown parser.   In versions 1.6.2 and lower, remarkable allows the use of `data:` URIs.   After the markdown `[link](data:text/html,<script>alert('0')</script>)` is rendered, the script will run when clicked.",
+      "patched_versions": ">=1.7.0",
+      "publish_date": "2017-03-09",
+      "recommendation": "Upgrade to v1.7.0 or higher",
+      "references": [
+         "https://github.com/jonschlinkert/remarkable/issues/227)"
+      ],
+      "title": "XSS in Data URI",
+      "updated_at": "2017-03-09",
+      "vulnerable_versions": "<=1.6.2"
+   },
+   "./ecosystem/rendr/128.json": {
       "author": {
          "name": "Jon Merrifield",
          "username": null,
@@ -7420,7 +8442,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "<=1.1.3"
    },
-   "./ecosystem/request/": {
+   "./ecosystem/request/309.json": {
       "author": {
          "name": "Feross Aboukhadijeh",
          "username": null,
@@ -7445,7 +8467,7 @@
       "updated_at": "2017-04-18",
       "vulnerable_versions": ">=2.2.6 <2.47.0 || >2.51.0 <=2.67.0"
    },
-   "./ecosystem/resolve-path/": {
+   "./ecosystem/resolve-path/376.json": {
       "author": {
          "name": "orange_8361",
          "username": null,
@@ -7472,7 +8494,7 @@
       "updated_at": "2018-02-22",
       "vulnerable_versions": "<1.4.0"
    },
-   "./ecosystem/resourcehacker/": {
+   "./ecosystem/resourcehacker/254.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7494,7 +8516,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/restafary/": {
+   "./ecosystem/restafary/89.json": {
       "author": {
          "name": "Craig Arendt",
          "username": null,
@@ -7516,7 +8538,7 @@
       "updated_at": "2016-04-27",
       "vulnerable_versions": "<1.6.1"
    },
-   "./ecosystem/restify/": {
+   "./ecosystem/restify/314.json": {
       "author": {
          "name": "CycoPH",
          "username": null,
@@ -7540,7 +8562,7 @@
       "updated_at": "2017-04-20",
       "vulnerable_versions": ">=2.0.0 <=4.0.4"
    },
-   "./ecosystem/rgb2hex/": {
+   "./ecosystem/rgb2hex/418.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -7566,7 +8588,7 @@
       "updated_at": "2018-04-28",
       "vulnerable_versions": "<0.1.6"
    },
-   "./ecosystem/riot-compiler/": {
+   "./ecosystem/riot-compiler/86.json": {
       "author": {
          "name": "Alberto Mart\u00ednez",
          "username": null,
@@ -7590,7 +8612,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "2.3.21"
    },
-   "./ecosystem/robot-js/": {
+   "./ecosystem/robot-js/201.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7612,7 +8634,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/roslib-socketio/": {
+   "./ecosystem/roslib-socketio/292.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7634,7 +8656,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/rs-brightcove/": {
+   "./ecosystem/rs-brightcove/273.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7656,7 +8678,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/sails/": {
+   "./ecosystem/sails/148.json": {
       "author": {
          "name": "Evan Johnson",
          "username": null,
@@ -7681,7 +8703,7 @@
       "updated_at": "2016-10-21",
       "vulnerable_versions": "<=0.12.7"
    },
-   "./ecosystem/samsung-remote/": {
+   "./ecosystem/samsung-remote/465.json": {
       "author": {
          "name": "Douglas Hall",
          "username": "douglas_hall",
@@ -7705,7 +8727,58 @@
       "updated_at": "2018-09-02",
       "vulnerable_versions": "<1.3.5"
    },
-   "./ecosystem/sanitize-html/": {
+   "./ecosystem/sanitize-html/135.json": {
+      "author": {
+         "name": "Bj\u00f6rn Kimminich",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-08-01",
+      "cves": [
+         "CVE-2016-1000237"
+      ],
+      "cvss_score": 4.7,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N",
+      "id": 135,
+      "module_name": "sanitize-html",
+      "overview": "Sanitization of HTML strings is not applied recursively to input, allowing an attacker to potentially inject script and other markup.",
+      "patched_versions": ">=1.4.3",
+      "publish_date": "2016-08-01",
+      "recommendation": "Upgrade to 1.4.3 or later",
+      "references": [
+         "https://github.com/punkave/sanitize-html/issues/29"
+      ],
+      "title": "XSS - Sanitization not applied recursively",
+      "updated_at": "2017-02-10",
+      "vulnerable_versions": "<=1.4.2"
+   },
+   "./ecosystem/sanitize-html/154.json": {
+      "author": {
+         "name": "Andrew Krasichkov",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-10-27",
+      "cves": [],
+      "cvss_score": 5.4,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+      "id": 154,
+      "module_name": "sanitize-html",
+      "overview": "Sanitize-html is a library for scrubbing html input of malicious values.  Versions 1.11.1 and below are vulnerable to cross site scripting (XSS) in certain scenarios:  If allowed at least one nonTextTags, the result is a potential XSS vulnerability. PoC:  ``` var sanitizeHtml = require('sanitize-html');  var dirty = '!<textarea>&lt;/textarea&gt;<svg/onload=prompt`xs`&gt;</textarea>!'; var clean = sanitizeHtml(dirty, {     allowedTags: [ 'textarea' ] });  console.log(clean);  // !<textarea></textarea><svg/onload=prompt`xs`></textarea>! ```",
+      "patched_versions": ">=1.11.4",
+      "publish_date": "2017-04-11",
+      "recommendation": "Upgrade to version 1.11.4 or later",
+      "references": [
+         "https://github.com/punkave/sanitize-html/issues/100",
+         "https://github.com/punkave/sanitize-html/commit/5d205a1005ba0df80e21d8c64a15bb3accdb2403"
+      ],
+      "title": "Cross Site Scripting",
+      "updated_at": "2017-04-12",
+      "vulnerable_versions": "<=1.11.1"
+   },
+   "./ecosystem/sanitize-html/155.json": {
       "author": {
          "name": "Jim O'Brien",
          "username": null,
@@ -7730,7 +8803,7 @@
       "updated_at": "2017-04-14",
       "vulnerable_versions": "<=1.2.2"
    },
-   "./ecosystem/sauce-connect/": {
+   "./ecosystem/sauce-connect/186.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7752,7 +8825,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/scala-bin/": {
+   "./ecosystem/scala-bin/227.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7774,7 +8847,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/scalajs-standalone-bin/": {
+   "./ecosystem/scalajs-standalone-bin/231.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7796,7 +8869,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/secure-compare/": {
+   "./ecosystem/secure-compare/50.json": {
       "author": {
          "name": "Joshua Dague",
          "username": null,
@@ -7820,7 +8893,7 @@
       "updated_at": "2016-04-25",
       "vulnerable_versions": "<=3.0.0"
    },
-   "./ecosystem/seeftl/": {
+   "./ecosystem/seeftl/511.json": {
       "author": {
          "name": "Luiz Viana",
          "username": "luizviana",
@@ -7846,7 +8919,7 @@
       "updated_at": "2019-12-31",
       "vulnerable_versions": "*"
    },
-   "./ecosystem/selenium-binaries/": {
+   "./ecosystem/selenium-binaries/175.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7868,7 +8941,7 @@
       "updated_at": "2016-12-18",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/selenium-chromedriver/": {
+   "./ecosystem/selenium-chromedriver/222.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7890,7 +8963,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/selenium-download/": {
+   "./ecosystem/selenium-download/164.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7912,7 +8985,7 @@
       "updated_at": "2016-12-06",
       "vulnerable_versions": "<2.0.7"
    },
-   "./ecosystem/selenium-portal/": {
+   "./ecosystem/selenium-portal/260.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7934,7 +9007,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/selenium-standalone-painful/": {
+   "./ecosystem/selenium-standalone-painful/284.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7956,7 +9029,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/selenium-wrapper/": {
+   "./ecosystem/selenium-wrapper/224.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -7978,7 +9051,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/semver/": {
+   "./ecosystem/semver/31.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -8005,7 +9078,7 @@
       "updated_at": "2016-04-21",
       "vulnerable_versions": "<4.3.2"
    },
-   "./ecosystem/send/": {
+   "./ecosystem/send/32.json": {
       "author": {
          "name": "Ilya Kantor",
          "username": null,
@@ -8032,7 +9105,34 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "< 0.8.4"
    },
-   "./ecosystem/seneca/": {
+   "./ecosystem/send/56.json": {
+      "author": {
+         "name": "Dinis Cruz",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-11-03",
+      "cves": [
+         "CVE-2015-8859"
+      ],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "id": 56,
+      "module_name": "send",
+      "overview": "The send module < 0.11.1 discloses the root path.",
+      "patched_versions": ">=0.11.1",
+      "publish_date": "2015-11-03",
+      "recommendation": "Upgrade to send version 0.11.1 or greater.",
+      "references": [
+         "https://github.com/pillarjs/send/pull/70",
+         "https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20"
+      ],
+      "title": "Root Path Disclosure",
+      "updated_at": "2016-04-25",
+      "vulnerable_versions": "<0.11.1"
+   },
+   "./ecosystem/seneca/501.json": {
       "author": {
          "name": "Matteo Collina",
          "username": "mcollina",
@@ -8058,7 +9158,131 @@
       "updated_at": "2019-09-03",
       "vulnerable_versions": "<3.9.0"
    },
-   "./ecosystem/sequelize/": {
+   "./ecosystem/sequelize/102.json": {
+      "author": {
+         "name": "Leibale Eidelman",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-04-18",
+      "cves": [],
+      "cvss_score": 4.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 102,
+      "module_name": "sequelize",
+      "overview": "sequalize is an Object-relational mapping, or a middleman to convert things from Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server into usable data for NodeJS  In Postgres, SQLite, and Microsoft SQL Server there is an issue where arrays are treated as strings and improperly escaped.  This causes potential SQL injection, where a malicious user could put `[\"test\", \"'); DELETE TestTable WHERE Id = 1 --')\"]` inside of ``` database.query('SELECT * FROM TestTable WHERE Name IN (:names)', {   replacements: {     names: directCopyOfUserInput   } }); ``` and cause the SQL statement to become `SELECT Id FROM Table WHERE Name IN ('test', '\\'); DELETE TestTable WHERE Id = 1 --')`.   In Postgres, MSSQL, and SQLite, the backslash has no special meaning. This causes the the statement to delete whichever Id has a value of 1 in the TestTable table.",
+      "patched_versions": ">=3.20.0",
+      "publish_date": "2016-10-31",
+      "recommendation": "Upgrade to sequelize version 3.20.0 or greater",
+      "references": [
+         "https://github.com/sequelize/sequelize/issues/5671"
+      ],
+      "title": "Improper Escaping of Bound Arrays",
+      "updated_at": "2016-10-31",
+      "vulnerable_versions": "<=3.19.3"
+   },
+   "./ecosystem/sequelize/109.json": {
+      "author": {
+         "name": "unknown",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-05-05",
+      "cves": [],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 109,
+      "module_name": "sequelize",
+      "overview": "sequalize is an Object-relational mapping, or a middleman to convert things from Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server into usable data for NodeJS  A fix was pushed out that fixed potential SQL injection.  The two fixes were  - [REMOVED/SECURITY] findOne no longer takes a string / integer / binary argument to represent a primaryKey. Use findById instead - [REMOVED/SECURITY] where: \"raw query\" is no longer legal, you must now explicitly use where: [\"raw query\", [replacements]]",
+      "patched_versions": ">= 3.0.0",
+      "publish_date": "2016-10-31",
+      "recommendation": "Upgrade to at least version 3.0.0",
+      "references": [
+         "https://github.com/sequelize/sequelize/blob/master/changelog.md#300"
+      ],
+      "title": "Potential SQL Injection",
+      "updated_at": "2016-10-31",
+      "vulnerable_versions": "<= 2.1.3"
+   },
+   "./ecosystem/sequelize/112.json": {
+      "author": {
+         "name": "Spencer Creasey",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-05-05",
+      "cves": [],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 112,
+      "module_name": "sequelize",
+      "overview": "sequalize is an Object-relational mapping, or a middleman to convert things from Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server into usable data for NodeJS  If user input goes into the `limit` or `order` parameters, a malicious user can put in their own SQL statements.   `1; DELETE FROM \"Users\" WHERE 1=1; --`",
+      "patched_versions": ">= 3.17.0",
+      "publish_date": "2016-10-31",
+      "recommendation": "Upgrade sequelize to version 3.17.0 or greater",
+      "references": [
+         "https://github.com/sequelize/sequelize/pull/5167/commits/f282d85e60e3df5e57ecdb82adccb4eaef404f03"
+      ],
+      "title": "SQL Injection",
+      "updated_at": "2016-10-31",
+      "vulnerable_versions": "<= 3.16.0"
+   },
+   "./ecosystem/sequelize/113.json": {
+      "author": {
+         "name": "unknown",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-05-05",
+      "cves": [],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 113,
+      "module_name": "sequelize",
+      "overview": "sequelize is an Object-relational mapping, or a middleman to convert things from Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server into usable data for NodeJS  Before version 1.7.0-alpha3, sequelize defaulted SQLite to use MySQL backslash escaping, even though SQLite uses Postgres escaping.",
+      "patched_versions": ">= 1.7.0-alpha3",
+      "publish_date": "2016-10-31",
+      "recommendation": "Upgrade to at least version <=1.7.0-alpha3",
+      "references": [
+         "https://github.com/sequelize/sequelize/commit/c876192aa6ce1f67e22b26a4d175b8478615f42d"
+      ],
+      "title": "SQL Injection",
+      "updated_at": "2016-10-31",
+      "vulnerable_versions": "<= 1.7.0-alpha2"
+   },
+   "./ecosystem/sequelize/122.json": {
+      "author": {
+         "name": "Eric Schoffstall",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-07-18",
+      "cves": [
+         "CVE-2016-1000225"
+      ],
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "id": 122,
+      "module_name": "sequelize",
+      "overview": "SequelizeJS 3.23.4 is vulnerable to SQL injection via GeoJSON documents containing a value with a single quote.  This vulnerability affects postresql/postgis as well as MySQL. This vulnerability only exists within GeoJSON documents using the function `ST_GeomFromGeoJSON` for postgresql/postgis and the function `GeomFromText` for mysql. SequelizeJS's `geometry` datatype is vulnerable.  If you have SequelizeJS models with a field that has a datatype of 'Geometry' and run a mysql or postgresql/postgis backend, your application is vulnerable  SequelizeJS is a popular ORM (Object Relational Mapper) for node.    GeoJSON is a format for encoding a variety of geographic data structures.",
+      "patched_versions": ">=3.23.6",
+      "publish_date": "2016-07-18",
+      "recommendation": "Update to the most recent version of Sequelize.",
+      "references": [
+         "https://github.com/sequelize/sequelize/issues/6194",
+         "http://geojson.org/",
+         "http://docs.sequelizejs.com/en/latest/api/datatypes/#geometry"
+      ],
+      "title": "SQL Injection via GeoJSON",
+      "updated_at": "2017-02-10",
+      "vulnerable_versions": "<3.23.6"
+   },
+   "./ecosystem/sequelize/33.json": {
       "author": {
          "name": "Levan Basharuli",
          "username": null,
@@ -8084,7 +9308,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<=2.0.0-rc7"
    },
-   "./ecosystem/serc.js/": {
+   "./ecosystem/serc.js/277.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -8106,7 +9330,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/serialize-to-js/": {
+   "./ecosystem/serialize-to-js/313.json": {
       "author": {
          "name": "Ajin Abraham",
          "username": null,
@@ -8132,7 +9356,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "<=0.5.0"
    },
-   "./ecosystem/serve-here/": {
+   "./ecosystem/serve-here/359.json": {
       "author": {
          "name": "Yasin Soliman",
          "username": "ysx",
@@ -8156,7 +9380,7 @@
       "updated_at": "2018-01-10",
       "vulnerable_versions": "<=3.2.0"
    },
-   "./ecosystem/serve-index/": {
+   "./ecosystem/serve-index/34.json": {
       "author": {
          "name": "Ivan Kozik",
          "username": null,
@@ -8183,7 +9407,7 @@
       "updated_at": "2017-01-20",
       "vulnerable_versions": "<1.6.3"
    },
-   "./ecosystem/serve-static/": {
+   "./ecosystem/serve-static/35.json": {
       "author": {
          "name": "Pierre-\u00c9lie Fauch\u00e9",
          "username": null,
@@ -8210,7 +9434,59 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<1.6.5 || >=1.7.0 <1.7.2"
    },
-   "./ecosystem/serve/": {
+   "./ecosystem/serve/363.json": {
+      "author": {
+         "name": "bl4de",
+         "username": null,
+         "website": "https://twitter.com/_bl4de"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-01-23",
+      "cves": [
+         "CVE-2018-3712"
+      ],
+      "cvss_score": 9.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "id": 363,
+      "module_name": "serve",
+      "overview": "serve handles directory listing on its own and does not protect against listing of any directory on the remote server.",
+      "patched_versions": ">=6.4.9",
+      "publish_date": "2018-01-23",
+      "recommendation": "update serve to 6.4.9 or higher",
+      "references": [
+         "https://hackerone.com/reports/307666"
+      ],
+      "title": "Directory Traversal",
+      "updated_at": "2018-01-23",
+      "vulnerable_versions": "<=6.4.8"
+   },
+   "./ecosystem/serve/389.json": {
+      "author": {
+         "name": "digitalwizard",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-01-24",
+      "cves": [
+         "CVE-2018-3718"
+      ],
+      "cvss_score": 9.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "id": 389,
+      "module_name": "serve",
+      "overview": "[serve] Directory listing and File access even when they have been set to be ignored.",
+      "patched_versions": ">=6.5.2",
+      "publish_date": "2018-03-13",
+      "recommendation": "update serve to 6.5.2 or higher",
+      "references": [
+         "https://hackerone.com/reports/308721"
+      ],
+      "title": "Information Exposure Through Directory Listing",
+      "updated_at": "2018-03-14",
+      "vulnerable_versions": "<6.5.2"
+   },
+   "./ecosystem/serve/439.json": {
       "author": {
          "name": "tungpun",
          "username": null,
@@ -8236,7 +9512,33 @@
       "updated_at": "2018-05-31",
       "vulnerable_versions": "<=6.5.3"
    },
-   "./ecosystem/sexstatic/": {
+   "./ecosystem/serve/515.json": {
+      "author": {
+         "name": "Tung Pun",
+         "username": "tungpun",
+         "website": "https://tungpun.pw"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-03-28",
+      "cves": [
+         "CVE-2019-5415"
+      ],
+      "cvss_score": 9.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "id": 515,
+      "module_name": "serve",
+      "overview": "[serve] Directory listing and File access even when they have been set to be ignored (using dot-slash)",
+      "patched_versions": "7.0.0",
+      "publish_date": "2018-05-30",
+      "recommendation": "Update serve module to version 7.0.0",
+      "references": [
+         "https://hackerone.com/reports/330724"
+      ],
+      "title": "Information Exposure Through Directory Listing",
+      "updated_at": "2018-05-30",
+      "vulnerable_versions": "<= 6.5.3"
+   },
+   "./ecosystem/sexstatic/437.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -8262,7 +9564,7 @@
       "updated_at": "2018-05-29",
       "vulnerable_versions": "<=0.6.2"
    },
-   "./ecosystem/sfml/": {
+   "./ecosystem/sfml/256.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -8284,7 +9586,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/shell-quote/": {
+   "./ecosystem/shell-quote/117.json": {
       "author": {
          "name": "Koki Takahashi, Node Security Team",
          "username": null,
@@ -8306,7 +9608,7 @@
       "updated_at": "2016-06-21",
       "vulnerable_versions": "<=1.6.0"
    },
-   "./ecosystem/simple-server/": {
+   "./ecosystem/simple-server/390.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -8332,7 +9634,33 @@
       "updated_at": "2018-03-02",
       "vulnerable_versions": "<1.1.0"
    },
-   "./ecosystem/simplehttpserver/": {
+   "./ecosystem/simplehttpserver/380.json": {
+      "author": {
+         "name": "bl4de",
+         "username": null,
+         "website": "https://twitter.com/_bl4de"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-02-26",
+      "cves": [
+         "CVE-2018-3716"
+      ],
+      "cvss_score": 9.6,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+      "id": 380,
+      "module_name": "simplehttpserver",
+      "overview": "simplehttpserver suffers from Stored XSS in file names leads to malicious JavaScript code execution when directory listing is output in HTML",
+      "patched_versions": null,
+      "publish_date": "2018-02-26",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/309648"
+      ],
+      "title": "Cross-Site Scripting (XSS) - Stored",
+      "updated_at": "2018-02-26",
+      "vulnerable_versions": "<=0.0.6"
+   },
+   "./ecosystem/simplehttpserver/481.json": {
       "author": {
          "name": "~",
          "username": "vulzzz",
@@ -8358,7 +9686,7 @@
       "updated_at": "2018-11-23",
       "vulnerable_versions": "<=0.2.1"
    },
-   "./ecosystem/slimerjs-edge/": {
+   "./ecosystem/slimerjs-edge/243.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -8380,7 +9708,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/soci/": {
+   "./ecosystem/soci/270.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -8402,7 +9730,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/socket.io/": {
+   "./ecosystem/socket.io/321.json": {
       "author": {
          "name": "Martin Thomson",
          "username": null,
@@ -8428,7 +9756,7 @@
       "updated_at": "2017-04-18",
       "vulnerable_versions": "<=0.9.6"
    },
-   "./ecosystem/sql/": {
+   "./ecosystem/sql/432.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -8452,7 +9780,7 @@
       "updated_at": "2018-05-12",
       "vulnerable_versions": "<=0.78.0"
    },
-   "./ecosystem/sshpk/": {
+   "./ecosystem/sshpk/401.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -8477,7 +9805,7 @@
       "updated_at": "2018-04-05",
       "vulnerable_versions": "<=1.13.1"
    },
-   "./ecosystem/st/": {
+   "./ecosystem/st/36.json": {
       "author": {
          "name": "Isaac Schlueter",
          "username": null,
@@ -8503,7 +9831,7 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<0.2.5"
    },
-   "./ecosystem/statics-server/": {
+   "./ecosystem/statics-server/451.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -8529,7 +9857,33 @@
       "updated_at": "2018-07-14",
       "vulnerable_versions": "<=0.0.9"
    },
-   "./ecosystem/stattic/": {
+   "./ecosystem/statics-server/504.json": {
+      "author": {
+         "name": "0xChe",
+         "username": "0xche",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-09-16",
+      "cves": [
+         "CVE-2019-15596"
+      ],
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:U/A:U",
+      "id": 504,
+      "module_name": "statics-server",
+      "overview": "Path traversal using symlink",
+      "patched_versions": null,
+      "publish_date": "2019-10-07",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/695416"
+      ],
+      "title": "Path Traversal",
+      "updated_at": "2019-10-07",
+      "vulnerable_versions": "*"
+   },
+   "./ecosystem/stattic/386.json": {
       "author": {
          "name": "bl4de",
          "username": null,
@@ -8555,7 +9909,7 @@
       "updated_at": "2018-03-07",
       "vulnerable_versions": "<0.3.0"
    },
-   "./ecosystem/steroids/": {
+   "./ecosystem/steroids/168.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -8577,7 +9931,7 @@
       "updated_at": "2016-12-18",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/strider-sauce/": {
+   "./ecosystem/strider-sauce/202.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -8599,7 +9953,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/stringstream/": {
+   "./ecosystem/stringstream/422.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -8624,7 +9978,7 @@
       "updated_at": "2018-05-11",
       "vulnerable_versions": "<=0.0.5"
    },
-   "./ecosystem/summit/": {
+   "./ecosystem/summit/315.json": {
       "author": {
          "name": "Cristian-Alexandru Staicu",
          "username": null,
@@ -8648,7 +10002,7 @@
       "updated_at": "2017-04-14",
       "vulnerable_versions": ">=0.1.0"
    },
-   "./ecosystem/superstatic/": {
+   "./ecosystem/superstatic/419.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -8676,7 +10030,87 @@
       "updated_at": "2018-04-29",
       "vulnerable_versions": "<=5.0.1"
    },
-   "./ecosystem/swagger-ui/": {
+   "./ecosystem/swagger-ui/123.json": {
+      "author": {
+         "name": "Joe Vennix",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-07-20",
+      "cves": [
+         "CVE-2016-1000226"
+      ],
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "id": 123,
+      "module_name": "swagger-ui",
+      "overview": "Swagger is a standardized library for documenting API endpoints and their parameters.  Swagger uses a JSON document to organize API endpoint parameter data.  Swagger-UI version 2.1.4 contains a cross site scripting (XSS) vulnerability in the `consumes` and `produces` parameters of the swagger json document for a given API.  A maliciously crafted swagger JSON doc can be loaded via the URL query-string parameter `url`.   To exploit the vulnerability, an attacker would convince a user to visit a malicious url crafted in the following format:  ``` http://<USER_HOSTNAME>/swagger-ui/index.html?url=http://<MALICIOUS_HOSTNAME>/malicious-swagger-file.json ````  This issue is being disclosed before a public patched release is available due to the issue being made public in a Github issue.",
+      "patched_versions": ">=2.1.5",
+      "publish_date": "2016-07-20",
+      "recommendation": "Update to version 2.1.5 or greater.",
+      "references": [
+         "https://github.com/swagger-api/swagger-ui/issues/1866",
+         "https://github.com/swagger-api/swagger-ui/pull/1867"
+      ],
+      "title": "XSS in Consumes/Produces Parameter",
+      "updated_at": "2017-02-10",
+      "vulnerable_versions": "2.1.4"
+   },
+   "./ecosystem/swagger-ui/126.json": {
+      "author": {
+         "name": "Joe Vennix",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-07-21",
+      "cves": [
+         "CVE-2016-1000229"
+      ],
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "id": 126,
+      "module_name": "swagger-ui",
+      "overview": "Swagger is a standardized library for documenting API endpoints and their parameters.  Swagger uses a JSON document to organize API endpoint parameter data.  Swagger-ui contains a cross site scripting (XSS) vulnerability in the key names for the following object path in the JSON document: ```  .definitions.<USER_DEFINED>.properties.<INJECTABLE_KEY_NAME> ``` Supplying a key name with script tags causes arbitrary code execution.  In addition it is possible to load the arbitrary JSON files remotely via the `URL` query-string parameter.  This advisory is being disclosed before a public patched release is available because of a public Github issue documenting the vulnerability.",
+      "patched_versions": ">=2.2.1",
+      "publish_date": "2016-07-21",
+      "recommendation": "Update to the latest version of swagger-ui.  Our primary recommendation is to host swagger documentation on a separate domain distinct from the application domain.  Also, we recommend implementing a content security policy (CSP) that restricts the domains from which JSON files can be requested in order to avoid loading malicious JSON docs via the `URL` query string parameter.",
+      "references": [
+         "https://github.com/swagger-api/swagger-ui/issues/1865",
+         "https://en.wikipedia.org/wiki/Content_Security_Policy"
+      ],
+      "title": "XSS in key names",
+      "updated_at": "2017-02-10",
+      "vulnerable_versions": "<=2.2.0"
+   },
+   "./ecosystem/swagger-ui/131.json": {
+      "author": {
+         "name": "Joe Vennix",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-07-22",
+      "cves": [
+         "CVE-2016-1000233"
+      ],
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
+      "id": 131,
+      "module_name": "swagger-ui",
+      "overview": "By using a malicious server which returns script as the value of the Content-Type header, it is possible to execute arbitrary code using the demonstration capabilities of Swagger-UI.",
+      "patched_versions": ">=2.1.5",
+      "publish_date": "2016-07-25",
+      "recommendation": "Update to 2.1.5 or later.",
+      "references": [
+         "https://github.com/swagger-api/swagger-ui/issues/1863"
+      ],
+      "title": "XSS via Content-type header",
+      "updated_at": "2017-02-10",
+      "vulnerable_versions": "2.1.4"
+   },
+   "./ecosystem/swagger-ui/137.json": {
       "author": {
          "name": "mehmetaydogdu",
          "username": null,
@@ -8702,7 +10136,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": "2.1.0-M1 || 2.1.0-M2"
    },
-   "./ecosystem/sync-exec/": {
+   "./ecosystem/sync-exec/310.json": {
       "author": {
          "name": "maxnikulin",
          "username": null,
@@ -8728,7 +10162,7 @@
       "updated_at": "2017-04-14",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/syntax-error/": {
+   "./ecosystem/syntax-error/37.json": {
       "author": {
          "name": "Cal Leeming",
          "username": null,
@@ -8754,7 +10188,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "< 1.1.1"
    },
-   "./ecosystem/takeapeek/": {
+   "./ecosystem/takeapeek/478.json": {
       "author": {
          "name": "Abdillah Muhamad",
          "username": "abdilahrf_",
@@ -8780,7 +10214,7 @@
       "updated_at": "2018-11-02",
       "vulnerable_versions": "<=0.2.2"
    },
-   "./ecosystem/tar/": {
+   "./ecosystem/tar/57.json": {
       "author": {
          "name": "Tim Cuthbertson",
          "username": null,
@@ -8806,7 +10240,7 @@
       "updated_at": "2016-04-25",
       "vulnerable_versions": "<2.0.0"
    },
-   "./ecosystem/tianma-static/": {
+   "./ecosystem/tianma-static/479.json": {
       "author": {
          "name": "Abdillah Muhamad",
          "username": "abdilahrf_",
@@ -8832,7 +10266,7 @@
       "updated_at": "2018-11-02",
       "vulnerable_versions": "<=1.0.4"
    },
-   "./ecosystem/tomita-parser/": {
+   "./ecosystem/tomita-parser/261.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -8854,7 +10288,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/tomita/": {
+   "./ecosystem/tomita/267.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -8876,7 +10310,7 @@
       "updated_at": "2017-01-09",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/total.js/": {
+   "./ecosystem/total.js/518.json": {
       "author": {
          "name": "Visat",
          "username": "visat",
@@ -8900,7 +10334,7 @@
       "updated_at": "2020-04-25",
       "vulnerable_versions": "<3.4.0"
    },
-   "./ecosystem/tough-cookie/": {
+   "./ecosystem/tough-cookie/130.json": {
       "author": {
          "name": "David Kirchner",
          "username": null,
@@ -8924,7 +10358,7 @@
       "updated_at": "2017-02-10",
       "vulnerable_versions": ">=0.9.7 <=2.2.2"
    },
-   "./ecosystem/tree-kill/": {
+   "./ecosystem/tree-kill/508.json": {
       "author": {
          "name": "Michele Romano",
          "username": "mik317",
@@ -8950,7 +10384,7 @@
       "updated_at": "2019-12-04",
       "vulnerable_versions": "*"
    },
-   "./ecosystem/treekill/": {
+   "./ecosystem/treekill/507.json": {
       "author": {
          "name": "Michele Romano",
          "username": "mik317",
@@ -8976,7 +10410,7 @@
       "updated_at": "2019-12-04",
       "vulnerable_versions": "*"
    },
-   "./ecosystem/tunnel-agent/": {
+   "./ecosystem/tunnel-agent/393.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -9001,7 +10435,7 @@
       "updated_at": "2018-03-24",
       "vulnerable_versions": "<0.6.0"
    },
-   "./ecosystem/uglify-js/": {
+   "./ecosystem/uglify-js/39.json": {
       "author": {
          "name": "Tom MacWright",
          "username": null,
@@ -9028,7 +10462,33 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<= 2.4.23"
    },
-   "./ecosystem/ungit/": {
+   "./ecosystem/uglify-js/48.json": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-24",
+      "cves": [
+         "CVE-2015-8858"
+      ],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "id": 48,
+      "module_name": "uglify-js",
+      "overview": "uglify-js is vulnerable to regular expression denial of service (ReDoS) when certain types of input is passed into .parse().  \"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1]  ### Proof of Concept  ``` var u = require('uglify-js'); var genstr = function (len, chr) {     var result = \"\";     for (i=0; i<=len; i++) {         result = result + chr;     }      return result; }  u.parse(\"var a = \" + genstr(process.argv[2], \"1\") + \".1ee7;\"); ```  ### Results ``` $ time node test.js 10000 real\t0m1.091s user\t0m1.047s sys\t0m0.039s  $ time node test.js 80000 real\t0m6.486s user\t0m6.229s sys\t0m0.094s ```",
+      "patched_versions": ">=2.6.0",
+      "publish_date": "2015-10-24",
+      "recommendation": "Update to version 2.6.0 or later",
+      "references": [
+         "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+      ],
+      "title": "Regular Expression Denial of Service",
+      "updated_at": "2016-04-21",
+      "vulnerable_versions": "<2.6.0"
+   },
+   "./ecosystem/ungit/40.json": {
       "author": {
          "name": "CodingTwinky",
          "username": null,
@@ -9054,7 +10514,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<=0.8.4"
    },
-   "./ecosystem/unicode-json/": {
+   "./ecosystem/unicode-json/206.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9076,7 +10536,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/unicode/": {
+   "./ecosystem/unicode/161.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9098,7 +10558,7 @@
       "updated_at": "2016-12-18",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/unzipper/": {
+   "./ecosystem/unzipper/459.json": {
       "author": {
          "name": "Danny Grander",
          "username": "danny_grander",
@@ -9124,7 +10584,7 @@
       "updated_at": "2018-08-12",
       "vulnerable_versions": "<0.8.13"
    },
-   "./ecosystem/uri-js/": {
+   "./ecosystem/uri-js/100.json": {
       "author": {
          "name": "Peter Dotchev",
          "username": null,
@@ -9149,7 +10609,7 @@
       "updated_at": "2017-04-14",
       "vulnerable_versions": "<=2.1.1"
    },
-   "./ecosystem/url-parse/": {
+   "./ecosystem/url-parse/456.json": {
       "author": {
          "name": "Ahmed",
          "username": null,
@@ -9178,7 +10638,7 @@
       "updated_at": "2018-07-30",
       "vulnerable_versions": "<1.4.3"
    },
-   "./ecosystem/utile/": {
+   "./ecosystem/utile/445.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -9202,7 +10662,7 @@
       "updated_at": "2018-06-14",
       "vulnerable_versions": "<=0.3.0"
    },
-   "./ecosystem/uws/": {
+   "./ecosystem/uws/149.json": {
       "author": {
          "name": "Luigi Pinca",
          "username": null,
@@ -9226,7 +10686,37 @@
       "updated_at": "2017-03-28",
       "vulnerable_versions": ">=0.10.0 <=0.10.8"
    },
-   "./ecosystem/validator/": {
+   "./ecosystem/validator/41.json": {
+      "author": {
+         "name": "Neal Poole, Krzysztof Kotowicz",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-17",
+      "cves": [
+         "CVE-2013-7451",
+         "CVE-2013-7452",
+         "CVE-2013-7453",
+         "CVE-2013-7454"
+      ],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 41,
+      "module_name": "validator",
+      "overview": "The validator module for Node.js contains functionality meant to filter potential XSS attacks (a filter called xss). Several ways to bypass the filter were discovered. In general, because the function\u2019s filtering is blacklist-based it is likely that other bypasses will be discovered in the future. Developers are encouraged not to use the xss filter function in this package.  ### Details: Various inputs that could bypass the filter were discovered:  Improper parsing of nested tags:  ``` <s <onmouseover=\"alert(1)\"> <;s onmouseover=\"alert(1)\">This is a test</s> ```  Incomplete filtering of javascript: URIs:  ``` <a href=\"javascriptJ a V a S c R iPt::alert(1)\" \"<s>\">test</a> ```  UI Redressing:  ``` <div style=\"z-index: 9999999; background-color: green; width: 100%; height: 100%\"> <h1>You have won</h1>Please click the link and enter your login details: <a href=\"http://example.com/\">http://good.com</a> </div> ```  Bypass via Nested Forbidden Strings:  ``` <scrRedirecRedirect 302t 302ipt type=\"text/javascript\">prompt(1);</scrRedirecRedirect 302t 302ipt> ```  Additional bypasses were discovered by Krzysztof Kotowicz in 2012 when auditing CodeIgniter's XSS filtering function, which this code was based off of.",
+      "patched_versions": ">=1.1.0",
+      "publish_date": "2013-07-05",
+      "recommendation": "If you are a developer currently using the xss filter function from the validator package, you should consider replacing it with the escape filter function from the same package. This function replaces all instances of angle brackets (<, >), ampersands, and quotation marks, so no HTML tags will be processed.",
+      "references": [
+         "https://nealpoole.com/blog/2013/07/xss-filter-bypass-in-validator-nodejs-module/)",
+         "http://blog.kotowicz.net/2012/07/codeigniter-210-xssclean-cross-site.html)"
+      ],
+      "title": "Multiple XSS Filter Bypasses",
+      "updated_at": "2016-04-29",
+      "vulnerable_versions": "<1.1.0"
+   },
+   "./ecosystem/validator/42.json": {
       "author": {
          "name": "Karl Du\u0308u\u0308na",
          "username": null,
@@ -9254,7 +10744,33 @@
       "updated_at": "2016-04-20",
       "vulnerable_versions": "<3.22.1"
    },
-   "./ecosystem/wasdk/": {
+   "./ecosystem/validator/43.json": {
+      "author": {
+         "name": "taku0",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-17",
+      "cves": [
+         "CVE-2014-9772"
+      ],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 43,
+      "module_name": "validator",
+      "overview": "The validator module for Node.js contains functionality meant to filter potential XSS attacks (a filter called xss). A method of bypassing the filter via an encoded URL has been publicly disclosed. In general, because the function\u2019s filtering is blacklist-based it is likely that other bypasses will be discovered in the future. Developers are encouraged not to use the xss filter function in this package.  ### Details: The xss() function removes the word \"javascript\" when contained inside an attribute. However, it does not properly handle cases where characters have been hex-encoded. As a result, it is possible to build an input that bypasses the filter but which the browser will accept as valid JavaScript.  For example, browsers interpret `<a href=\"jav&#x61;script:...\">abc</a>` as `<a href=\"javascript:...\">abc</a>`.",
+      "patched_versions": ">=2.0.0",
+      "publish_date": "2014-10-27",
+      "recommendation": "Upgrade to the latest version of this library. However, it should be noted that the fix for this vulnerability was to remove the xss filter functionality. Seek another library to provide proper output encoding.",
+      "references": [
+         "https://github.com/chriso/validator.js/issues/181"
+      ],
+      "title": "XSS Filter Bypass via Encoded URL",
+      "updated_at": "2016-04-28",
+      "vulnerable_versions": "<2.0.0"
+   },
+   "./ecosystem/wasdk/179.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9276,7 +10792,7 @@
       "updated_at": "2016-12-18",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/waterline-sequel/": {
+   "./ecosystem/waterline-sequel/115.json": {
       "author": {
          "name": "James Hush",
          "username": null,
@@ -9301,7 +10817,7 @@
       "updated_at": "2016-10-31",
       "vulnerable_versions": "0.5.0"
    },
-   "./ecosystem/webdriver-launcher/": {
+   "./ecosystem/webdriver-launcher/246.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9323,7 +10839,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/webdrvr/": {
+   "./ecosystem/webdrvr/193.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9345,7 +10861,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/webpack-dev-server/": {
+   "./ecosystem/webpack-dev-server/485.json": {
       "coordinating_vendor": null,
       "created_at": "2018-12-21",
       "cves": [
@@ -9369,7 +10885,7 @@
       "updated_at": "2018-12-27",
       "vulnerable_versions": "<=3.1.10"
    },
-   "./ecosystem/webrtc-native/": {
+   "./ecosystem/webrtc-native/176.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9391,7 +10907,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/whereis/": {
+   "./ecosystem/whereis/399.json": {
       "author": {
          "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
          "username": null,
@@ -9418,7 +10934,7 @@
       "updated_at": "2018-03-28",
       "vulnerable_versions": "<=0.4.0"
    },
-   "./ecosystem/windows-build-tools/": {
+   "./ecosystem/windows-build-tools/304.json": {
       "author": {
          "name": "Liang Gong",
          "username": null,
@@ -9442,7 +10958,7 @@
       "updated_at": "2017-01-06",
       "vulnerable_versions": "<1.0.0"
    },
-   "./ecosystem/windows-cpu/": {
+   "./ecosystem/windows-cpu/336.json": {
       "author": {
          "name": "Daniel Bond",
          "username": null,
@@ -9466,7 +10982,7 @@
       "updated_at": "2017-05-19",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/windows-iedriver/": {
+   "./ecosystem/windows-iedriver/293.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9488,7 +11004,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/windows-latestchromedriver/": {
+   "./ecosystem/windows-latestchromedriver/295.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9510,7 +11026,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/windows-selenium-chromedriver/": {
+   "./ecosystem/windows-selenium-chromedriver/285.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9532,7 +11048,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/windows-seleniumjar-mirror/": {
+   "./ecosystem/windows-seleniumjar-mirror/281.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9554,7 +11070,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/windows-seleniumjar/": {
+   "./ecosystem/windows-seleniumjar/296.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9576,7 +11092,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/wixtoolset/": {
+   "./ecosystem/wixtoolset/264.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9598,7 +11114,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/ws/": {
+   "./ecosystem/ws/120.json": {
       "author": {
          "name": "Fedor Indutny",
          "username": null,
@@ -9622,7 +11138,31 @@
       "updated_at": "2016-06-24",
       "vulnerable_versions": "<=1.1.0"
    },
-   "./ecosystem/xd-testing/": {
+   "./ecosystem/ws/67.json": {
+      "author": {
+         "name": "Feross Aboukhadijeh / Mathias Buss",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-01-04",
+      "cves": [],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 67,
+      "module_name": "ws",
+      "overview": "UPDATE Jan 6, 2016  Some additional, [important details](https://gist.github.com/c0nrad/e92005446c480707a74a) have been made available by Stuart Larsen. The client (which could in fact be the server in certain instances) is that one that allocates and sends the memory that is then echo'd by the server.  A vulnerability was found in the ping functionality of the ws module which allowed clients to allocate memory by sending a ping frame. The ping functionality by default responds with a pong frame and the previously given payload of the ping frame.   This is exactly what you expect, but internally ws always transforms all data that we need to send to a Buffer instance and that is where the vulnerability existed. ws didn't do any checks for the type of data it was sending. With buffers in node when you allocate it when a number instead of a string it will allocate the amount of bytes.  ``` var x = new Buffer(100); // vs var x = new Buffer('100'); ```  This would allocate 100 bytes of memory in the first example and just 3 bytes with 100 as value in the second example. So the client would allocate 100 bytes of non-zeroed buffer and send that to the server.     ## Example POC ``` var ws = require('ws')  var server = new ws.Server({ port: 9000 }) var client = new ws('ws://localhost:9000')  client.on('open', function () {   console.log('open')   client.ping(50) // this sends a non-zeroed buffer of 50 bytes    client.on('pong', function (data) {     console.log('got pong')     console.log(data) // Data from the client.    }) }) ```",
+      "patched_versions": ">= 1.0.1",
+      "publish_date": "2016-01-04",
+      "recommendation": "Update to version 1.0.1 or greater.",
+      "references": [
+         "https://github.com/websockets/ws/releases/tag/1.0.1"
+      ],
+      "title": "Remote Memory Disclosure",
+      "updated_at": "2016-04-27",
+      "vulnerable_versions": "<= 1.0.0"
+   },
+   "./ecosystem/xd-testing/257.json": {
       "author": {
          "name": "Adam Baldwin",
          "username": null,
@@ -9644,7 +11184,7 @@
       "updated_at": "2017-01-01",
       "vulnerable_versions": "<=99.999.99999"
    },
-   "./ecosystem/yar/": {
+   "./ecosystem/yar/44.json": {
       "author": {
          "name": "Reid Burke",
          "username": null,
@@ -9670,7 +11210,7 @@
       "updated_at": "2016-04-28",
       "vulnerable_versions": "<2.2.0"
    },
-   "./ecosystem/yui/": {
+   "./ecosystem/yui/332.json": {
       "author": {
          "name": "Aleksandr Dobkin and Sebastian Roschke",
          "username": null,

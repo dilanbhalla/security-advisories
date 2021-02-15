@@ -107,21 +107,19 @@ def parse_npm(path):
 
                 vuln = json.load(currentFile)
                 try:
-                    test_data = {dirpath : vuln}
+                    test_data = {filepath : vuln}
                     test_json_dump = json.dumps(test_data, indent=3, sort_keys=True).replace("\\n"," ")
                     test_json_data = json.loads(test_json_dump)
                     num_success += 1
-                    succeeded.append(os.path.join(dirpath, ""))
+                    succeeded.append(filepath)
                 except:
                     num_failed += 1
-                    failed.append(os.path.join(dirpath, ""))
+                    failed.append(filepath)
                     continue
 
-                dirpath = os.path.join(dirpath, "")
-
-                if dirpath in data:
+                if filepath in data:
                     count += 1
-                data[dirpath] = vuln
+                data[filepath] = vuln
 
                 start += 1
                 if start == stop: break
@@ -134,8 +132,7 @@ def parse_npm(path):
     json_dump = json.dumps(data, indent=3, sort_keys=True).replace("\\n"," ")
     # print(json_dump)
     json_data = json.loads(json_dump)
-    print("Length of Data: " + str(len(json_data)))
-    print("Number of Duplicates: " + str(count))
+    # print("Length of Output: " + str(len(json_data)))
     convert_to_markdown(json_data)
     return json_data
 
