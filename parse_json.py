@@ -24,9 +24,16 @@ def retrieve_data(json_data, vuln_file):
     module_name, overview, patched_versions, publish_date, recommendation, references, title, updated_at, vulnerable_versions)
 
 
+def write_markdown(review_basename):
+    with open("./reviews/" + str(review_basename) + ".md", 'w') as review:
+        review.write("New review created")
+
+
 def convert_to_markdown(json_data):
 
     num_success, num_failed, succeeded, failed = 0, 0, [], []
+    count = 0
+
     for vuln_file in json_data:
         try:
             (author_name, author_username, author_website, coordinating_vendor, created_at, cves, cvss_score, cvss_vector, id, module_name,
@@ -40,8 +47,10 @@ def convert_to_markdown(json_data):
             continue
 
         review_basename = vuln_file.split("/")[-2]
-        with open("./reviews/" + str(review_basename) + ".md") as review:
-            review.write("New review created")
+        write_markdown(review_basename)
+
+        count += 1
+        if count == 5:
             return
 
         # print(str(author_name) + "\n" + str(author_username) + "\n" + str(author_website) + "\n" + str(coordinating_vendor) +
