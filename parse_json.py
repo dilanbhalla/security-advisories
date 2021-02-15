@@ -5,92 +5,116 @@ import glob
 core = './core'
 ecosystem = './ecosystem'
 
-def retrieve_data(json_data):
+def retrieve_data(json_data, vuln_file):
 
-    for vuln_file in json_data:
-        vuln = json_data[vuln_file]
-        author_name = vuln['author']['name']
-        author_username = vuln['author']['username']
-        author_website = vuln['author']['website']
-        coordinating_vendor = vuln["coordinating_vendor"][1:]
-        created_at = vuln["created_at"]
-        cves = vuln["cves"]
-        cvss_score = vuln["cvss_score"]
-        cvss_vector = vuln["cvss_vector"]
-        id = vuln["id"]
-        module_name = vuln["module_name"]
-        overview = vuln["overview"]
-        patched_versions = vuln["patched_versions"]
-        publish_date = vuln["publish_date"]
-        recommendation = vuln["recommendation"]
-        references = vuln["references"]
-        title = vuln["title"]
-        updated_at = vuln["updated_at"]
-        vulnerable_versions = vuln["vulnerable_versions"]
+    vuln = json_data[vuln_file]
+    author_name = vuln['author']['name']
+    author_username = vuln['author']['username']
+    author_website = vuln['author']['website']
+    coordinating_vendor = vuln["coordinating_vendor"][1:] if vuln["coordinating_vendor"] else None
+    created_at = vuln["created_at"]
+    cves = vuln["cves"]
+    cvss_score = vuln["cvss_score"]
+    cvss_vector = vuln["cvss_vector"]
+    id = vuln["id"]
+    module_name = vuln["module_name"]
+    overview = vuln["overview"]
+    patched_versions = vuln["patched_versions"]
+    publish_date = vuln["publish_date"]
+    recommendation = vuln["recommendation"]
+    references = vuln["references"]
+    title = vuln["title"]
+    updated_at = vuln["updated_at"]
+    vulnerable_versions = vuln["vulnerable_versions"]
 
-        if cvss_score: cvss_score = str(cvss_score)
-        if id: id = str(id)
+    cvss_score = str(cvss_score) if cvss_score else None
+    id = str(id) if id else None
 
-        return (author_name, author_username, author_website, coordinating_vendor, created_at,
-        cves, cvss_score, cvss_vector, id, module_name, overview, patched_versions,
-        publish_date, recommendation, references, title, updated_at, vulnerable_versions)
+    return (author_name, author_username, author_website, coordinating_vendor, created_at,
+    cves, cvss_score, cvss_vector, id, module_name, overview, patched_versions,
+    publish_date, recommendation, references, title, updated_at, vulnerable_versions)
 
 def convert_to_markdown(json_data):
 
-    (author_name, author_username, author_website, coordinating_vendor, created_at, cves,
-    cvss_score, cvss_vector, id, module_name, overview, patched_versions, publish_date,
-    recommendation, references, title, updated_at, vulnerable_versions) = retrieve_data(json_data)
+    for vuln_file in json_data:
+        (author_name, author_username, author_website, coordinating_vendor, created_at, cves,
+        cvss_score, cvss_vector, id, module_name, overview, patched_versions, publish_date,
+        recommendation, references, title, updated_at, vulnerable_versions) = retrieve_data(json_data, vuln_file)
 
-    print("author_name: " + author_name)
-    print(author_username)
-    print(author_website)
-    print("coordinating_vendor: " + coordinating_vendor)
-    print("created_at: " + created_at)
-    print(cves)
-    print("cvss_score: " + cvss_score)
-    print("cvss_vector: " + cvss_vector)
-    print("id: " + id)
-    print("module_name: " + module_name)
-    print("overview: " + overview)
-    print("patched_versions: " + patched_versions)
-    print("publish_date: " + publish_date)
-    print("recommendation: " + recommendation)
-    print(references)
-    print("title: " + title)
-    print("updated_at: " + updated_at)
-    print("vulnerable_versions: " + vulnerable_versions)
+        # print(author_name)
+        # print(author_username)
+        # print(author_website)
+        # print(coordinating_vendor)
+        # print(created_at)
+        # print(cves)
+        # print(cvss_score)
+        # print(cvss_vector)
+        # print(id)
+        # print(module_name)
+        # print(overview)
+        # print(patched_versions)
+        # print(publish_date)
+        # print(recommendation)
+        # print(references)
+        # print(title)
+        # print(updated_at)
+        # print(vulnerable_versions)
+        # print("\n\n")
 
-def parse_core(path):
-
-    data = {}
-    json_data = json.dumps(data)
-
-    for filename in glob.glob(os.path.join(path, '*.json')):
-        with open(filename, encoding='utf-8', mode='r') as currentFile:
-            vuln = json.load(currentFile)
-            data[filename] = vuln
-            break
-
-    json_dump = json.dumps(data, indent = 3).replace("\\n"," ")
-    json_data = json.loads(json_dump)
-    print(json_data)
-    return json_data
+# Needs fixing use parse_npm structure to make fixes here
+# def parse_core(path):
+#
+#     data = {}
+#     json_data = json.dumps(data)
+#
+#     for filename in glob.glob(os.path.join(path, '*.json')):
+#         with open(filename, encoding='utf-8', mode='r') as currentFile:
+#             vuln = json.load(currentFile)
+#             data[filename] = vuln
+#             break
+#
+#     json_dump = json.dumps(data, indent = 3).replace("\\n"," ")
+#     json_data = json.loads(json_dump)
+#     print(json_data)
+#     return json_data
 
 def parse_npm(path):
 
     data = {}
     json_data = json.dumps(data)
-    first = False
+
+    # for testing, remove after
+    start, stop = 1, 60
+
+    num_success, num_failed, succeeded, failed = 0, 0, [], []
+
     for (dirpath, _, filenames) in os.walk(path):
         for filename in filenames:
             filepath = os.path.join(dirpath, filename)
             with open(filepath, encoding='utf-8', mode='r') as currentFile:
+
                 vuln = json.load(currentFile)
+                try:
+                    test_data = {dirpath : vuln}
+                    test_json_dump = json.dumps(test_data, indent=3, sort_keys=True).replace("\\n"," ")
+                    test_json_data = json.loads(test_json_dump)
+                    num_success += 1
+                    succeeded.append(os.path.join(dirpath, ""))
+                except:
+                    num_failed += 1
+                    failed.append(os.path.join(dirpath, ""))
+                    continue
+
                 dirpath = os.path.join(dirpath, "")
                 data[dirpath] = vuln
-                first = True
-                break
-        if first: break
+
+                start += 1
+                if start == stop: break
+        if start == stop: break
+
+    print("\nPARSE: \nSucceeded: " + str(num_success) + ", Failed: " + str(num_failed) + "\n")
+    # print("Succeded: " + str(succeeded))
+    # print("Failed: " + str(failed))
 
     json_dump = json.dumps(data, indent=3, sort_keys=True).replace("\\n"," ")
     # print(json_dump)

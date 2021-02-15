@@ -1,4 +1,72 @@
 {
+   "./ecosystem/air-sdk/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-01",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 200,
+      "module_name": "air-sdk",
+      "overview": "air-sdk is a NPM wrapper for the Adobe AIR SDK.  air-sdk downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/ansi2html/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-25",
+      "cves": [],
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "id": 51,
+      "module_name": "ansi2html",
+      "overview": "ansi2html is vulnerable to regular expression denial of service (ReDoS) when certain types of user input is passed in.  \"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\" [1]  ###Proof of concept ``` var ansi2html = require('ansi2html')  var start = process.hrtime(); ansi2html(\"[1111111111111111111111;0000000000000000000000\"); console.log(process.hrtime(start));  start = process.hrtime(); ansi2html(\"[1111111111111111111111;00000000000000000000000\"); console.log(process.hrtime(start));  start = process.hrtime(); ansi2html(\"[1111111111111111111111;000000000000000000000000\"); console.log(process.hrtime(start));  start = process.hrtime(); ansi2html(\"[1111111111111111111111;0000000000000000000000000000\"); console.log(process.hrtime(start)); ```  Results of the above ``` 00:29:53-adam_baldwin~/tmp$ node test [ 0, 119615367 ] [ 0, 149934565 ] [ 0, 233325677 ] [ 3, 46582479 ] ```",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2015-10-25",
+      "recommendation": "There is currently no available fix. Do not pass untrusted input into ansi2html or limit the size of the user input to limit input.",
+      "references": [
+         "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+      ],
+      "title": "Regular Expression Denial of Service",
+      "updated_at": "2016-04-20",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/arrayfire-js/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-01",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 192,
+      "module_name": "arrayfire-js",
+      "overview": "arrayfire-js is a module for ArrayFire for the Node.js platform.  arrayfire-js downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
    "./ecosystem/baryton-saxophone/": {
       "author": {
          "name": "Adam Baldwin",
@@ -20,5 +88,1226 @@
       "title": "Downloads Resources over HTTP",
       "updated_at": "2016-12-16",
       "vulnerable_versions": "<3.0.1"
+   },
+   "./ecosystem/base64-url/": {
+      "author": {
+         "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
+         "username": null,
+         "website": "https://github.com/ChALkeR"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-03-04",
+      "cves": [],
+      "cvss_score": 8.6,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+      "id": 434,
+      "module_name": "base64-url",
+      "overview": "`base64-url` below 2.0 allocates uninitialized Buffers when number is passed in input",
+      "patched_versions": ">=2.0.0",
+      "publish_date": "2018-05-12",
+      "recommendation": "update base64-url to 2.0.0 or higher",
+      "references": [
+         "https://hackerone.com/reports/321692"
+      ],
+      "title": "Out-of-bounds Read",
+      "updated_at": "2018-05-12",
+      "vulnerable_versions": "<=1.3.3"
+   },
+   "./ecosystem/bionode-sra/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-01",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 211,
+      "module_name": "bionode-sra",
+      "overview": "bionode-sra is a Node.js wrapper for SRA Toolkit.  bionode-sra downloads data resources over HTTP, which leaves it vulnerable to MITM attacks.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/bittorrent-dht/": {
+      "author": {
+         "name": "Feross Aboukhadijeh / Mathias Buss Madsen",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-01-04",
+      "cves": [],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 68,
+      "module_name": "bittorrent-dht",
+      "overview": "A security issue was found in bittorrent-dht that allows someone to send a specific series of messages to a listening peer and get it to reveal internal memory.  There are two mitigating factors here, that slightly reduce the impact of this vulnerability:  1. Any modern kernel will zero out new memory pages before handing them off to a process. This means that only memory previously used and deallocated by the node process can be leaked. 1. Node.js manages Buffers by creating a few large internal SlowBuffers, and slicing them up into smaller Buffers which are made accessible in JS. They are not stored on V8's heap, because garbage collection would interfere. The result is that only memory that has been previously allocated as a Buffer can be leaked.",
+      "patched_versions": ">=5.1.3",
+      "publish_date": "2016-01-04",
+      "recommendation": "Update to version 5.1.3 or greater",
+      "references": [
+         "https://github.com/feross/bittorrent-dht/issues/87"
+      ],
+      "title": "Remote Memory Disclosure",
+      "updated_at": "2016-04-25",
+      "vulnerable_versions": "<5.1.3"
+   },
+   "./ecosystem/bitty/": {
+      "author": {
+         "name": "Liang Gong",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-10-17",
+      "cves": [],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "id": 150,
+      "module_name": "bitty",
+      "overview": "Bitty is a development web server tool that functions similar to `python -m SimpleHTTPServer`.   Version 0.2.10 has a directory traversal vulnerability that is exploitable via the URL path in GET requests.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2016-12-07",
+      "recommendation": null,
+      "references": null,
+      "title": "Directory Traversal",
+      "updated_at": "2016-12-07",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/bkjs-wand/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-01",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 220,
+      "module_name": "bkjs-wand",
+      "overview": "bkjs-wand is imagemagick wand support for node.js and backendjs  bkjs-wand versions lower than 0.3.2 download binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": ">=0.3.2",
+      "publish_date": "2016-12-16",
+      "recommendation": "Update to version 0.3.2 or later.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2016-12-16",
+      "vulnerable_versions": "<0.3.2"
+   },
+   "./ecosystem/buttle/": {
+      "author": {
+         "name": "bl4de",
+         "username": null,
+         "website": "https://twitter.com/_bl4de"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-03-29",
+      "cves": [],
+      "cvss_score": 10,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:H",
+      "id": 425,
+      "module_name": "buttle",
+      "overview": "[buttle] Remote Command Execution via unsanitized PHP filename when it's run with --php-bin flag",
+      "patched_versions": null,
+      "publish_date": "2018-05-11",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/331032"
+      ],
+      "title": "OS Command Injection",
+      "updated_at": "2018-05-11",
+      "vulnerable_versions": "<=0.2.0"
+   },
+   "./ecosystem/command-exists/": {
+      "author": {
+         "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
+         "username": null,
+         "website": "https://github.com/ChALkeR"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-03-11",
+      "cves": [],
+      "cvss_score": 10,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:H",
+      "id": 426,
+      "module_name": "command-exists",
+      "overview": "`command-exists` concatenates unsanitized input into exec()/execSync() commands",
+      "patched_versions": ">=1.2.4",
+      "publish_date": "2018-05-11",
+      "recommendation": "update command-exists to 1.2.4 or higher",
+      "references": [
+         "https://hackerone.com/reports/324453",
+         "https://github.com/mathisonian/command-exists/blob/v1.2.2/lib/command-exists.js#L49-L94"
+      ],
+      "title": "Command Injection - Generic",
+      "updated_at": "2018-05-11",
+      "vulnerable_versions": "<=1.2.3"
+   },
+   "./ecosystem/console-io/": {
+      "author": {
+         "name": "Craig Arendt",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-03-28",
+      "cves": [],
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "id": 90,
+      "module_name": "console-io",
+      "overview": "console-io is a module that allows users to implement a web console in their application.   A malicious user could bypass the authentication and execute any command that the user who is running the console-io application is able to run. This means that if console-io was running from root, the attacker would have full access to the system.   This vulnerability exists because the console-io application does not configure socket.io to require authentication, which allows a malicious user to connect via a websocket to send commands and receive the response.",
+      "patched_versions": ">=2.3.0",
+      "publish_date": "2016-04-18",
+      "recommendation": "Upgrade to at least version 2.3.0",
+      "references": null,
+      "title": "Authentication Bypass",
+      "updated_at": "2016-06-02",
+      "vulnerable_versions": "<=2.2.13"
+   },
+   "./ecosystem/curses/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-01",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 215,
+      "module_name": "curses",
+      "overview": "curses is bindings for the native curses library, a full featured console IO library.  curses downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/dalek-browser-chrome/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-01",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 199,
+      "module_name": "dalek-browser-chrome",
+      "overview": "dalek-browser-chrome is Google Chrome bindings for DalekJS.  dalek-browser-chrome downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/deap/": {
+      "author": {
+         "name": "Olivier Arteau",
+         "username": "HoLyVieR",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-02-17",
+      "cves": [],
+      "cvss_score": 2,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",
+      "id": 407,
+      "module_name": "deap",
+      "overview": "deap node module before 1.0.1 suffers from a prototype pollution vulnerability",
+      "patched_versions": ">=1.0.1",
+      "publish_date": "2018-04-09",
+      "recommendation": "Update to module version >= 1.0.1",
+      "references": [
+         "https://hackerone.com/reports/310446"
+      ],
+      "title": "deap prototype pollution",
+      "updated_at": "2018-04-09",
+      "vulnerable_versions": "<1.0.1"
+   },
+   "./ecosystem/dns-sync/": {
+      "author": {
+         "name": "Steve Kemp",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-10-27",
+      "cves": [
+         "CVE-2014-9682"
+      ],
+      "cvss_score": 10,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "id": 153,
+      "module_name": "dns-sync",
+      "overview": "The dns-sync library for node.js allows resolving hostnames in a synchronous fashion  All versions of dns-sync prior to the release 0.1.1 were vulnerable to arbitrary command execution via maliciously formed hostnames.  For example:      var dnsSync = require('dns-sync');     console.log(dnsSync.resolve('$(id > /tmp/foo)'));  This is caused by the hostname being passed through a shell as part of a command execution.",
+      "patched_versions": ">=0.1.1",
+      "publish_date": "2017-04-11",
+      "recommendation": "Upgrade to dns-sync version 0.1.1 or greater.",
+      "references": [
+         "https://github.com/skoranga/node-dns-sync/issues/1)",
+         "https://github.com/skoranga/node-dns-sync/commit/d9abaae384b198db1095735ad9c1c73d7b890a0d)",
+         "http://www.openwall.com/lists/oss-security/2014/11/11/6"
+      ],
+      "title": "Command Injection",
+      "updated_at": "2017-04-12",
+      "vulnerable_versions": "<0.1.1"
+   },
+   "./ecosystem/ep_imageconvert/": {
+      "author": {
+         "name": "Neal Poole",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-17",
+      "cves": [
+         "CVE-2013-3364",
+         "CVE-2013-7380"
+      ],
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+      "id": 7,
+      "module_name": "ep_imageconvert",
+      "overview": "ep_imageconvert is a plugin for [Etherpad Lite](https://github.com/ether/etherpad-lite). ep_imageconvert <= 0.0.2 is vulnerable to remote command injection.  Authentication is not required for remote exploitation.",
+      "patched_versions": ">=0.0.3",
+      "publish_date": "2013-05-06",
+      "recommendation": "Update to version 0.0.3 or greater.",
+      "references": [
+         "https://github.com/redhog/ep_imageconvert/pull/5"
+      ],
+      "title": "Unauthenticated Remote Command Injection",
+      "updated_at": "2016-04-29",
+      "vulnerable_versions": "<=0.0.2"
+   },
+   "./ecosystem/ezseed-transmission/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-05-05",
+      "cves": [
+         "CVE-2016-1000224"
+      ],
+      "cvss_score": 4.2,
+      "cvss_vector": "CVSS:3.0/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 114,
+      "module_name": "ezseed-transmission",
+      "overview": "ezseed-transmission is a module that provides shell bindings for Ezseed transmission.  Between versions 0.0.10 and 0.0.14 (inclusive), ezseed-transmission would download a script from `http://stedolan.github.io/jq/download/linux64/jq` without checking the certificate.  An attacker on the same network or on an ISP level could intercept the traffic and push their own version of the file, causing the attackers code to be executed.",
+      "patched_versions": ">= 0.0.15",
+      "publish_date": "2016-07-29",
+      "recommendation": "Upgrade to at least version 0.0.15",
+      "references": null,
+      "title": "Insecure Defaults Leads to Potential MITM",
+      "updated_at": "2017-02-10",
+      "vulnerable_versions": ">= 0.0.10 <= 0.0.14"
+   },
+   "./ecosystem/flintcms/": {
+      "author": {
+         "name": "Benoit C\u00f4t\u00e9-Jodoin",
+         "username": "becojo",
+         "website": "http://bcj.io"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-07-25",
+      "cves": [
+         "CVE-2018-3783"
+      ],
+      "cvss_score": 9,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "id": 460,
+      "module_name": "flintcms",
+      "overview": "[flintcms] Account takeover due to blind MongoDB injection in password reset",
+      "patched_versions": ">=1.1.10",
+      "publish_date": "2018-08-15",
+      "recommendation": "Update flintcms module to version >=1.1.0",
+      "references": [
+         "https://hackerone.com/reports/386807"
+      ],
+      "title": "Privilege Escalation",
+      "updated_at": "2018-08-16",
+      "vulnerable_versions": "<=1.1.9"
+   },
+   "./ecosystem/floody/": {
+      "author": {
+         "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447",
+         "username": null,
+         "website": "https://github.com/ChALkeR"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-03-24",
+      "cves": [],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+      "id": 396,
+      "module_name": "floody",
+      "overview": "`.write(number)` in the affected `floody` versions passes a number to Buffer constructor, appending a chunk of uninitialized memory. PoC: `var f = require('floody')(process.stdout); f.write(1000); f.stop();`",
+      "patched_versions": ">=0.1.1",
+      "publish_date": "2016-01-15",
+      "recommendation": "update floody to 1.1.1 or higher",
+      "references": [
+         "https://github.com/soldair/node-floody/commit/6c44722312131f4ac8a1af40f0f861c85efe01b0"
+      ],
+      "title": "Remote Memory Exposure",
+      "updated_at": "2018-03-24",
+      "vulnerable_versions": "<0.1.1"
+   },
+   "./ecosystem/galenframework-cli/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-11-30",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 170,
+      "module_name": "galenframework-cli",
+      "overview": "galenframework-cli is the node wrapper for the Galen Framework.  galenframework-cli below 2.3.1 download binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": ">=2.3.1",
+      "publish_date": "2016-12-06",
+      "recommendation": "Update to version 2.3.1 or later.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2016-12-06",
+      "vulnerable_versions": "<2.3.1"
+   },
+   "./ecosystem/git-promise/": {
+      "author": {
+         "name": "Michele Romano",
+         "username": "mik317",
+         "website": "https://mik317.github.io"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-11-02",
+      "cves": [],
+      "cvss_score": 6.2,
+      "cvss_vector": "CVSS:3.0/AV:P/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "id": 517,
+      "module_name": "git-promise",
+      "overview": "[git-promise] RCE via insecure command formatting",
+      "patched_versions": ">=1.0.0",
+      "publish_date": "2020-04-25",
+      "recommendation": "Update Other module module to version >=1.0.0",
+      "references": [
+         "https://hackerone.com/reports/728047"
+      ],
+      "title": "Code Injection",
+      "updated_at": "2020-04-25",
+      "vulnerable_versions": "<1.0.0"
+   },
+   "./ecosystem/haxeshim/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-02",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 300,
+      "module_name": "haxeshim",
+      "overview": "haxeshim - Haxe shim to deal with cooexisting versions.  haxeshim downloads resources over HTTP, which leaves it vulnerable to MITM attacks. It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/healthcenter/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-02",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 288,
+      "module_name": "healthcenter",
+      "overview": "healthcenter - IBM Monitoring and Diagnostic Tools - Health Center agent  healthcenter downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "This module has been renamed, appmetrics. Upgrade to this module which includes a fix for this vulnerability.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/http-live-simulator/": {
+      "author": {
+         "name": "3la2kb",
+         "username": "3la2kb",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-09-19",
+      "cves": [
+         "CVE-2018-16479"
+      ],
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "id": 486,
+      "module_name": "http-live-simulator",
+      "overview": "[http-live-simulator] Path traversal vulnerability",
+      "patched_versions": ">=1.0.7",
+      "publish_date": "2018-12-28",
+      "recommendation": "Update http-live-simulator module to version >=1.0.7",
+      "references": [
+         "https://hackerone.com/reports/411405"
+      ],
+      "title": "Path Traversal",
+      "updated_at": "2018-12-28",
+      "vulnerable_versions": "<=1.0.6"
+   },
+   "./ecosystem/hubl-server/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2017-03-30",
+      "cves": [],
+      "cvss_score": null,
+      "cvss_vector": null,
+      "id": 334,
+      "module_name": "hubl-server",
+      "overview": "The hubl-server module is a wrapper for the HubL Development Server.  During installation hubl-server downloads a set of dependencies from api.hubapi.com. It appears in the code that these files are downloaded over HTTPS however the api.hubapi.com endpoint redirects to a HTTP url. Because of this behavior an attacker with the ability to man-in-the-middle a developer or system performing a package installation could compromise the integrity of the installation.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-06-05",
+      "recommendation": "As there currently is not a fix available for this it is our recommendation that you do not use this module. If you must use it download the content and verify it's integrity in your production environment.",
+      "references": null,
+      "title": "Downloads resources over HTTP",
+      "updated_at": "2017-06-05",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/i18n-node-angular/": {
+      "author": {
+         "name": "Garth Boyd",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-01-25",
+      "cves": [],
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "id": 80,
+      "module_name": "i18n-node-angular",
+      "overview": "- i18n-node-angular is a module used to interact between i18n and angular without using additional resources - A REST API endpoint that is used for development was not disabled in production environments - A malicious user could fill up the server causing a Denial of Service or content injection",
+      "patched_versions": ">=1.4.0",
+      "publish_date": "2016-01-25",
+      "recommendation": "Upgrade to version 1.4.0 or greater.",
+      "references": [
+         "https://github.com/oliversalzburg/i18n-node-angular/commit/877720d2d9bb90dc8233706e81ffa03f99fc9dc8"
+      ],
+      "title": "Denial of Service and Content Injection",
+      "updated_at": "2016-04-27",
+      "vulnerable_versions": "<1.4.0"
+   },
+   "./ecosystem/jquery-ujs/": {
+      "author": {
+         "name": "Ben Toews of GitHub",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-17",
+      "cves": [
+         "CVE-2015-1840"
+      ],
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "id": 15,
+      "module_name": "jquery-ujs",
+      "overview": "This description pulled from the rubyonrails-security post.  Reported to NodeSecurity Project by Reed Loden.  CSRF Vulnerability in jquery-ujs and jquery-rails  There is an vulnerability in jquery-ujs and jquery-rails that can be used to bypass CSP protections and allows attackers to send CSRF tokens to attacker domains.  In the scenario where an attacker might be able to control the href attribute of an anchor tag or the action attribute of a form tag that will trigger a POST action, the attacker can set the href or action to \" https://attacker.com\" (note the leading space) that will be passed to JQuery, who will see this as a same origin request, and send the user's CSRF token to the attacker domain.",
+      "patched_versions": ">= 1.0.4",
+      "publish_date": "2015-06-24",
+      "recommendation": "Upgrade to the latest version",
+      "references": [
+         "https://hackerone.com/reports/49935",
+         "https://www.npmjs.com/package/jquery-ujs",
+         "https://groups.google.com/forum/#!msg/rubyonrails-security/XIZPbobuwaY/fqnzzpuOlA4J",
+         "https://github.com/rails/jquery-ujs"
+      ],
+      "title": "CSRF Vulnerability",
+      "updated_at": "2016-04-28",
+      "vulnerable_versions": "<= 1.0.3"
+   },
+   "./ecosystem/js-given/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-01",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 241,
+      "module_name": "js-given",
+      "overview": "js-given is a JavaScript frontend to jgiven.  js-given downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/jws/": {
+      "author": {
+         "name": "Brian Brennan and Tim McLean",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-03-22",
+      "cves": [
+         "CVE-2016-1000223"
+      ],
+      "cvss_score": 8.7,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N",
+      "id": 88,
+      "module_name": "jws",
+      "overview": "Since \"algorithm\" isn't enforced in `jws.verify()`, a malicious user could choose what algorithm is sent to the server. If the server is expecting RSA but is sent HMAC-SHA with RSA's public key, the server will think the public key is actually an HMAC private key. This could be used to forge any data an attacker wants.  In addition, there is the `none` algorithm to be concerned about.  In versions prior to 3.0.0, verification of the token could be bypassed when the `alg` field is set to `none`.  *Edit ( 7/29/16 ): A previous version of this advisory incorrectly stated that the vulnerability was patched in version 2.0.0 instead of 3.0.0. The advisory has been updated to reflect this new information. Thanks to Fabien Catteau for reporting the error.*",
+      "patched_versions": ">=3.0.0",
+      "publish_date": "2016-07-26",
+      "recommendation": "Update to version 3.0.0 or later.",
+      "references": [
+         "https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/",
+         "https://github.com/brianloveswords/node-jws/commit/585d0e1e97b6747c10cf5b7689ccc5618a89b299#diff-4ac32a78649ca5bdd8e0ba38b7006a1e"
+      ],
+      "title": "Forgeable Public/Private Tokens",
+      "updated_at": "2017-02-10",
+      "vulnerable_versions": "<3.0.0"
+   },
+   "./ecosystem/lodash/": {
+      "author": {
+         "name": "posix",
+         "username": "posix",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-10-11",
+      "cves": [],
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "id": 516,
+      "module_name": "lodash",
+      "overview": "Prototype pollution attack (lodash)",
+      "patched_versions": null,
+      "publish_date": "1970-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/712065"
+      ],
+      "title": "Allocation of Resources Without Limits or Throttling",
+      "updated_at": "2020-04-25",
+      "vulnerable_versions": ">=4.1.0"
+   },
+   "./ecosystem/macaca-chromedriver/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-11-30",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 180,
+      "module_name": "macaca-chromedriver",
+      "overview": "macaca-chromedriver is a Node.js wrapper for the selenium chromedriver.  macaca-chromedriver downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": ">=1.0.29",
+      "publish_date": "2016-12-18",
+      "recommendation": "Update to version 1.0.29 or greater.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2016-12-18",
+      "vulnerable_versions": "<1.0.29"
+   },
+   "./ecosystem/merge-options/": {
+      "author": {
+         "name": "Olivier Arteau",
+         "username": "HoLyVieR",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-02-17",
+      "cves": [],
+      "cvss_score": 2,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",
+      "id": 410,
+      "module_name": "merge-options",
+      "overview": "merge-options node module suffers from a prototype pollution vulnerability",
+      "patched_versions": null,
+      "publish_date": "2018-04-09",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/311336"
+      ],
+      "title": "merge-options prototype pollution",
+      "updated_at": "2018-04-09",
+      "vulnerable_versions": "<=1.0.0"
+   },
+   "./ecosystem/meta-git/": {
+      "author": {
+         "name": "Michele Romano",
+         "username": "mik317",
+         "website": "https://mik317.github.io"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-11-02",
+      "cves": [],
+      "cvss_score": 6.2,
+      "cvss_vector": "CVSS:3.0/AV:P/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "id": 512,
+      "module_name": "meta-git",
+      "overview": "[meta-git] RCE via insecure command formatting",
+      "patched_versions": null,
+      "publish_date": "2020-01-11",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/728040"
+      ],
+      "title": "Code Injection",
+      "updated_at": "2020-01-11",
+      "vulnerable_versions": "*"
+   },
+   "./ecosystem/mixin-deep/": {
+      "author": {
+         "name": "Olivier Arteau",
+         "username": "HoLyVieR",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-02-15",
+      "cves": [
+         "CVE-2018-3719"
+      ],
+      "cvss_score": 1.8,
+      "cvss_vector": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",
+      "id": 369,
+      "module_name": "mixin-deep",
+      "overview": "mixin-deep node module before 1.3.1 suffers from a prototype pollution vulnerability via merging functions, which allows a malicious user to modify the prototype of 'Object' via __proto__, causing the addition or modification of an existing property that will exist on all objects.",
+      "patched_versions": ">=1.3.1",
+      "publish_date": "2018-02-15",
+      "recommendation": "Update module to 1.3.1 or higher",
+      "references": [
+         "https://hackerone.com/reports/311236"
+      ],
+      "title": "mixin-deep prototype pollution",
+      "updated_at": "2018-02-15",
+      "vulnerable_versions": "<1.3.1"
+   },
+   "./ecosystem/mrk.js/": {
+      "author": {
+         "name": "joker314",
+         "username": null,
+         "website": "https://joker314.github.io"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-03-03",
+      "cves": [],
+      "cvss_score": 8.9,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:L",
+      "id": 382,
+      "module_name": "mrk.js",
+      "overview": "mrk.js suffered from a XSS vulnerability when markdown was converted to HTML.",
+      "patched_versions": ">=2.0.1",
+      "publish_date": "2018-03-03",
+      "recommendation": "update mrk.js to version 2.0.1 and use mark.sanitizeURL() for any attributes when extending the md",
+      "references": [
+         "https://github.com/heyitsmeuralex/mrk/pull/3"
+      ],
+      "title": "XSS in links",
+      "updated_at": "2018-03-03",
+      "vulnerable_versions": "<2.0.1"
+   },
+   "./ecosystem/ms/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-24",
+      "cves": [
+         "CVE-2015-8315"
+      ],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "id": 46,
+      "module_name": "ms",
+      "overview": "ms is vulnerable to regular expression denial of service (ReDoS) when extremely long version strings are parsed.  \"The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time.\"[1]  ### Proof of Concept ``` var ms = require('ms'); var genstr = function (len, chr) {    var result = \"\";    for (i=0; i<=len; i++) {        result = result + chr;    }     return result; }  ms(genstr(process.argv[2], \"5\") + \" minutea\");  ```  ### Results Showing increase in execution time based on the input string. ``` $ time node ms.js 10000  real\t0m0.758s user\t0m0.724s sys\t0m0.031s  $ time node ms.js 20000  real\t0m2.580s user\t0m2.494s sys\t0m0.047s  $ time node ms.js 30000  real\t0m5.747s user\t0m5.483s sys\t0m0.080s  $ time node ms.js 80000  real\t0m41.022s user\t0m38.894s sys\t0m0.529s ``` ",
+      "patched_versions": ">0.7.0",
+      "publish_date": "2015-10-24",
+      "recommendation": "Update to version 0.7.1 or greater. An alternative would be to limit the input length of the user input before passing it into ms.",
+      "references": [
+         "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+      ],
+      "title": "Regular Expression Denial of Service",
+      "updated_at": "2016-04-21",
+      "vulnerable_versions": "<=0.7.0"
+   },
+   "./ecosystem/nes/": {
+      "author": {
+         "name": "iipokypatop",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2017-03-21",
+      "cves": [],
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "id": 331,
+      "module_name": "nes",
+      "overview": "Nes is a websocket extension library for hapi.   Hapi is a webserver framework.  Versions below and including 6.4.0 have a denial of service vulnerability via an invalid Cookie header.  This is only present when websocket authentication is set to `cookie`.  Submitting an invalid cookie on the websocket upgrade request will cause the node process to error out.",
+      "patched_versions": ">=6.4.1",
+      "publish_date": "2017-04-14",
+      "recommendation": "Upgrade to version 6.4.1 or later.",
+      "references": [
+         "https://github.com/hapijs/nes/issues/171",
+         "https://github.com/hapijs/nes/commit/249ba1755ed6977fbc208463c87364bf884ad655"
+      ],
+      "title": "Denial of Service",
+      "updated_at": "2017-04-14",
+      "vulnerable_versions": "<=6.4.0"
+   },
+   "./ecosystem/nhouston/": {
+      "author": {
+         "name": "Riku Keski-Keturi",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-17",
+      "cves": [
+         "CVE-2014-8883"
+      ],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "id": 25,
+      "module_name": "nhouston",
+      "overview": "All versions of the static file server module nhouston are vulnerable to directory traversal. An attacker can provide input such as `../` to read files outside of the served directory.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2014-11-14",
+      "recommendation": "It is recommended that a different module be used, as we have been unable to reacher the maintainer of this module. We will continue to reach out to them, and if an update becomes available that fixes the issue, we will update this advisory accordingly.",
+      "references": [
+         "http://en.wikipedia.org/wiki/Directory_traversal_attack"
+      ],
+      "title": "Directory Traversal",
+      "updated_at": "2016-04-20",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/node-jose/": {
+      "author": {
+         "name": "Antonio Sanso",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2017-03-13",
+      "cves": [],
+      "cvss_score": 8.7,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N",
+      "id": 324,
+      "module_name": "node-jose",
+      "overview": "node-jose is a JavaScript implementation of the JSON Object Signing and Encryption (JOSE) for current web browsers and node.js-based servers.  As outlined in [this post](http://blog.intothesymmetry.com/2017/03/critical-vulnerability-in-json-web.html) node-jose earlier than version 0.9.3 is vulnerable to an invalid curve attack. This allows an attacker to recover the private secret key when JWE with Key Agreement with Elliptic Curve Diffie-Hellman Ephemeral Static (ECDH-ES) is used.  [Proof of Concept](https://gist.github.com/asanso/fa25685348051ef6a28d49aa0f27a4ae)",
+      "patched_versions": ">=0.9.3",
+      "publish_date": "2017-03-13",
+      "recommendation": "Upgrade to version 0.9.3 or greater",
+      "references": [
+         "http://blog.intothesymmetry.com/2017/03/critical-vulnerability-in-json-web.html",
+         "https://github.com/cisco/node-jose"
+      ],
+      "title": "Invalid Curve Attack",
+      "updated_at": "2017-03-13",
+      "vulnerable_versions": "<0.9.3"
+   },
+   "./ecosystem/nodeschnaps/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-01",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 212,
+      "module_name": "nodeschnaps",
+      "overview": "nodeschnaps is a NodeJS compatibility layer for Java (Rhino).  nodeschnaps downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/npm-git-publish/": {
+      "author": {
+         "name": "Michele Romano",
+         "username": "mik317",
+         "website": "https://mik317.github.io"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-11-05",
+      "cves": [],
+      "cvss_score": 6.8,
+      "cvss_vector": "CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "id": 514,
+      "module_name": "npm-git-publish",
+      "overview": "[npm-git-publish] RCE via insecure command formatting",
+      "patched_versions": null,
+      "publish_date": "2020-01-11",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/730121"
+      ],
+      "title": "Code Injection",
+      "updated_at": "2020-01-11",
+      "vulnerable_versions": "*"
+   },
+   "./ecosystem/openframe-image/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-01",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 218,
+      "module_name": "openframe-image",
+      "overview": "openframe-image is an Openframe extension which adds support for images via fbi.  openframe-image downloads data resources over HTTP, which leaves it vulnerable to MITM attacks.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/roslib-socketio/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-02",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 292,
+      "module_name": "roslib-socketio",
+      "overview": "roslib-socketio - The standard ROS Javascript Library fork for add support to socket.io  roslib-socketio downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/scalajs-standalone-bin/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-01",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 231,
+      "module_name": "scalajs-standalone-bin",
+      "overview": "scala-standalone-bin is a Binary wrapper for ScalaJS.  scala-standalone-bin downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/secure-compare/": {
+      "author": {
+         "name": "Joshua Dague",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2015-10-24",
+      "cves": [],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "id": 50,
+      "module_name": "secure-compare",
+      "overview": "secure-compare 3.0.0 and below do not actually compare two strings properly.   compare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.",
+      "patched_versions": ">3.0.0",
+      "publish_date": "2015-10-24",
+      "recommendation": "Upgrade to secure-compare 3.0.1 or greater.",
+      "references": [
+         "https://github.com/vdemedes/secure-compare/pull/1"
+      ],
+      "title": "Insecure Comparison",
+      "updated_at": "2016-04-25",
+      "vulnerable_versions": "<=3.0.0"
+   },
+   "./ecosystem/seeftl/": {
+      "author": {
+         "name": "Luiz Viana",
+         "username": "luizviana",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-08-01",
+      "cves": [
+         "CVE-2019-15603"
+      ],
+      "cvss_score": 4.4,
+      "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "id": 511,
+      "module_name": "seeftl",
+      "overview": "[seeftl] Stored XSS when directory listing via filename.",
+      "patched_versions": null,
+      "publish_date": "1970-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/665302"
+      ],
+      "title": "Cross-site Scripting (XSS) - Stored",
+      "updated_at": "2019-12-31",
+      "vulnerable_versions": "*"
+   },
+   "./ecosystem/seneca/": {
+      "author": {
+         "name": "Matteo Collina",
+         "username": "mcollina",
+         "website": null
+      },
+      "coordinating_vendor": null,
+      "created_at": "2019-04-04",
+      "cves": [
+         "CVE-2019-5483"
+      ],
+      "cvss_score": 3.3,
+      "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "id": 501,
+      "module_name": "seneca",
+      "overview": "environment variable leakage in error reporting",
+      "patched_versions": ">=3.9.0",
+      "publish_date": "2019-09-03",
+      "recommendation": "Update seneca module to version >=3.9.0",
+      "references": [
+         "https://hackerone.com/reports/526258"
+      ],
+      "title": "Information Exposure Through an Error Message",
+      "updated_at": "2019-09-03",
+      "vulnerable_versions": "<3.9.0"
+   },
+   "./ecosystem/soci/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-02",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 270,
+      "module_name": "soci",
+      "overview": "soci downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/statics-server/": {
+      "author": {
+         "name": "bl4de",
+         "username": null,
+         "website": "https://twitter.com/_bl4de"
+      },
+      "coordinating_vendor": null,
+      "created_at": "2018-05-21",
+      "cves": [
+         "CVE-2018-3771"
+      ],
+      "cvss_score": 6.7,
+      "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N",
+      "id": 451,
+      "module_name": "statics-server",
+      "overview": "[statics-server] XSS via injected iframe in file name when statics-server displays directory index in the browser",
+      "patched_versions": null,
+      "publish_date": "2018-07-14",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": [
+         "https://hackerone.com/reports/355458"
+      ],
+      "title": "Cross-site Scripting (XSS) - Generic",
+      "updated_at": "2018-07-14",
+      "vulnerable_versions": "<=0.0.9"
+   },
+   "./ecosystem/tomita-parser/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-01",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 261,
+      "module_name": "tomita-parser",
+      "overview": "tomita-parser is a Node wrapper for Yandex Tomita Parser  tomita-parser downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/wasdk/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-11-30",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 179,
+      "module_name": "wasdk",
+      "overview": "wasdk is a toolkit for creating WebAssembly modules.  wasdk downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2016-12-18",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2016-12-18",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/webdrvr/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-12-01",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 193,
+      "module_name": "webdrvr",
+      "overview": "webdrvr is a npm wrapper for Selenium Webdriver including Chromedriver / IEDriver / IOSDriver / Ghostdriver.  webdrvr downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/webrtc-native/": {
+      "author": {
+         "name": "Adam Baldwin",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2016-11-30",
+      "cves": [],
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "id": 176,
+      "module_name": "webrtc-native",
+      "overview": "webrtc-native uses WebRTC from chromium project.  webrtc-native downloads binary resources over HTTP, which leaves it vulnerable to MITM attacks.  It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+      "patched_versions": "<0.0.0",
+      "publish_date": "2017-01-01",
+      "recommendation": "No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.",
+      "references": null,
+      "title": "Downloads Resources over HTTP",
+      "updated_at": "2017-01-01",
+      "vulnerable_versions": "<=99.999.99999"
+   },
+   "./ecosystem/yui/": {
+      "author": {
+         "name": "Aleksandr Dobkin and Sebastian Roschke",
+         "username": null,
+         "website": null
+      },
+      "coordinating_vendor": "^Lift Security",
+      "created_at": "2017-03-24",
+      "cves": [
+         "CVE-2013-4939",
+         "CVE-2013-4940",
+         "CVE-2013-4941",
+         "CVE-2013-4942"
+      ],
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "id": 332,
+      "module_name": "yui",
+      "overview": "YUI is a free, open source JavaScript and CSS framework for building richly interactive web applications.  In the vulnerable versions, the `uploader.swf` and `io.swf` utilities contain a vulnerability allowing cross-site scripting through the `.swf` files used in these components. Through a url accessing these files, and attacker can inject script in the context of these files, potentially exposing cookies or other sensitive information.  The vulnerability resurfaced in v0.10.2, but only with `io.swf`.",
+      "patched_versions": "=3.10.1 || >=3.10.3",
+      "publish_date": "2017-03-24",
+      "recommendation": "YUI has published their recommendation to fix this issue.  Their recommendation is to:  - Delete self-hosted copies of these files if you are not using them  - Use the Yahoo! CDN hosted files  - Use the patched files provided on the YUI Library [here](https://yuilibrary.com/support/20130515-vulnerability/#resolution).",
+      "references": [
+         "https://yuilibrary.com/support/20130515-vulnerability/)"
+      ],
+      "title": "XSS via .swf files",
+      "updated_at": "2017-03-24",
+      "vulnerable_versions": ">=3.0.0 <=3.9.1 || =3.10.2"
    }
 }
