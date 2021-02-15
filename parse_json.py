@@ -36,10 +36,19 @@ def retrieve_data(json_data, vuln_file):
 
 def convert_to_markdown(json_data):
 
+    num_success, num_failed, succeeded, failed = 0, 0, [], []
     for vuln_file in json_data:
-        (author_name, author_username, author_website, coordinating_vendor, created_at, cves,
-        cvss_score, cvss_vector, id, module_name, overview, patched_versions, publish_date,
-        recommendation, references, title, updated_at, vulnerable_versions) = retrieve_data(json_data, vuln_file)
+        try:
+            (author_name, author_username, author_website, coordinating_vendor, created_at, cves,
+            cvss_score, cvss_vector, id, module_name, overview, patched_versions, publish_date,
+            recommendation, references, title, updated_at, vulnerable_versions) = retrieve_data(json_data, vuln_file)
+            num_success += 1
+            succeeded.append(str(vuln_file))
+        except:
+            # print("Could not retrieve all data from " + str(vuln_file))
+            num_failed += 1
+            failed.append(str(vuln_file))
+            continue
 
         # print(author_name)
         # print(author_username)
@@ -60,6 +69,8 @@ def convert_to_markdown(json_data):
         # print(updated_at)
         # print(vulnerable_versions)
         # print("\n\n")
+
+    print("\nCONVERSION: \nSucceeded: " + str(num_success) + ", Failed: " + str(num_failed) + "\n")
 
 # Needs fixing use parse_npm structure to make fixes here
 # def parse_core(path):
@@ -84,9 +95,10 @@ def parse_npm(path):
     json_data = json.dumps(data)
 
     # for testing, remove after
-    start, stop = 1, 60
+    start, stop = 1, 10000
 
     num_success, num_failed, succeeded, failed = 0, 0, [], []
+    count = 0
 
     for (dirpath, _, filenames) in os.walk(path):
         for filename in filenames:
@@ -106,19 +118,24 @@ def parse_npm(path):
                     continue
 
                 dirpath = os.path.join(dirpath, "")
+
+                if dirpath in data:
+                    count += 1
                 data[dirpath] = vuln
 
                 start += 1
                 if start == stop: break
         if start == stop: break
 
-    print("\nPARSE: \nSucceeded: " + str(num_success) + ", Failed: " + str(num_failed) + "\n")
+    print("\nPARSE: \nSucceeded: " + str(num_success) + ", Failed: " + str(num_failed))
     # print("Succeded: " + str(succeeded))
     # print("Failed: " + str(failed))
 
     json_dump = json.dumps(data, indent=3, sort_keys=True).replace("\\n"," ")
     # print(json_dump)
     json_data = json.loads(json_dump)
+    print("Length of Data: " + str(len(json_data)))
+    print("Number of Duplicates: " + str(count))
     convert_to_markdown(json_data)
     return json_data
 
