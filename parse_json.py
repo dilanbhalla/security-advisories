@@ -50,7 +50,7 @@ def convert_to_markdown(json_data):
             review.write("Publication-State: Active\n")
             review.write("Access: Public\n")
             review.write("Reviewers:\n")
-            review.write("- Name: " + author_name + "\n  Associated-With-Project: false\n  Compensation-Source: External\n")
+            review.write("- Name: " + author_name + "\n  Associated-With-Project: false\n  Compensation-Source: external\n")
             # review.write("Associated-With-Project: false\n")
             # review.write("Compensation-Source: External\n")
             review.write("Domain: Security\n")
@@ -60,7 +60,7 @@ def convert_to_markdown(json_data):
             review.write("Package-URLs:\n")
             review.write("- pkg:npm/" + review_basename + "\n")
             # # NOT SURE ABOUT THIS. Which date is the appropriate date to use here?
-            review.write("Date-Reviewed: " + publish_date + "\n")
+            review.write("Review-Date: '" + publish_date + "'\n")
             review.write("Scope: Implementation/Full\n")
             review.write("Schema-Version: '1.0'\n")
             review.write("SPDX-License-Identifier: CC-BY-4.0\n")
@@ -69,15 +69,19 @@ def convert_to_markdown(json_data):
             # Content
 
             review.write("### Summary\n")
-            review.write(title)
+            review.write("*" + title + "*")
             review.write("<br><br>")
             review.write(recommendation + "\n")
 
             review.write("### Details\n")
             review.write(overview + "\n")
+            review.write("<br><br>")
+            review.write("• Affected Versions: " + str(vulnerable_versions) + "\n")
+            review.write("<br>")
+            review.write("• Patched Versions: " + str(patched_versions) + "\n")
 
             review.write("### Methodology\n")
-            review.write("This review was taken directly from the security advisories section of npm's official website.\n")
+            review.write("This review was taken directly from the Security Advisories section of npm's official website.\n")
 
             review.write("### External References\n")
             review.write(str(references) + "\n")
@@ -97,7 +101,7 @@ def convert_to_markdown(json_data):
         # "\n" + str(overview) + "\n" + str(patched_versions) + "\n" + str(publish_date) + "\n" + str(recommendation) + "\n" + str(references) +
         # "\n" + str(title) + "\n" + str(updated_at) + "\n" + str(vulnerable_versions) + "\n")
 
-    print("\nCONVERSION: \nSucceeded: " + str(num_success) + ", Failed: " + str(num_failed) + "\n")
+    print("\nMARKDOWN CONVERSION: \nSucceeded: " + str(num_success) + ", Failed: " + str(num_failed) + "\n")
 
 
 def parse_npm(path):
@@ -133,7 +137,7 @@ def parse_npm(path):
                 if start == stop: break
         if start == stop: break
 
-    print("\nPARSE: \nSucceeded: " + str(num_success) + ", Failed: " + str(num_failed))
+    print("\nJSON PARSE: \nSucceeded: " + str(num_success) + ", Failed: " + str(num_failed))
     # print("Succeded: " + str(succeeded))
     # print("Failed: " + str(failed))
 

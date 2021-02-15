@@ -4,24 +4,26 @@ Access: Public
 Reviewers:
 - Name: Adam Baldwin
   Associated-With-Project: false
-  Compensation-Source: External
+  Compensation-Source: external
 Domain: Security
 Methodology:
 - Code-Review
 Issues-Identified: Not-Examined
 Package-URLs:
 - pkg:npm/adamvr-geoip-lite
-Date-Reviewed: 2017-01-01
+Review-Date: '2017-01-01'
 Scope: Implementation/Full
 Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-Downloads Resources over HTTP<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
+*Downloads Resources over HTTP*<br><br>No fix is currently available for this vulnerability.  It is our recommendation to not install or use this module at this time.
 ### Details
 adamvr-geoip-lite is a light weight native JavaScript implementation of GeoIP API from MaxMind  adamvr-geoip-lite downloads geoip resources over HTTP, which leaves it vulnerable to MITM attacks.  This impacts the integrity and availability of this geoip data that may alter the decisions made by an application using this data.
+<br><br>• Affected Versions: <=99.999.99999
+<br>• Patched Versions: <0.0.0
 ### Methodology
-This review was taken directly from the security advisories section of npm's official website.
+This review was taken directly from the Security Advisories section of npm's official website.
 ### External References
 None
 ### Disclaimer

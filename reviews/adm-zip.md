@@ -4,24 +4,26 @@ Access: Public
 Reviewers:
 - Name: Danny Grander
   Associated-With-Project: false
-  Compensation-Source: External
+  Compensation-Source: external
 Domain: Security
 Methodology:
 - Code-Review
 Issues-Identified: Not-Examined
 Package-URLs:
 - pkg:npm/adm-zip
-Date-Reviewed: 2018-08-12
+Review-Date: '2018-08-12'
 Scope: Implementation/Full
 Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary
-Arbitrary File Write Through Archive Extraction<br><br>Update adm-zip module to version >= 0.4.9
+*Arbitrary File Write Through Archive Extraction*<br><br>Update adm-zip module to version >= 0.4.9
 ### Details
 attackers can write arbitrary files when a malicious archive is extracted.
+<br><br>• Affected Versions: <0.4.9
+<br>• Patched Versions: >=0.4.9
 ### Methodology
-This review was taken directly from the security advisories section of npm's official website.
+This review was taken directly from the Security Advisories section of npm's official website.
 ### External References
 ['https://hackerone.com/reports/362118']
 ### Disclaimer
