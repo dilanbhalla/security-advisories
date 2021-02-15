@@ -3,6 +3,8 @@ Publication-State: Active
 Access: Public
 Reviewers:
 - Name: Matteo Collina
+  Associated-With-Project: false
+  Compensation-Source: External
 Domain: Security
 Methodology:
 - Code-Review
@@ -11,7 +13,7 @@ Package-URLs:
 - pkg:npm/aedes
 Date-Reviewed: 2018-08-07
 Scope: Implementation/Full
-Schema-Version: 1.0
+Schema-Version: '1.0'
 SPDX-License-Identifier: CC-BY-4.0
 ---
 ### Summary

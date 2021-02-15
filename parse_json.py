@@ -50,7 +50,7 @@ def convert_to_markdown(json_data):
             review.write("Publication-State: Active\n")
             review.write("Access: Public\n")
             review.write("Reviewers:\n")
-            review.write("- Name: " + author_name + "\n")
+            review.write("- Name: " + author_name + "\n  Associated-With-Project: false\n  Compensation-Source: External\n")
             # review.write("Associated-With-Project: false\n")
             # review.write("Compensation-Source: External\n")
             review.write("Domain: Security\n")
@@ -62,7 +62,7 @@ def convert_to_markdown(json_data):
             # # NOT SURE ABOUT THIS. Which date is the appropriate date to use here?
             review.write("Date-Reviewed: " + publish_date + "\n")
             review.write("Scope: Implementation/Full\n")
-            review.write("Schema-Version: 1.0\n")
+            review.write("Schema-Version: '1.0'\n")
             review.write("SPDX-License-Identifier: CC-BY-4.0\n")
             review.write("---\n")
 
