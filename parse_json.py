@@ -32,7 +32,7 @@ def convert_to_markdown(json_data):
     for vuln_file in json_data:
         try:
             (author_name, author_username, author_website, coordinating_vendor, created_at, cves, cvss_score, cvss_vector, id, module_name,
-            overview, patched_versions, publish_date,recommendation, references, title, updated_at, vulnerable_versions) = retrieve_data(json_data, vuln_file)
+            overview, patched_versions, publish_date, recommendation, references, title, updated_at, vulnerable_versions) = retrieve_data(json_data, vuln_file)
             num_success += 1
             succeeded.append(str(vuln_file))
         except:
@@ -43,6 +43,30 @@ def convert_to_markdown(json_data):
 
         review_basename = vuln_file.split("/")[-2]
         with open("./reviews/" + str(review_basename) + ".md", 'w') as review:
+
+            # Metadata
+
+            review.write("---<br>")
+            review.write("Publication-State: \"Active\"<br>")
+            review.write("Access: Public<br>")
+            review.write("Reviewers:<br>")
+            review.write("- Name: " + author_name + "<br>")
+            review.write("&nbsp;&nbsp;&nbsp;Associated-With-Project: false<br>")
+            review.write("&nbsp;&nbsp;&nbsp;Compensation-Source: \"External\"<br>")
+            review.write("Domain: Security<br>")
+            review.write("Methodology:<br>")
+            review.write("- Code-Review<br>")
+            review.write("Issues-Identified: \"Not-Examined\"<br>")
+            review.write("Package-URLs:<br>")
+            review.write("- pkg:npm/" + review_basename + "<br>")
+            # NOT SURE ABOUT THIS. Which date is the appropriate date to use here?
+            review.write("Date-Reviewed: '" + publish_date + "'<br>")
+            review.write("Scope: \"Implementation/Full\"<br>")
+            review.write("Schema-Version: '1.0'<br>")
+            review.write("SPDX-License-Identifier: CC-BY-4.0<br>")
+            review.write("---<br>\n")
+
+            # Content
 
             review.write("### Summary\n")
             review.write(title)

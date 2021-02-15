@@ -1,3 +1,4 @@
+---<br>Publication-State: "Active"<br>Access: Public<br>Reviewers:<br>- Name: Matteo Collina<br>&nbsp;&nbsp;&nbsp;Associated-With-Project: false<br>&nbsp;&nbsp;&nbsp;Compensation-Source: "External"<br>Domain: Security<br>Methodology:<br>- Code-Review<br>Issues-Identified: "Not-Examined"<br>Package-URLs:<br>- pkg:npm/aedes<br>Date-Reviewed: '2018-08-07'<br>Scope: "Implementation/Full"<br>Schema-Version: '1.0'<br>SPDX-License-Identifier: CC-BY-4.0<br>---<br>
 ### Summary
 Improper Authorization<br><br>Update aedes module to version >= 0.35.1
 ### Details
