@@ -29,6 +29,8 @@ def convert_to_markdown(json_data):
     num_success, num_failed, succeeded, failed = 0, 0, [], []
     count = 0
 
+    print(len(json_data))
+
     for vuln_file in json_data:
         try:
             (author_name, author_username, author_website, coordinating_vendor, created_at, cves, cvss_score, cvss_vector, id, module_name,
@@ -42,7 +44,8 @@ def convert_to_markdown(json_data):
             continue
 
         review_basename = vuln_file.split("/")[-2]
-        with open("./reviews/" + str(review_basename) + ".md", 'w') as review:
+        json_basename = vuln_file.split("/")[-1].split(".")[0]
+        with open("./reviews/" + str(review_basename) + "-" + str(id) + ".md", 'w') as review:
 
             # Metadata
 
